@@ -1,37 +1,31 @@
 {
   "pivotTable": [
     {
-      "tableName": "PivotTable",
       "assetNo": 19,
       "equipmentType": "A",
       "number": 9
     },
     {
-      "tableName": "PivotTable",
       "assetNo": 306,
       "equipmentType": "B",
       "number": 7
     },
     {
-      "tableName": "PivotTable",
       "assetNo": 217,
       "equipmentType": "C",
       "number": 5
     },
     {
-      "tableName": "PivotTable",
       "assetNo": 699,
       "equipmentType": "D",
       "number": 3
     },
     {
-      "tableName": "PivotTable",
       "assetNo": 708,
       "equipmentType": "E",
       "number": 3
     },
     {
-      "tableName": "PivotTable",
       "assetNo": 117,
       "equipmentType": "F",
       "number": 3
