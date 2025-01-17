@@ -73,11 +73,12 @@
                   ]
                 },
                 {
+                  "maxLines": 1
                   "components": [
                     {
                       "type": "text",
                       "styleId": "transaction-desc",
-                      "text": "Refund for The Batman"
+                      "text": "Refund for The Batman Refund for The Batman Refund for The Batman Refund for The Batman"
                     }
                   ]
                 },
