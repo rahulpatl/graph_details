@@ -7,7 +7,6 @@
       "mini-ticket-view",
       "amount-paid-details",
       "amount-details",
-      "note-info-card",
       "important-things-to-note",
       "faq-section"
     ],
@@ -29,25 +28,9 @@
         }
       }
     },
-    "header": {
-      "data": {
-        "cards": {
-          "layoutId": "ticket-resale-header-container",
-          "data": [
-            {
-              "layoutId": "ticket-resale-header-item",
-              "data": {
-                "title": "List your tickets",
-                "url": "https://image_url"
-              }
-            }
-          ]
-        }
-      }
-    },
     "widgets": {
       "mini-ticket-view": {
-        "id": "mini-ticket",
+        "id": "miniTicket",
         "data": {
           "styleId": "mini-ticket-style",
           "id": "miniTicket",
@@ -104,7 +87,7 @@
                 }
               },
               "footerWidget": {
-                "styleId": "footer-widget-styles",
+                "styleId": "footer-widget-style",
                 "text": [
                   {
                     "components": [
