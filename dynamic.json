@@ -1,0 +1,328 @@
+{
+  "data": {
+    "meta": {
+      "version": 1
+    },
+    "sequence": [
+      "mini-ticket-view",
+      "amount-paid-details",
+      "amount-details",
+      "note-info-card",
+      "important-things-to-note",
+      "faq-section"
+    ],
+    "footer": {
+      "data": {
+        "cards": {
+          "layoutId": "ticket-resale-footer-container",
+          "data": [
+            {
+              "layoutId": "ticket-resale-footer-item",
+              "data": {
+                "footer-title": "Continue",
+                "cta": {
+                  "type": "router"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "header": {
+      "data": {
+        "cards": {
+          "layoutId": "ticket-resale-header-container",
+          "data": [
+            {
+              "layoutId": "ticket-resale-header-item",
+              "data": {
+                "title": "List your tickets",
+                "url": "https://image_url"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "widgets": {
+      "mini-ticket-view": {
+        "id": "mini-ticket",
+        "data": {
+          "styleId": "mini-ticket-style",
+          "id": "miniTicket",
+          "data": [
+            {
+              "eventDetails": [
+                {
+                  "styleId": "ticket-event-deatil-title",
+                  "text": "Lollapalooza India",
+                  "cta": {
+                    "id": "movieSynopsis",
+                    "type": "router",
+                    "url": "https://in.bookmyshow.com/mumbai/movies/yeh-jawaani-hai-deewani-ua/ET00012104",
+                    "analytics": {
+                      "event_name": "cta_clicked",
+                      "event_type": "click",
+                      "category": "header_clicked"
+                    }
+                  },
+                  "maxLines": 2
+                },
+                {
+                  "styleId": "ticket-event-deatil-subtitle",
+                  "text": "Music Shows | English, Hindi, Punjabi",
+                  "maxLines": 1
+                },
+                {
+                  "styleId": "ticket-event-deatil-subtitle",
+                  "text": "Sat, 28 Jan | 1:00 PM",
+                  "maxLines": 1
+                },
+                {
+                  "styleId": "ticket-event-deatil-subtitle",
+                  "text": "Mahalakshmi Race Course: Mumbai",
+                  "maxLines": 1
+                }
+              ],
+              "ticketType": {
+                "styleId": "ticket-event-details-card-subtitle",
+                "text": "M-Ticket",
+                "maxLines": 0
+              },
+              "eventImage": {
+                "styleId": "movie-poster-image",
+                "url": "https://in.bmscdn.com/Events/moviecard/tr:l-image,w-240,i-@@moviesmaster@@ptm@@watch-trailer-txt.png,lfo-bottom,l-end:l-image,i-@@moviesmaster@@ptm@@play-button.png,lfo-center,l-end/ET00012104.jpg",
+                "cta": {
+                  "type": "youtube",
+                  "url": "https://www.youtube.com/watch?v=Rbp2XUSeUNE",
+                  "analytics": {
+                    "event_name": "cta_clicked",
+                    "event_type": "click",
+                    "category": "Trailer"
+                  }
+                }
+              },
+              "footerWidget": {
+                "styleId": "footer-widget-styles",
+                "text": [
+                  {
+                    "components": [
+                      {
+                        "type": "text",
+                        "text": "All your tickets will be listed at the price purchased."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "ticketList": [
+                {
+                  "seatCategoryDetails": [
+                    {
+                      "style": {
+                        "alignment": "horizontal"
+                      },
+                      "data": [
+                        {
+                          "styleId": "seat-category-details-content-style",
+                          "components": [
+                            {
+                              "type": "text",
+                              "text": "General Phase 4"
+                            }
+                          ]
+                        },
+                        {
+                          "components": [
+                            {
+                              "type": "text",
+                              "text": "2x"
+                            },
+                            {
+                              "type": "image",
+                              "text": "imageurl.com"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "type": "movieTicket"
+            }
+          ]
+        }
+      },
+      "amount-paid-details": {
+        "data": {
+          "cards": {
+            "id": "amount-paid",
+            "layoutId": "amount-paid-container",
+            "data": [
+              {
+                "layoutId": "amount-paid-item",
+                "data": {
+                  "title": "Amount You Paid",
+                  "total-price": "rs 115009"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "amount-details": {
+        "data": {
+          "cards": {
+            "layoutId": "amount-details-container",
+            "data": [
+              {
+                "layoutId": "amount-paid-breakdown-item",
+                "data": {
+                  "title": "Amount You Stand to Receive",
+                  "total-price": "₹10971.99"
+                }
+              },
+              {
+                "id": "cta-show-text",
+                "layoutId": "cta-show-text-item",
+                "data": {
+                  "title": "Show Details",
+                  "replaceTitleLayouts": {
+                    "layoutId": "",
+                    "data": [
+                      {
+                        "layoutId": "cta-hide-text-item",
+                        "data": {
+                          "replaceTitle": "Hide Details",
+                          "cta": {
+                            "type": "accordion"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "cta": {
+                    "type": "accordion"
+                  },
+                  "childCards": {
+                    "layoutId": "amount-paid-down-container",
+                    "data": [
+                      {
+                        "layoutId": "amount-paid-breakdown",
+                        "data": {
+                          "amount-you-paid-label": "Amount You Paid",
+                          "amount-you-paid-value": "₹11590.90",
+                          "convenience-fees-label": "Convenience fees",
+                          "convenience-fees-value": "-₹617.00",
+                          "book-a-change-label": "BookAChange",
+                          "book-a-change-value": "-₹2.00"
+                        }
+                      },
+                      {
+                        "layoutId": "separator-widget"
+                      },
+                      {
+                        "layoutId": "total-amount-breakdown",
+                        "data": {
+                          "amount-you-received-label": "Amount You Stand To Receive",
+                          "amount-you-received-value": "₹1099971.90"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "layoutId": "separator-widget"
+              },
+              {
+                "layoutId": "amount-description",
+                "data": {
+                  "description": "This amount will be credited to your BMS Cash balance, on purchase of tickets by another customer"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "important-things-to-note": {
+        "data": {
+          "cards": {
+            "layoutId": "important-things-to-note-container",
+            "analytics": {},
+            "data": [
+              {
+                "layoutId": "important-things-to-note-title",
+                "data": {
+                  "title": "Important Things To Note"
+                }
+              },
+              {
+                "layoutId": "important-things-to-note-bullets",
+                "data": {
+                  "bullet-point-one": "imageurl1.com",
+                  "bullet-point-two": "imageurl2.com",
+                  "bullet-point-three": "imageurl3.com",
+                  "bullet-point-one-value": "All tickets from this booking will be listed for purchase.",
+                  "bullet-point-two-value": "Tickets will be listed until <Date>.",
+                  "bullet-point-three-value": "If no buyer is found until <Date>, the listing will be cancelled. You can pick up tickets from box office to enter the venue yourself."
+                }
+              }
+            ]
+          }
+        }
+      },
+      "faq-section": {
+        "data": {
+          "header": {
+            "layoutId": "faq-header-container",
+            "data": [
+              {
+                "layoutId": "faq-header-item",
+                "data": {
+                  "title": "Frequently Asked Questions"
+                }
+              }
+            ]
+          },
+          "cards": {
+            "layoutId": "faq-body-container",
+            "data": [
+              {
+                "layoutId": "faq-body-item",
+                "data": {
+                  "question": "What does Listing my tickets mean?What does Listing my tickets mean?What does Listing my tickets mean?",
+                  "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                  "cta": {
+                    "type": "accordion"
+                  }
+                }
+              },
+              {
+                "layoutId": "faq-body-item",
+                "data": {
+                  "question": "Who will buy my tickets?",
+                  "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                  "cta": {
+                    "type": "accordion"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "metadata": {
+    "analytics": {
+      "product": "",
+      "screen_name": "",
+      "title": "",
+      "venue_code": "",
+      "metadata": ""
+    }
+  }
+}
