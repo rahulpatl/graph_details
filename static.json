@@ -1,0 +1,767 @@
+{
+  "data": {
+    "meta": {
+      "version": 1
+    },
+    "styles": {
+
+      "faq-header-container-style": {
+          "margin":"0,16,0,16"
+      },
+      "faq-body-container-style": {
+          "margin": "0,16,0,16"
+      },
+      "dashed-separator": {
+        "lineMargin": "0,0,8,0",
+        "border": {
+          "width": 2,
+          "type": "dashed",
+          "color": "#CCCCCC",
+          "pattern": "2,2",
+          "side": "bottom"
+        }
+      },
+      "ticket-resale-footer-container-style": {
+        "shadow": {
+          "elevation": 1
+        },
+        "margin": "0, 16, 0, 16",
+        "backgroundColor": "#FFFFFF"
+      },
+      "mini-ticket-style": {
+        "backgroundColor": "#CCCCCC"
+      },
+      "ticket-resale-footer-item-style": {
+        "backgroundColor": ""
+      },
+      "footer-title": {},
+      "ticket-event-deatil-title": {
+        "fontColor": "#000000",
+        "font": "large-bold",
+        "lineMargin": "0,0,8,0"
+      },
+      "ticket-event-deatil-subtitle": {
+        "fontColor": "#666666",
+        "font": "tiny-regular",
+        "lineMargin": "0,0,8,0"
+      },
+      "ticket-event-details-card-subtitle": {
+        "fontColor": "#666666",
+        "font": "tiny-regular",
+        "lineMargin": "0,0,0,0"
+      },
+      "movie-poster-image": {
+        "border": {
+          "cornerRadius": "12,12,12,12"
+        }
+      },
+      "seat-category-details-style": {
+        "alignment": "horizontal"
+      },
+      "seat-category-details-content-style": {
+        "alignment": "horizontal",
+        "weight": 1
+      },
+      "amount-paid-container-style": {
+        "backgroundColor": "#FCC42D",
+        "margin": "0,16,0,16",
+        "border": {
+          "cornerRadius": "12,12,12,12"
+        }
+      },
+      "amount-paid-item-style": {
+        "padding": "8,12,8,12"
+      },
+      "left-amount-container-style": {
+        "weight": 1
+      },
+      "text-amount-paid-style": {
+        "font": "body-regular-bold"
+      },
+      "amount-details-container-style": {
+        "border": {
+          "cornerRadius": "12,12,12,12"
+        },
+        "backgroundColor": "#FFFFFF",
+        "margin": "0,16,0,16",
+        "padding": "12,12,12,12"
+      },
+      "text-amount-breakdown-style": {
+        "font": "large-bold"
+      },
+      "text-amount-value-breakdown-style": {
+           "font": "large-bold",
+           "fontColor": "#1FAD3E"
+      },
+      "amount-paid-breakdown-item-style": {
+        "padding": "0,0,0,0"
+      },
+      "total-amount-breakdown-style": {
+        "padding": "0,8,8,8"
+      },
+      "cta-show-text-item-style": {
+      },
+      "cta-show-text-style": {
+        "fontColor": "#DC354B"
+      },
+      "amount-paid-down-container-style": {
+        "backgroundColor": "#F2F5F9",
+        "margin": "12,0,12,0",
+        "border": {
+          "cornerRadius": "12,12,12,12"
+        },
+        "padding": "0,8,0,8"
+      },
+      "amount-paid-breakdown-style": {
+        "padding": "8,8,8,8"
+      },
+      "amount-paid-breakdown-text-style": {
+         "font":"tiny-regular"
+      },
+      "amount-paid-breakdown-text-parent-style": {
+          "padding": "4,8,4,8",
+          "weight": 1
+        },
+     "amount-paid-breakdown-text-parent-value-style": {
+        "padding":"4,8,4,8"
+     },
+     "important-things-to-note-container-style": {
+          "backgroundColor": "#FFFFFF",
+          "border": {
+          "cornerRadius": "8,8,8,8"
+        },
+        "padding": "16,12,16,12",
+         "margin": "0,16,0,16"
+     },
+     "important-things-to-note-title-style": {
+         "padding": "0,0,0,0"
+     },
+     "important-things-to-note-item-content-style": {
+         "padding": "12,0,0,0"
+     },
+     "important-things-to-note-title-text-style": {
+         "font":"small-regular"
+     },
+     "important-things-to-note-text-style": {
+         "font":"tiny-regular"
+    },
+    "amount-description-style": {
+    },
+    "faq-header-item-text-style": {
+        "font": "small-regular"
+    },
+    "faq-body-item-style": {
+        "margin": "6,0,6,0",
+        "backgroundColor":"#FFFFFF",
+        "padding": "0,12,0,12",
+        "border": {
+          "cornerRadius": "8,8,8,8"
+        }
+    },
+    "faq-description-text-style": {
+        "font": "tiny-regular",
+        "padding": "0,0,12,0"
+    },
+    "faq-title-text-style": {
+        "font":"small-regular"
+    },
+    "faq-image-style": {
+        "padding": "22,0,22,0"
+    }
+    },
+    "layouts": {
+      "ticket-resale-footer-container": {
+        "type": "footer-container",
+        "styleId": "ticket-resale-footer-container-style"
+      },
+      "ticket-resale-footer-item": {
+        "type": "footer",
+        "styleId": "ticket-resale-footer-item-style",
+        "data": {
+          "data": [
+            {
+              "label": "",
+              "text": [
+                {
+                  "components": [
+                    {
+                      "styleId": "footer-title",
+                      "text": "$footer-title$",
+                      "type": "text",
+                      "vars": [
+                        "footer-title"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "ticket-resale-header-container": {
+        "type": "header-container",
+        "styleId": "ticket-resale-header-container-style"
+      },
+      "ticket-resale-header-item": {
+        "type": "hybrid-text",
+        "data": {
+          "data": [
+            {
+              "components": [
+                {
+                  "type": "image",
+                  "imageUrl": "$footer-imageUrl$",
+                  "vars": [
+                    "footer-imageUrl"
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "$header-title$",
+                  "vars": [
+                    "header-title"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "amount-paid-container": {
+        "type": "genericWidget",
+        "styleId": "amount-paid-container-style"
+      },
+      "amount-paid-item": {
+        "type": "hybrid-text",
+        "styleId": "amount-paid-item-style",
+        "data": {
+          "data": {
+            "style": {
+              "alignment": "horizontal"
+            },
+            "data": [
+              {
+                "styleId": "left-amount-container-style",
+                "components": [
+                  {
+                    "styleId": "text-amount-paid-style",
+                    "text": "$title$",
+                    "type": "text",
+                    "vars": [
+                      "title"
+                    ]
+                  }
+                ]
+              },
+              {
+                "components": [
+                  {
+                    "styleId": "text-amount-paid-style",
+                    "text": "$total-price$",
+                    "type": "text",
+                    "vars": [
+                      "total-price"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "total-amount-breakdown": {
+        "type": "hybrid-text",
+        "styleId": "total-amount-breakdown-style",
+        "data": {
+          "data": {
+            "style": {
+              "alignment": "horizontal"
+            },
+            "data": [
+              {
+                "styleId": "amount-paid-breakdown-text-parent-style",
+                "components": [
+                  {
+                    "styleId": "amount-paid-breakdown-text-style",
+                    "text": "$amount-you-received-label$",
+                    "type": "text",
+                    "vars": [
+                      "amount-you-received-label"
+                    ]
+                  }
+                ]
+              },
+              {
+                "components": [
+                  {
+                    "styleId": "amount-paid-breakdown-text-style",
+                    "text": "$amount-you-received-value$",
+                    "type": "text",
+                    "vars": [
+                      "amount-you-received-value"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "amount-paid-breakdown-item": {
+        "type": "hybrid-text",
+        "styleId": "amount-paid-breakdown-item-style",
+        "data": {
+          "data": {
+            "style": {
+              "alignment": "horizontal"
+            },
+            "data": [
+              {
+                "styleId": "left-amount-container-style",
+                "components": [
+                  {
+                    "styleId": "text-amount-breakdown-style",
+                    "text": "$title$",
+                    "type": "text",
+                    "vars": [
+                      "title"
+                    ]
+                  }
+                ]
+              },
+              {
+                "components": [
+                  {
+                    "styleId": "text-amount-value-breakdown-style",
+                    "text": "$total-price$",
+                    "type": "text",
+                    "vars": [
+                      "total-price"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "cta-show-text-item": {
+        "type": "accordion",
+        "styleId": "cta-show-text-item-style",
+        "data": {
+          "data": {
+            "title": {
+              "text": {
+                "components": [
+                  {
+                    "styleId": "cta-show-text-style",
+                    "type": "text",
+                    "text": "$title$",
+                    "vars": [
+                      "title"
+                    ]
+                  }
+                ]
+              }
+            },
+            "expanded": true
+          }
+        }
+      },
+      "cta-hide-text-item": {
+        "type": "hybrid-text",
+        "styleId": "cta-show-text-item-style",
+        "data": {
+          "data": {
+            "components": [
+              {
+                "styleId": "cta-show-text-style",
+                "type": "text",
+                "text": "$replaceTitle$",
+                "vars": [
+                  "replaceTitle"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "amount-paid-down-container": {
+        "type": "genericWidget",
+        "styleId": "amount-paid-down-container-style"
+      },
+      "amount-details-container": {
+        "type": "genericWidget",
+        "styleId": "amount-details-container-style"
+      },
+      "amount-details-paid-item": {
+        "type": "hybrid-text",
+        "styleId": "amount-details-paid-item-style",
+        "data": {
+          "data": {
+            "data": [
+              {
+                "style": {
+                  "alignment": "horizontal"
+                },
+                "data": [
+                  {
+                    "components": [
+                      {
+                        "type": "text",
+                        "text": "$amount-title$",
+                        "vars": [
+                          "amount-title"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "components": {
+                      "type": "text",
+                      "text": "$amount-price$",
+                      "vars": [
+                        "amount-price"
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "amount-description": {
+        "type": "hybrid-text",
+        "styleId": "amount-description-style",
+        "data": {
+          "data": {
+            "components": [
+              {
+                "type": "text",
+                "text": "$description$",
+                "vars": [
+                  "description"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "amount-paid-breakdown": {
+        "type": "hybrid-text",
+        "styleId": "amount-paid-breakdown-style",
+        "data": {
+          "data": {
+            "style": {
+              "alignment": "vertical"
+            },
+            "data": [
+              {
+                "style": {
+                  "alignment": "horizontal"
+                },
+                "data": [
+                  {
+                    "styleId": "amount-paid-breakdown-text-parent-style",  
+                    "components": [
+                      {
+                        "styleId": "amount-paid-breakdown-text-style",
+                        "type": "text",
+                        "text": "$amount-you-paid-label$",
+                        "vars": [
+                          "amount-you-paid-label"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "styleId":"amount-paid-breakdown-text-parent-value-style",  
+                    "components": [
+                      {
+                        "styleId": "amount-paid-breakdown-text-style",
+                        "type": "text",
+                        "text": "$amount-you-paid-value$",
+                        "vars": [
+                          "amount-you-paid-value"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "style": {
+                  "alignment": "horizontal"
+                },
+                "data": [
+                  {
+                    "styleId": "amount-paid-breakdown-text-parent-style",    
+                    "components": [
+                      {
+                        "styleId": "amount-paid-breakdown-text-style",
+                        "type": "text",
+                        "text": "$convenience-fees-label$",
+                        "vars": [
+                          "convenience-fees-label"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "styleId":"amount-paid-breakdown-text-parent-value-style",  
+                    "components": [
+                      {
+                        "styleId": "amount-paid-breakdown-text-style",
+                        "type": "text",
+                        "text": "$convenience-fees-value$",
+                        "vars": [
+                          "convenience-fees-value"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "style": {
+                  "alignment": "horizontal"
+                },
+                "data": [
+                  {
+                    "styleId": "amount-paid-breakdown-text-parent-style",    
+                    "components": [
+                      {
+                        "styleId": "amount-paid-breakdown-text-style",
+                        "type": "text",
+                        "text": "$book-a-change-label$",
+                        "vars": [
+                          "book-a-change-label"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "styleId":"amount-paid-breakdown-text-parent-value-style",  
+                    "components": [
+                      {
+                        "styleId": "amount-paid-breakdown-text-style",
+                        "type": "text",
+                        "text": "$book-a-change-value$",
+                        "vars": [
+                          "book-a-change-value"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "separator-widget": {
+        "type": "separator",
+        "styleId": "dashed-separator"
+      },
+      "faq-header-container": {
+        "styleId": "faq-header-container-style",
+        "type": "genericWidget"
+      },
+      "faq-header-item": {
+        "type": "hybrid-text",
+        "data": {
+          "data": {
+            "components": [
+              {
+                "styleId": "faq-header-item-text-style",  
+                "type": "text",
+                "text": "$title$",
+                "vars": [
+                  "title"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "faq-body-container": {
+        "styleId": "faq-body-container-style",
+        "type": "genericWidget"
+      },
+      "faq-body-item": {
+        "type": "accordion",
+        "styleId": "faq-body-item-style",
+        "data": {
+          "data": {
+            "title": {
+              "text": {
+                "styleId" : "faq-title-text-style",
+                "components": [
+                  {
+                    "type": "text",
+                    "text": "$question$",
+                    "vars": [
+                      "question"
+                    ]
+                  }
+                ]
+              }
+            },
+            "description": {
+              "text": {
+                   "styleId": "faq-description-text-style",
+                "components": [
+                  {
+                    "type": "text",
+                    "text": "$answer$",
+                    "vars": [
+                      "answer"
+                    ]
+                  }
+                ]
+              }
+            },
+            "image": {
+            "styleId": "faq-image-style",    
+             "url": "upperArrow.com"
+            },
+            "expanded": false
+          }
+        }
+      },
+      "important-things-to-note-container": {
+        "type": "genericWidget",
+        "styleId": "important-things-to-note-container-style"
+      },
+      "important-things-to-note-title": {
+        "type": "hybrid-text",
+        "styleId": "important-things-to-note-title-style",
+        "data": {
+          "data": {
+            "data": [
+              {
+                "components": [
+                  {
+                    "styleId": "important-things-to-note-title-text-style",
+                    "text": "$title$",
+                    "type": "text",
+                    "vars": [
+                      "title"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "important-things-to-note-bullets": {
+        "type": "hybrid-text",
+        "data": {
+          "data": {
+            "data": [
+              {
+                "style": {
+                  "alignment": "horizontal"
+                },
+                "data": [
+                  {
+                    "styleId": "important-things-to-note-item-content-style",  
+                    "components": [
+                      {
+                        "type": "image",
+                        "imageUrl": "$bullet-point-one$",
+                        "vars": [
+                          "bullet-point-one"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "styleId": "important-things-to-note-item-content-text-style",    
+                    "components": [
+                      {
+                         "styleId": "important-things-to-note-text-style", 
+                        "type": "text",
+                        "text": "$bullet-point-one-value$",
+                        "vars": [
+                          "bullet-point-one-value"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "style": {
+                  "alignment": "horizontal"
+                },
+                "data": [
+                  {
+                    "styleId": "important-things-to-note-item-content-style",  
+                    "components": [
+                      {
+                        "type": "image",
+                        "imageUrl": "$bullet-point-two$",
+                        "vars": [
+                          "bullet-point-two"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "styleId": "important-things-to-note-item-content-style",  
+                    "components": [
+                      {
+                        "styleId": "important-things-to-note-text-style", 
+                        "type": "text",
+                        "text": "$bullet-point-two-value$",
+                        "vars": [
+                          "bullet-point-two-value"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "style": {
+                  "alignment": "horizontal"
+                },
+                "data": [
+                  {
+                    "styleId": "important-things-to-note-item-content-style",  
+                    "components": [
+                      {
+                        "type": "image",
+                        "imageUrl": "$bullet-point-three$",
+                        "vars": [
+                          "bullet-point-three"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "styleId": "important-things-to-note-item-content-style",  
+                    "components": [
+                      {
+                        "styleId": "important-things-to-note-text-style",   
+                        "type": "text",
+                        "text": "$bullet-point-three-value$",
+                        "vars": [
+                          "bullet-point-three-value"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
