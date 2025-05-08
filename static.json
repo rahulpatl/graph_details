@@ -29,7 +29,11 @@
         "backgroundColor": "#FFFFFF"
       },
       "mini-ticket-style": {
-        "backgroundColor": "#CCCCCC"
+        "backgroundColor": "#CCCCCC",
+        "padding": "8,30,8,30",
+        "border": {
+            "cornerRadius": "0,0,16,16"
+        }
       },
       "ticket-resale-footer-item-style": {
         "backgroundColor": ""
@@ -64,7 +68,7 @@
       },
       "amount-paid-container-style": {
         "backgroundColor": "#FCC42D",
-        "margin": "0,16,0,16",
+        "margin": "12,16,0,16",
         "border": {
           "cornerRadius": "12,12,12,12"
         }
@@ -100,6 +104,7 @@
         "padding": "0,8,8,8"
       },
       "cta-show-text-item-style": {
+          "margin": "0,0,12,0"
       },
       "cta-show-text-style": {
         "fontColor": "#DC354B"
@@ -167,6 +172,10 @@
     },
     "faq-image-style": {
         "padding": "22,0,22,0"
+    },
+    "footer-widget-style": {
+        "padding": "8,0,8,16"
+    
     }
     },
     "layouts": {
