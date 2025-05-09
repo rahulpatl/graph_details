@@ -4,12 +4,11 @@
       "version": 1
     },
     "styles": {
-
       "faq-header-container-style": {
-          "margin":"0,16,0,16"
+        "margin": "0,16,0,16"
       },
       "faq-body-container-style": {
-          "margin": "0,16,0,16"
+        "margin": "0,16,0,16"
       },
       "dashed-separator": {
         "lineMargin": "0,0,8,0",
@@ -32,7 +31,7 @@
         "backgroundColor": "#CCCCCC",
         "padding": "8,30,8,30",
         "border": {
-            "cornerRadius": "0,0,16,16"
+          "cornerRadius": "0,0,16,16"
         }
       },
       "ticket-resale-footer-item-style": {
@@ -94,8 +93,8 @@
         "font": "large-bold"
       },
       "text-amount-value-breakdown-style": {
-           "font": "large-bold",
-           "fontColor": "#1FAD3E"
+        "font": "large-bold",
+        "fontColor": "#1FAD3E"
       },
       "amount-paid-breakdown-item-style": {
         "padding": "0,0,0,0"
@@ -104,7 +103,7 @@
         "padding": "0,8,8,8"
       },
       "cta-show-text-item-style": {
-          "margin": "0,0,12,0"
+        "margin": "0,0,12,0"
       },
       "cta-show-text-style": {
         "fontColor": "#DC354B"
@@ -121,62 +120,60 @@
         "padding": "8,8,8,8"
       },
       "amount-paid-breakdown-text-style": {
-         "font":"tiny-regular"
+        "font": "tiny-regular"
       },
       "amount-paid-breakdown-text-parent-style": {
-          "padding": "4,8,4,8",
-          "weight": 1
-        },
-     "amount-paid-breakdown-text-parent-value-style": {
-        "padding":"4,8,4,8"
-     },
-     "important-things-to-note-container-style": {
-          "backgroundColor": "#FFFFFF",
-          "border": {
+        "padding": "4,8,4,8",
+        "weight": 1
+      },
+      "amount-paid-breakdown-text-parent-value-style": {
+        "padding": "4,8,4,8"
+      },
+      "important-things-to-note-container-style": {
+        "backgroundColor": "#FFFFFF",
+        "border": {
           "cornerRadius": "8,8,8,8"
         },
         "padding": "16,12,16,12",
-         "margin": "0,16,0,16"
-     },
-     "important-things-to-note-title-style": {
-         "padding": "0,0,0,0"
-     },
-     "important-things-to-note-item-content-style": {
-         "padding": "12,0,0,0"
-     },
-     "important-things-to-note-title-text-style": {
-         "font":"small-regular"
-     },
-     "important-things-to-note-text-style": {
-         "font":"tiny-regular"
-    },
-    "amount-description-style": {
-    },
-    "faq-header-item-text-style": {
+        "margin": "0,16,0,16"
+      },
+      "important-things-to-note-title-style": {
+        "padding": "0,0,0,0"
+      },
+      "important-things-to-note-item-content-style": {
+        "padding": "12,0,0,0"
+      },
+      "important-things-to-note-title-text-style": {
         "font": "small-regular"
-    },
-    "faq-body-item-style": {
+      },
+      "important-things-to-note-text-style": {
+        "font": "tiny-regular"
+      },
+      "amount-description-style": {},
+      "faq-header-item-text-style": {
+        "font": "small-regular"
+      },
+      "faq-body-item-style": {
         "margin": "6,0,6,0",
-        "backgroundColor":"#FFFFFF",
+        "backgroundColor": "#FFFFFF",
         "padding": "0,12,0,12",
         "border": {
           "cornerRadius": "8,8,8,8"
         }
-    },
-    "faq-description-text-style": {
+      },
+      "faq-description-text-style": {
         "font": "tiny-regular",
         "padding": "0,0,12,0"
-    },
-    "faq-title-text-style": {
-        "font":"small-regular"
-    },
-    "faq-image-style": {
+      },
+      "faq-title-text-style": {
+        "font": "small-regular"
+      },
+      "faq-image-style": {
         "padding": "22,0,22,0"
-    },
-    "footer-widget-style": {
+      },
+      "footer-widget-style": {
         "padding": "8,0,8,16"
-    
-    }
+      }
     },
     "layouts": {
       "ticket-resale-footer-container": {
@@ -208,31 +205,33 @@
           ]
         }
       },
-      "ticket-resale-header-container": {
+       "ticket-resale-header-container": {
         "type": "header-container",
         "styleId": "ticket-resale-header-container-style"
       },
       "ticket-resale-header-item": {
-        "type": "hybrid-text",
+        "type": "header",
         "data": {
-          "data": [
+          "title": {
+            "styleId": "",
+            "components": [
+              {
+                "styleId": "header-title-text-style",
+                "type": "text",
+                "text": "$header-title$",
+                "vars": ["header-title"]
+              }
+            ]
+          },
+          "startActions": [
             {
-              "components": [
-                {
-                  "type": "image",
-                  "imageUrl": "$footer-imageUrl$",
-                  "vars": [
-                    "footer-imageUrl"
-                  ]
-                },
-                {
-                  "type": "text",
-                  "text": "$header-title$",
-                  "vars": [
-                    "header-title"
-                  ]
+             "iconUrl": "",
+             "cta": {
+                "type": "variable",
+                "additionalData": {
+                  "ctaId": "back"
                 }
-              ]
+              }
             }
           ]
         }
@@ -473,7 +472,7 @@
                 },
                 "data": [
                   {
-                    "styleId": "amount-paid-breakdown-text-parent-style",  
+                    "styleId": "amount-paid-breakdown-text-parent-style",
                     "components": [
                       {
                         "styleId": "amount-paid-breakdown-text-style",
@@ -486,7 +485,7 @@
                     ]
                   },
                   {
-                    "styleId":"amount-paid-breakdown-text-parent-value-style",  
+                    "styleId": "amount-paid-breakdown-text-parent-value-style",
                     "components": [
                       {
                         "styleId": "amount-paid-breakdown-text-style",
@@ -506,7 +505,7 @@
                 },
                 "data": [
                   {
-                    "styleId": "amount-paid-breakdown-text-parent-style",    
+                    "styleId": "amount-paid-breakdown-text-parent-style",
                     "components": [
                       {
                         "styleId": "amount-paid-breakdown-text-style",
@@ -519,7 +518,7 @@
                     ]
                   },
                   {
-                    "styleId":"amount-paid-breakdown-text-parent-value-style",  
+                    "styleId": "amount-paid-breakdown-text-parent-value-style",
                     "components": [
                       {
                         "styleId": "amount-paid-breakdown-text-style",
@@ -539,7 +538,7 @@
                 },
                 "data": [
                   {
-                    "styleId": "amount-paid-breakdown-text-parent-style",    
+                    "styleId": "amount-paid-breakdown-text-parent-style",
                     "components": [
                       {
                         "styleId": "amount-paid-breakdown-text-style",
@@ -552,7 +551,7 @@
                     ]
                   },
                   {
-                    "styleId":"amount-paid-breakdown-text-parent-value-style",  
+                    "styleId": "amount-paid-breakdown-text-parent-value-style",
                     "components": [
                       {
                         "styleId": "amount-paid-breakdown-text-style",
@@ -584,7 +583,7 @@
           "data": {
             "components": [
               {
-                "styleId": "faq-header-item-text-style",  
+                "styleId": "faq-header-item-text-style",
                 "type": "text",
                 "text": "$title$",
                 "vars": [
@@ -606,7 +605,7 @@
           "data": {
             "title": {
               "text": {
-                "styleId" : "faq-title-text-style",
+                "styleId": "faq-title-text-style",
                 "components": [
                   {
                     "type": "text",
@@ -620,7 +619,7 @@
             },
             "description": {
               "text": {
-                   "styleId": "faq-description-text-style",
+                "styleId": "faq-description-text-style",
                 "components": [
                   {
                     "type": "text",
@@ -633,8 +632,8 @@
               }
             },
             "image": {
-            "styleId": "faq-image-style",    
-             "url": "upperArrow.com"
+              "styleId": "faq-image-style",
+              "url": "upperArrow.com"
             },
             "expanded": false
           }
@@ -677,7 +676,7 @@
                 },
                 "data": [
                   {
-                    "styleId": "important-things-to-note-item-content-style",  
+                    "styleId": "important-things-to-note-item-content-style",
                     "components": [
                       {
                         "type": "image",
@@ -689,10 +688,10 @@
                     ]
                   },
                   {
-                    "styleId": "important-things-to-note-item-content-text-style",    
+                    "styleId": "important-things-to-note-item-content-text-style",
                     "components": [
                       {
-                         "styleId": "important-things-to-note-text-style", 
+                        "styleId": "important-things-to-note-text-style",
                         "type": "text",
                         "text": "$bullet-point-one-value$",
                         "vars": [
@@ -709,7 +708,7 @@
                 },
                 "data": [
                   {
-                    "styleId": "important-things-to-note-item-content-style",  
+                    "styleId": "important-things-to-note-item-content-style",
                     "components": [
                       {
                         "type": "image",
@@ -721,10 +720,10 @@
                     ]
                   },
                   {
-                    "styleId": "important-things-to-note-item-content-style",  
+                    "styleId": "important-things-to-note-item-content-style",
                     "components": [
                       {
-                        "styleId": "important-things-to-note-text-style", 
+                        "styleId": "important-things-to-note-text-style",
                         "type": "text",
                         "text": "$bullet-point-two-value$",
                         "vars": [
@@ -741,7 +740,7 @@
                 },
                 "data": [
                   {
-                    "styleId": "important-things-to-note-item-content-style",  
+                    "styleId": "important-things-to-note-item-content-style",
                     "components": [
                       {
                         "type": "image",
@@ -753,10 +752,10 @@
                     ]
                   },
                   {
-                    "styleId": "important-things-to-note-item-content-style",  
+                    "styleId": "important-things-to-note-item-content-style",
                     "components": [
                       {
-                        "styleId": "important-things-to-note-text-style",   
+                        "styleId": "important-things-to-note-text-style",
                         "type": "text",
                         "text": "$bullet-point-three-value$",
                         "vars": [
