@@ -10,6 +10,22 @@
       "important-things-to-note",
       "faq-section"
     ],
+    "header": {
+      "data": {
+        "cards": {
+          "layoutId": "ticket-resale-header-container",
+          "data": [
+            {
+              "layoutId": "ticket-resale-header-item",
+              "data": {
+                "title": "List your tickets",
+                "url": "header image url : https://image_url"
+              }
+            }
+          ]
+        }
+      }
+    },
     "footer": {
       "data": {
         "cards": {
