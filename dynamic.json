@@ -18,7 +18,7 @@
             {
               "layoutId": "ticket-resale-header-item",
               "data": {
-                "title": "List your tickets",
+                "header-title": "List your tickets",
                 "url": "header image url : https://image_url"
               }
             }
