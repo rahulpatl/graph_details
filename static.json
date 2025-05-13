@@ -4,6 +4,12 @@
       "version": 1
     },
     "styles": {
+      "ticket-resale-header-container-style": {
+        "backgroundColor": "#CCCCCC"
+      },
+      "header-title-text-style": {
+        "font": "body-medium"
+      },
       "faq-header-container-style": {
         "margin": "0,16,0,16"
       },
@@ -187,6 +193,12 @@
           "data": [
             {
               "label": "",
+              "cta": {
+                "type": "variable",
+                "additionalData": {
+                  "ctaId": "continue"
+                }
+              },
               "text": [
                 {
                   "components": [
@@ -205,7 +217,7 @@
           ]
         }
       },
-       "ticket-resale-header-container": {
+      "ticket-resale-header-container": {
         "type": "header-container",
         "styleId": "ticket-resale-header-container-style"
       },
@@ -219,14 +231,16 @@
                 "styleId": "header-title-text-style",
                 "type": "text",
                 "text": "$header-title$",
-                "vars": ["header-title"]
+                "vars": [
+                  "header-title"
+                ]
               }
             ]
           },
           "startActions": [
             {
-             "iconUrl": "",
-             "cta": {
+              "iconUrl": "https://iili.io/3c8A2dN.png",
+              "cta": {
                 "type": "variable",
                 "additionalData": {
                   "ctaId": "back"
@@ -371,6 +385,12 @@
                     ]
                   }
                 ]
+              },
+              "cta": {
+                "type": "variable",
+                "additionalData": {
+                  "ctaId": "show-details-accordion"
+                }
               }
             },
             "expanded": true
@@ -382,6 +402,12 @@
         "styleId": "cta-show-text-item-style",
         "data": {
           "data": {
+            "cta": {
+              "type": "variable",
+              "additionalData": {
+                "ctaId": "hide-details-accordion"
+              }
+            },
             "components": [
               {
                 "styleId": "cta-show-text-style",
@@ -617,20 +643,6 @@
                 ]
               }
             },
-            "description": {
-              "text": {
-                "styleId": "faq-description-text-style",
-                "components": [
-                  {
-                    "type": "text",
-                    "text": "$answer$",
-                    "vars": [
-                      "answer"
-                    ]
-                  }
-                ]
-              }
-            },
             "image": {
               "styleId": "faq-image-style",
               "url": "upperArrow.com"
@@ -768,6 +780,109 @@
               }
             ]
           }
+        }
+      }
+    },
+    "bottomsheets": {
+      "confirmation": {
+        "widgets": [
+          {
+            "type": "text",
+            "data": [
+              {
+                "components": [
+                  {
+                    "styleId": "bottomsheet-title",
+                    "type": "text",
+                    "text": "List Tickets?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "data": [
+              {
+                "components": [
+                  {
+                    "styleId": "bottomsheet-subtitle",
+                    "type": "text",
+                    "text": "Track status of your Listed tickets on the tickets itself and in your Order History"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "utility",
+            "text": [
+              {
+                "components": [
+                  {
+                    "styleId": "bottomsheet-alert",
+                    "type": "text",
+                    "text": "This action is irreversible. You will not be able to cancel the listing later."
+                  }
+                ]
+              }
+            ],
+            "leftIcon": {
+              "url": "https://in.bmscdn.com/moviesmaster/ptm/share.png"
+            }
+          }
+        ],
+        "ctaData": [
+          {
+            "text": "Cancel",
+            "style": "secondary",
+            "cta": {
+              "type": "variable",
+              "additionalData": {
+                "ctaId": "list-ticket-close"
+              }
+            }
+          },
+          {
+            "text": "List Tickets",
+            "style": "primary",
+            "cta": {
+              "type": "variable",
+              "additionalData": {
+                "ctaId": "list-tickets-api"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "actions": {
+      "continue": {
+        "type": "bottomsheet",
+        "id": "confirmation"
+      },
+      "back": {
+        "type": "closeScreen"
+      },
+      "show-details-accordion": {
+        "type": "accordion"
+      },
+      "hide-details-accordion": {
+        "type": "accordion"
+      },
+      "list-ticket-close": {
+        "type": "close"
+      },
+      "faq-question1": {
+        "type": "accordion",
+        "analytics": {
+          "index": 1
+        }
+      },
+      "faq-question2": {
+        "type": "accordion",
+        "analytics": {
+          "index": 2
         }
       }
     }
