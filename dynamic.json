@@ -5,27 +5,11 @@
     },
     "sequence": [
       "mini-ticket-view",
-      "amount-paid-details",
+      "amount-paid",
       "amount-details",
       "important-things-to-note",
       "faq-section"
     ],
-    "header": {
-      "data": {
-        "cards": {
-          "layoutId": "ticket-resale-header-container",
-          "data": [
-            {
-              "layoutId": "ticket-resale-header-item",
-              "data": {
-                "header-title": "List your tickets",
-                "url": "header image url : https://image_url"
-              }
-            }
-          ]
-        }
-      }
-    },
     "footer": {
       "data": {
         "cards": {
@@ -34,10 +18,22 @@
             {
               "layoutId": "ticket-resale-footer-item",
               "data": {
-                "footer-title": "Continue",
-                "cta": {
-                  "type": "router"
-                }
+                "footer-title": "Continue"
+              }
+            }
+            ]
+        }
+      }
+    },
+    "header": {
+      "data": {
+        "cards": {
+          "layoutId": "ticket-resale-header-container",
+          "data": [
+            {
+              "layoutId": "ticket-resale-header-item",
+              "data": {
+                "header-title": "List tickets"
               }
             }
           ]
@@ -56,16 +52,6 @@
                 {
                   "styleId": "ticket-event-deatil-title",
                   "text": "Lollapalooza India",
-                  "cta": {
-                    "id": "movieSynopsis",
-                    "type": "router",
-                    "url": "https://in.bookmyshow.com/mumbai/movies/yeh-jawaani-hai-deewani-ua/ET00012104",
-                    "analytics": {
-                      "event_name": "cta_clicked",
-                      "event_type": "click",
-                      "category": "header_clicked"
-                    }
-                  },
                   "maxLines": 2
                 },
                 {
@@ -91,16 +77,7 @@
               },
               "eventImage": {
                 "styleId": "movie-poster-image",
-                "url": "https://in.bmscdn.com/Events/moviecard/tr:l-image,w-240,i-@@moviesmaster@@ptm@@watch-trailer-txt.png,lfo-bottom,l-end:l-image,i-@@moviesmaster@@ptm@@play-button.png,lfo-center,l-end/ET00012104.jpg",
-                "cta": {
-                  "type": "youtube",
-                  "url": "https://www.youtube.com/watch?v=Rbp2XUSeUNE",
-                  "analytics": {
-                    "event_name": "cta_clicked",
-                    "event_type": "click",
-                    "category": "Trailer"
-                  }
-                }
+                "url": "https://in.bmscdn.com/Events/moviecard/tr:l-image,w-240,i-@@moviesmaster@@ptm@@watch-trailer-txt.png,lfo-bottom,l-end:l-image,i-@@moviesmaster@@ptm@@play-button.png,lfo-center,l-end/ET00012104.jpg"
               },
               "footerWidget": {
                 "styleId": "footer-widget-style",
@@ -154,24 +131,8 @@
           ]
         }
       },
-      "amount-paid-details": {
-        "data": {
-          "cards": {
-            "id": "amount-paid",
-            "layoutId": "amount-paid-container",
-            "data": [
-              {
-                "layoutId": "amount-paid-item",
-                "data": {
-                  "title": "Amount You Paid",
-                  "total-price": "rs 115009"
-                }
-              }
-            ]
-          }
-        }
-      },
       "amount-details": {
+        "id": "",
         "data": {
           "cards": {
             "layoutId": "amount-details-container",
@@ -179,13 +140,13 @@
               {
                 "layoutId": "amount-paid-breakdown-item",
                 "data": {
-                  "title": "Amount You Stand to Receive",
-                  "total-price": "₹10971.99"
+                  "total-price": "₹2.00",
+                  "title": "Amount You Stand to Receive"
                 }
               },
               {
-                "id": "cta-show-text",
                 "layoutId": "cta-show-text-item",
+                "id": "cta-show-text",
                 "data": {
                   "title": "Show Details",
                   "replaceTitleLayouts": {
@@ -194,16 +155,10 @@
                       {
                         "layoutId": "cta-hide-text-item",
                         "data": {
-                          "replaceTitle": "Hide Details",
-                          "cta": {
-                            "type": "accordion"
-                          }
+                          "replaceTitle": "Hide Details"
                         }
                       }
                     ]
-                  },
-                  "cta": {
-                    "type": "accordion"
                   },
                   "childCards": {
                     "layoutId": "amount-paid-down-container",
@@ -212,11 +167,11 @@
                         "layoutId": "amount-paid-breakdown",
                         "data": {
                           "amount-you-paid-label": "Amount You Paid",
-                          "amount-you-paid-value": "₹11590.90",
+                          "amount-you-paid-value": "₹4.36",
                           "convenience-fees-label": "Convenience fees",
-                          "convenience-fees-value": "-₹617.00",
+                          "convenience-fees-value": "₹2.36",
                           "book-a-change-label": "BookAChange",
-                          "book-a-change-value": "-₹2.00"
+                          "book-a-change-value": "₹1.00"
                         }
                       },
                       {
@@ -226,7 +181,7 @@
                         "layoutId": "total-amount-breakdown",
                         "data": {
                           "amount-you-received-label": "Amount You Stand To Receive",
-                          "amount-you-received-value": "₹1099971.90"
+                          "amount-you-received-value": "₹2.00"
                         }
                       }
                     ]
@@ -246,27 +201,17 @@
           }
         }
       },
-      "important-things-to-note": {
+      "amount-paid": {
+        "id": "amount-paid",
         "data": {
           "cards": {
-            "layoutId": "important-things-to-note-container",
-            "analytics": {},
+            "layoutId": "amount-paid-container",
             "data": [
               {
-                "layoutId": "important-things-to-note-title",
+                "layoutId": "amount-paid-item",
                 "data": {
-                  "title": "Important Things To Note"
-                }
-              },
-              {
-                "layoutId": "important-things-to-note-bullets",
-                "data": {
-                  "bullet-point-one": "imageurl1.com",
-                  "bullet-point-two": "imageurl2.com",
-                  "bullet-point-three": "imageurl3.com",
-                  "bullet-point-one-value": "All tickets from this booking will be listed for purchase.",
-                  "bullet-point-two-value": "Tickets will be listed until <Date>.",
-                  "bullet-point-three-value": "If no buyer is found until <Date>, the listing will be cancelled. You can pick up tickets from box office to enter the venue yourself."
+                  "total-price": "₹4.36",
+                  "title": "Amount You Paid"
                 }
               }
             ]
@@ -274,6 +219,7 @@
         }
       },
       "faq-section": {
+        "id": "",
         "data": {
           "header": {
             "layoutId": "faq-header-container",
@@ -292,11 +238,36 @@
               {
                 "layoutId": "faq-body-item",
                 "data": {
-                  "question": "What does Listing my tickets mean?What does Listing my tickets mean?What does Listing my tickets mean?",
-                  "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                  "question": "What does Listing my tickets mean?",
                   "cta": {
-                    "type": "accordion"
-                  }
+                "type": "variable",
+                "additionalData": {
+                  "ctaId": "faq-question1"
+                }
+              },
+               "childCards": {
+            "layoutId": "important-things-to-note-container-temp",
+            "analytics": {},
+            "data": [
+              {
+                "layoutId": "important-things-to-note-bullets",
+                "data": {
+                  "bullet-point-one": "imageurl1.com",
+                  "bullet-point-two": "imageurl2.com",
+                  "bullet-point-three": "imageurl3.com",
+                  "bullet-point-one-value": "1- All tickets from this booking will be listed for purchase.",
+                  "bullet-point-two-value": "2- Tickets will be listed until Wed, 01 Dec | 4:00 PM.",
+                  "bullet-point-three-value": "3-  If no buyer is found until Wed, 01 Dec | 4:00 PM, the listing will be cancelled. You can pick up tickets from box office to enter the venue yourself."
+                }
+              },
+              {
+                "layoutId": "important-things-to-note-title",
+                "data": {
+                  "title": "   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                }
+              }
+            ]
+          }
                 }
               },
               {
@@ -304,24 +275,87 @@
                 "data": {
                   "question": "Who will buy my tickets?",
                   "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                  "cta": {
-                    "type": "accordion"
-                  }
+                   "cta": {
+                "type": "variable",
+                "additionalData": {
+                  "ctaId": "faq-question2"
+                }
+              },
+               "childCards": {
+            "layoutId": "important-things-to-note-container-temp",
+            "analytics": {},
+            "data": [
+              {
+                "layoutId": "important-things-to-note-bullets",
+                "data": {
+                  "bullet-point-one": "imageurl1.com",
+                  "bullet-point-two": "imageurl2.com",
+                  "bullet-point-three": "imageurl3.com",
+                  "bullet-point-one-value": "1- All tickets from this booking will be listed for purchase.",
+                  "bullet-point-two-value": "2- Tickets will be listed until Wed, 01 Dec | 4:00 PM.",
+                  "bullet-point-three-value": "3-  If no buyer is found until Wed, 01 Dec | 4:00 PM, the listing will be cancelled. You can pick up tickets from box office to enter the venue yourself."
+                }
+              },
+              {
+                "layoutId": "important-things-to-note-title",
+                "data": {
+                  "title": "   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                }
+              }
+            ]
+          }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "important-things-to-note": {
+        "id": "",
+        "data": {
+          "cards": {
+            "layoutId": "important-things-to-note-container",
+            "analytics": {},
+            "data": [
+              {
+                "layoutId": "important-things-to-note-title",
+                "data": {
+                  "title": "Important Things To Note"
+                }
+              },
+              {
+                "layoutId": "important-things-to-note-bullets",
+                "data": {
+                  "bullet-point-one": "imageurl1.com",
+                  "bullet-point-two": "imageurl2.com",
+                  "bullet-point-three": "imageurl3.com",
+                  "bullet-point-one-value": "All tickets from this booking will be listed for purchase.",
+                  "bullet-point-two-value": "Tickets will be listed until Wed, 01 Dec | 4:00 PM.",
+                  "bullet-point-three-value": "If no buyer is found until Wed, 01 Dec | 4:00 PM, the listing will be cancelled. You can pick up tickets from box office to enter the venue yourself."
                 }
               }
             ]
           }
         }
       }
-    }
-  },
-  "metadata": {
-    "analytics": {
-      "product": "",
-      "screen_name": "",
-      "title": "",
-      "venue_code": "",
-      "metadata": ""
+    },
+    "actions": {
+      "list-tickets-api": {
+        "type": "api_call",
+        "additionalData": {
+          "method": "POST",
+          "endpoint": "http://in-cx-help-centre-app.sit.aps1.bookmyshow.org/api/cx/help-centre/v1/ticketresale/commit",
+          "data": {
+            "bookingId": "",
+            "transId": "",
+            "transKey": ""
+          },
+          "header": {
+            "x-lsid": "",
+            "x-memberid": ""
+          }
+        }
+      }
     }
   }
 }
