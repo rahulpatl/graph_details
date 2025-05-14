@@ -150,8 +150,7 @@
         "padding": "12,0,0,0"
       },
       "important-things-to-note-title-text-style": {
-        "font": "small-regular",
-        "widthPct": 0.9
+        "font": "small-regular"
       },
       "important-things-to-note-text-style": {
         "font": "tiny-regular"
@@ -182,7 +181,7 @@
         "padding": "8,0,8,16"
       },
       "important-things-to-note-item-content-text-style": {
-        "widthPct": 0.9
+        "widthpct": 0.9
       }
     },
     "layouts": {
