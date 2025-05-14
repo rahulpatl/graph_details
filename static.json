@@ -180,6 +180,9 @@
       },
       "footer-widget-style": {
         "padding": "8,0,8,16"
+      },
+      "important-things-to-note-item-content-text-style": {
+        "widthPct": 0.9
       }
     },
     "layouts": {
