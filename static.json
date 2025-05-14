@@ -147,11 +147,11 @@
         "padding": "0,0,0,0"
       },
       "important-things-to-note-item-content-style": {
-        "padding": "12,0,0,0",
-        "widthPct": 0.1
+        "padding": "12,0,0,0"
       },
       "important-things-to-note-title-text-style": {
-        "font": "small-regular"
+        "font": "small-regular",
+        "widthPct": 0.9
       },
       "important-things-to-note-text-style": {
         "font": "tiny-regular"
