@@ -183,6 +183,26 @@
       },
       "important-things-to-note-item-content-text-style": {
         "widthpct": 0.9
+      },
+      "bottomsheet-title": {
+        "fontColor": "#333333",
+        "font": "large-medium"
+      },
+      "bottomsheet-subtitle": {
+        "fontColor": "#666666",
+        "font": "small-regular"
+      },
+      "bottomsheet-alert": {
+        "fontColor": "#1A1A1A",
+        "font": "tiny-regular"
+      },
+      "bottomsheet-alert-container": {
+        "backgroundColor": "#FCC42D",
+        "margin": "4,16,4,16",
+        "padding": "4,8,4,8",
+        "border": {
+          "cornerRadius": "8,8,8,8"
+        }
       }
     },
     "layouts": {
@@ -831,8 +851,9 @@
                 ]
               }
             ],
+            "styleId": "bottomsheet-alert-container",
             "leftIcon": {
-              "url": "https://in.bmscdn.com/moviesmaster/ptm/share.png"
+              "url": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/alert.png"
             }
           }
         ],
