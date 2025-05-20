@@ -203,6 +203,9 @@
         "border": {
           "cornerRadius": "8,8,8,8"
         }
+      },
+      "seat-category-details-quantity-style": {
+          "horizontalAlignment": "right"
       }
     },
     "layouts": {
