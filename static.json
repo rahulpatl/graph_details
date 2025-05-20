@@ -4,129 +4,29 @@
       "version": 1
     },
     "styles": {
-      "ticket-resale-header-container-style": {
-        "backgroundColor": "#CCCCCC"
+      "important-things-to-note-image-style": {
+      },    
+      "ticket-resale-header-item-style": {
+          "backgroundColor": "#CCCCCC"
       },
-      "header-title-text-style": {
-        "font": "body-medium"
+      "important-things-to-note-parent-content-style": {
+          "alignment":"horizontal",
+          "margin": "4,0,4,0"
       },
-      "faq-header-container-style": {
-        "margin": "0,16,0,16"
-      },
-      "faq-body-container-style": {
-        "margin": "0,16,0,16"
-      },
-      "dashed-separator": {
-        "lineMargin": "0,0,8,0",
-        "border": {
-          "width": 2,
-          "type": "dashed",
-          "color": "#CCCCCC",
-          "pattern": "2,2",
-          "side": "bottom"
-        }
-      },
-      "ticket-resale-footer-container-style": {
-        "shadow": {
-          "elevation": 1
-        },
-        "margin": "0, 16, 0, 16",
-        "backgroundColor": "#FFFFFF"
-      },
-      "mini-ticket-style": {
-        "backgroundColor": "#CCCCCC",
-        "padding": "8,30,8,30",
-        "border": {
-          "cornerRadius": "0,0,16,16"
-        }
-      },
-      "ticket-resale-footer-item-style": {
-        "backgroundColor": ""
-      },
-      "footer-title": {},
-      "ticket-event-deatil-title": {
-        "fontColor": "#000000",
-        "font": "large-bold",
-        "lineMargin": "0,0,8,0"
-      },
-      "ticket-event-deatil-subtitle": {
-        "fontColor": "#666666",
-        "font": "tiny-regular",
-        "lineMargin": "0,0,8,0"
-      },
-      "ticket-event-details-card-subtitle": {
-        "fontColor": "#666666",
-        "font": "tiny-regular",
-        "lineMargin": "0,0,0,0"
-      },
-      "movie-poster-image": {
-        "border": {
-          "cornerRadius": "12,12,12,12"
-        }
-      },
-      "seat-category-details-style": {
-        "alignment": "horizontal"
-      },
-      "seat-category-details-content-style": {
-        "alignment": "horizontal",
-        "weight": 1
-      },
-      "amount-paid-container-style": {
-        "backgroundColor": "#FCC42D",
-        "margin": "12,16,0,16",
-        "border": {
-          "cornerRadius": "12,12,12,12"
-        }
-      },
-      "amount-paid-item-style": {
-        "padding": "8,12,8,12"
-      },
-      "left-amount-container-style": {
-        "weight": 1
-      },
-      "text-amount-paid-style": {
-        "font": "body-regular-bold"
-      },
+      "amount-description-style": {},
       "amount-details-container-style": {
+        "backgroundColor": "#FFFFFF",
         "border": {
           "cornerRadius": "12,12,12,12"
         },
-        "backgroundColor": "#FFFFFF",
         "margin": "0,16,0,16",
         "padding": "12,12,12,12"
-      },
-      "text-amount-breakdown-style": {
-        "font": "large-bold"
-      },
-      "text-amount-value-breakdown-style": {
-        "font": "large-bold",
-        "fontColor": "#1FAD3E"
       },
       "amount-paid-breakdown-item-style": {
         "padding": "0,0,0,0"
       },
-      "total-amount-breakdown-style": {
-        "padding": "0,8,8,8"
-      },
-      "cta-show-text-item-style": {
-        "margin": "0,0,12,0"
-      },
-      "cta-show-text-style": {
-        "fontColor": "#DC354B"
-      },
-      "amount-paid-down-container-style": {
-        "backgroundColor": "#F2F5F9",
-        "margin": "12,0,12,0",
-        "border": {
-          "cornerRadius": "12,12,12,12"
-        },
-        "padding": "0,8,0,8"
-      },
       "amount-paid-breakdown-style": {
         "padding": "8,8,8,8"
-      },
-      "amount-paid-breakdown-text-style": {
-        "font": "tiny-regular"
       },
       "amount-paid-breakdown-text-parent-style": {
         "padding": "4,8,4,8",
@@ -135,54 +35,154 @@
       "amount-paid-breakdown-text-parent-value-style": {
         "padding": "4,8,4,8"
       },
-      "important-things-to-note-container-style": {
+      "amount-paid-breakdown-text-style": {
+        "font": "tiny-regular"
+      },
+      "amount-paid-container-style": {
+        "backgroundColor": "#FCC42D",
+        "border": {
+          "cornerRadius": "12,12,12,12"
+        },
+        "margin": "12,16,0,16"
+      },
+      "amount-paid-down-container-style": {
+        "backgroundColor": "#F2F5F9",
+        "border": {
+          "cornerRadius": "12,12,12,12"
+        },
+        "margin": "12,0,12,0",
+        "padding": "0,8,0,8"
+      },
+      "amount-paid-item-style": {
+        "padding": "8,12,8,12"
+      },
+      "cta-show-text-item-style": {
+        "margin": "0,0,12,0"
+      },
+      "cta-show-text-style": {
+        "fontColor": "#DC354B"
+      },
+      "dashed-separator": {
+        "border": {
+          "color": "#CCCCCC",
+          "pattern": "2,2",
+          "side": "bottom",
+          "type": "dashed",
+          "width": 2
+        },
+        "lineMargin": "0,0,8,0"
+      },
+      "faq-body-container-style": {
+        "margin": "0,16,0,16"
+      },
+      "faq-body-item-style": {
         "backgroundColor": "#FFFFFF",
         "border": {
           "cornerRadius": "8,8,8,8"
         },
-        "padding": "16,12,16,12",
-        "margin": "0,16,0,16"
-      },
-      "important-things-to-note-title-style": {
-        "padding": "0,0,0,0"
-      },
-      "important-things-to-note-item-content-style": {
-        "padding": "12,0,0,0",
-        "widthpct": 0.9
-      },
-      "important-things-to-note-title-text-style": {
-        "font": "small-regular"
-      },
-      "important-things-to-note-text-style": {
-        "font": "tiny-regular"
-      },
-      "amount-description-style": {},
-      "faq-header-item-text-style": {
-        "font": "small-regular"
-      },
-      "faq-body-item-style": {
         "margin": "6,0,6,0",
-        "backgroundColor": "#FFFFFF",
         "padding": "0,12,0,12",
-        "border": {
-          "cornerRadius": "8,8,8,8"
-        }
+        "height": 64
       },
       "faq-description-text-style": {
         "font": "tiny-regular",
         "padding": "0,0,12,0"
       },
-      "faq-title-text-style": {
+      "faq-header-container-style": {
+        "margin": "0,16,0,16"
+      },
+      "faq-header-item-text-style": {
         "font": "small-regular"
       },
       "faq-image-style": {
         "padding": "22,0,22,0"
       },
+      "faq-title-text-style": {
+        "font": "small-regular"
+      },
+      "footer-title": {},
       "footer-widget-style": {
         "padding": "8,0,8,16"
       },
-      "important-things-to-note-item-content-text-style": {
-        "widthpct": 0.9
+      "important-things-to-note-container-style": {
+        "backgroundColor": "#FFFFFF",
+        "border": {
+          "cornerRadius": "8,8,8,8"
+        },
+        "margin": "0,16,0,16",
+        "padding": "16,12,16,12"
+      },
+      "important-things-to-note-item-content-style": {
+        "padding": "0,0,0,0"
+      },
+      "important-things-to-note-text-style": {
+        "font": "tiny-regular"
+      },
+      "important-things-to-note-title-style": {
+        "padding": "0,0,0,0"
+      },
+      "important-things-to-note-title-text-style": {
+        "font": "small-regular"
+      },
+      "left-amount-container-style": {
+        "weight": 1
+      },
+      "mini-ticket-style": {
+        "backgroundColor": "#CCCCCC",
+        "border": {
+          "cornerRadius": "0,0,16,16"
+        },
+        "padding": "8,30,8,30"
+      },
+      "movie-poster-image": {
+        "border": {
+          "cornerRadius": "12,12,12,12"
+        }
+      },
+      "seat-category-details-content-style": {
+        "alignment": "horizontal",
+        "weight": 1
+      },
+      "seat-category-details-style": {
+        "alignment": "horizontal"
+      },
+      "text-amount-breakdown-style": {
+        "font": "large-bold"
+      },
+      "text-amount-paid-style": {
+        "font": "body-regular-bold"
+      },
+      "text-amount-value-breakdown-style": {
+        "font": "large-bold",
+        "fontColor": "#1FAD3E"
+      },
+      "ticket-event-deatil-subtitle": {
+        "font": "tiny-regular",
+        "fontColor": "#666666",
+        "lineMargin": "0,0,8,0"
+      },
+      "ticket-event-deatil-title": {
+        "font": "large-bold",
+        "fontColor": "#000000",
+        "lineMargin": "0,0,8,0"
+      },
+      "ticket-event-details-card-subtitle": {
+        "font": "tiny-regular",
+        "fontColor": "#666666",
+        "lineMargin": "0,0,0,0"
+      },
+      "ticket-resale-footer-container-style": {
+        "backgroundColor": "#FFFFFF",
+        "margin": "0, 0, 0, 0",
+        "shadow": {
+          "elevation": 8
+        }
+      },
+      "ticket-resale-footer-item-style": {
+        "backgroundColor": ""
+      },
+      "total-amount-breakdown-style": {
+        "padding": "0,8,8,8"
       },
       "bottomsheet-title": {
         "fontColor": "#333333",
@@ -206,6 +206,33 @@
       }
     },
     "layouts": {
+      
+       "faq-answer-container": {
+        "type": "genericWidget",
+        "styleId": "faq-answer-title-style"
+      },
+       "faq-answer-title": {
+        "type": "hybrid-text",
+        "styleId": "faq-answer-title-style",
+        "data": {
+          "data": {
+            "data": [
+              {
+                "components": [
+                  {
+                    "styleId": "faq-answer-title-text-style",
+                    "text": "$title$",
+                    "type": "text",
+                    "vars": [
+                      "title"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
       "ticket-resale-footer-container": {
         "type": "footer-container",
         "styleId": "ticket-resale-footer-container-style"
@@ -217,12 +244,6 @@
           "data": [
             {
               "label": "",
-              "cta": {
-                "type": "variable",
-                "additionalData": {
-                  "ctaId": "continue"
-                }
-              },
               "text": [
                 {
                   "components": [
@@ -236,7 +257,13 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "cta": {
+                "type": "variable",
+                "additionalData": {
+                  "ctaId": "continue"
+                }
+              }
             }
           ]
         }
@@ -247,14 +274,14 @@
       },
       "ticket-resale-header-item": {
         "type": "header",
+        "styleId": "ticket-resale-header-item-style",
         "data": {
           "title": {
-            "styleId": "",
             "components": [
               {
                 "styleId": "header-title-text-style",
-                "type": "text",
                 "text": "$header-title$",
+                "type": "text",
                 "vars": [
                   "header-title"
                 ]
@@ -263,7 +290,7 @@
           },
           "startActions": [
             {
-              "iconUrl": "https://iili.io/3c8A2dN.png",
+              "iconUrl": "",
               "cta": {
                 "type": "variable",
                 "additionalData": {
@@ -402,8 +429,8 @@
                 "components": [
                   {
                     "styleId": "cta-show-text-style",
-                    "type": "text",
                     "text": "$title$",
+                    "type": "text",
                     "vars": [
                       "title"
                     ]
@@ -435,8 +462,8 @@
             "components": [
               {
                 "styleId": "cta-show-text-style",
-                "type": "text",
                 "text": "$replaceTitle$",
+                "type": "text",
                 "vars": [
                   "replaceTitle"
                 ]
@@ -453,43 +480,6 @@
         "type": "genericWidget",
         "styleId": "amount-details-container-style"
       },
-      "amount-details-paid-item": {
-        "type": "hybrid-text",
-        "styleId": "amount-details-paid-item-style",
-        "data": {
-          "data": {
-            "data": [
-              {
-                "style": {
-                  "alignment": "horizontal"
-                },
-                "data": [
-                  {
-                    "components": [
-                      {
-                        "type": "text",
-                        "text": "$amount-title$",
-                        "vars": [
-                          "amount-title"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "components": {
-                      "type": "text",
-                      "text": "$amount-price$",
-                      "vars": [
-                        "amount-price"
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
       "amount-description": {
         "type": "hybrid-text",
         "styleId": "amount-description-style",
@@ -497,8 +487,8 @@
           "data": {
             "components": [
               {
-                "type": "text",
                 "text": "$description$",
+                "type": "text",
                 "vars": [
                   "description"
                 ]
@@ -517,17 +507,14 @@
             },
             "data": [
               {
-                "style": {
-                  "alignment": "horizontal"
-                },
                 "data": [
                   {
                     "styleId": "amount-paid-breakdown-text-parent-style",
                     "components": [
                       {
                         "styleId": "amount-paid-breakdown-text-style",
-                        "type": "text",
                         "text": "$amount-you-paid-label$",
+                        "type": "text",
                         "vars": [
                           "amount-you-paid-label"
                         ]
@@ -539,28 +526,28 @@
                     "components": [
                       {
                         "styleId": "amount-paid-breakdown-text-style",
-                        "type": "text",
                         "text": "$amount-you-paid-value$",
+                        "type": "text",
                         "vars": [
                           "amount-you-paid-value"
                         ]
                       }
                     ]
                   }
-                ]
-              },
-              {
+                ],
                 "style": {
                   "alignment": "horizontal"
-                },
+                }
+              },
+              {
                 "data": [
                   {
                     "styleId": "amount-paid-breakdown-text-parent-style",
                     "components": [
                       {
                         "styleId": "amount-paid-breakdown-text-style",
-                        "type": "text",
                         "text": "$convenience-fees-label$",
+                        "type": "text",
                         "vars": [
                           "convenience-fees-label"
                         ]
@@ -572,28 +559,28 @@
                     "components": [
                       {
                         "styleId": "amount-paid-breakdown-text-style",
-                        "type": "text",
                         "text": "$convenience-fees-value$",
+                        "type": "text",
                         "vars": [
                           "convenience-fees-value"
                         ]
                       }
                     ]
                   }
-                ]
-              },
-              {
+                ],
                 "style": {
                   "alignment": "horizontal"
-                },
+                }
+              },
+              {
                 "data": [
                   {
                     "styleId": "amount-paid-breakdown-text-parent-style",
                     "components": [
                       {
                         "styleId": "amount-paid-breakdown-text-style",
-                        "type": "text",
                         "text": "$book-a-change-label$",
+                        "type": "text",
                         "vars": [
                           "book-a-change-label"
                         ]
@@ -605,15 +592,18 @@
                     "components": [
                       {
                         "styleId": "amount-paid-breakdown-text-style",
-                        "type": "text",
                         "text": "$book-a-change-value$",
+                        "type": "text",
                         "vars": [
                           "book-a-change-value"
                         ]
                       }
                     ]
                   }
-                ]
+                ],
+                "style": {
+                  "alignment": "horizontal"
+                }
               }
             ]
           }
@@ -624,8 +614,8 @@
         "styleId": "dashed-separator"
       },
       "faq-header-container": {
-        "styleId": "faq-header-container-style",
-        "type": "genericWidget"
+        "type": "genericWidget",
+        "styleId": "faq-header-container-style"
       },
       "faq-header-item": {
         "type": "hybrid-text",
@@ -634,8 +624,8 @@
             "components": [
               {
                 "styleId": "faq-header-item-text-style",
-                "type": "text",
                 "text": "$title$",
+                "type": "text",
                 "vars": [
                   "title"
                 ]
@@ -645,8 +635,8 @@
         }
       },
       "faq-body-container": {
-        "styleId": "faq-body-container-style",
-        "type": "genericWidget"
+        "type": "genericWidget",
+        "styleId": "faq-body-container-style"
       },
       "faq-body-item": {
         "type": "accordion",
@@ -655,23 +645,23 @@
           "data": {
             "title": {
               "text": {
-                "styleId": "faq-title-text-style",
                 "components": [
                   {
-                    "type": "text",
                     "text": "$question$",
+                    "type": "text",
                     "vars": [
                       "question"
                     ]
                   }
-                ]
+                ],
+                "styleId": "faq-title-text-style"
               }
             },
+            "expanded": false,
             "image": {
               "styleId": "faq-image-style",
               "url": "upperArrow.com"
-            },
-            "expanded": false
+            }
           }
         }
       },
@@ -679,7 +669,7 @@
         "type": "genericWidget",
         "styleId": "important-things-to-note-container-style"
       },
-      "important-things-to-note-title": {
+       "important-things-to-note-title": {
         "type": "hybrid-text",
         "styleId": "important-things-to-note-title-style",
         "data": {
@@ -707,19 +697,18 @@
           "data": {
             "data": [
               {
-                "style": {
-                  "alignment": "horizontal"
-                },
+                  "styleId": "important-things-to-note-parent-content-style",
                 "data": [
                   {
                     "styleId": "important-things-to-note-item-content-style",
                     "components": [
                       {
+                        "styleId": "important-things-to-note-image-style",
                         "type": "image",
-                        "imageUrl": "$bullet-point-one$",
                         "vars": [
                           "bullet-point-one"
-                        ]
+                        ],
+                        "imageUrl": "$bullet-point-one$"
                       }
                     ]
                   },
@@ -728,8 +717,8 @@
                     "components": [
                       {
                         "styleId": "important-things-to-note-text-style",
-                        "type": "text",
                         "text": "$bullet-point-one-value$",
+                        "type": "text",
                         "vars": [
                           "bullet-point-one-value"
                         ]
@@ -739,19 +728,18 @@
                 ]
               },
               {
-                "style": {
-                  "alignment": "horizontal"
-                },
+                "styleId": "important-things-to-note-parent-content-style",  
                 "data": [
                   {
                     "styleId": "important-things-to-note-item-content-style",
                     "components": [
                       {
+                        "text": "",
                         "type": "image",
-                        "imageUrl": "$bullet-point-two$",
                         "vars": [
                           "bullet-point-two"
-                        ]
+                        ],
+                        "imageUrl": "$bullet-point-two$"
                       }
                     ]
                   },
@@ -760,8 +748,8 @@
                     "components": [
                       {
                         "styleId": "important-things-to-note-text-style",
-                        "type": "text",
                         "text": "$bullet-point-two-value$",
+                        "type": "text",
                         "vars": [
                           "bullet-point-two-value"
                         ]
@@ -771,19 +759,18 @@
                 ]
               },
               {
-                "style": {
-                  "alignment": "horizontal"
-                },
+                "styleId": "important-things-to-note-parent-content-style",  
                 "data": [
-                  {
+                     {
                     "styleId": "important-things-to-note-item-content-style",
                     "components": [
                       {
+                        "text": "",
                         "type": "image",
-                        "imageUrl": "$bullet-point-three$",
                         "vars": [
                           "bullet-point-three"
-                        ]
+                        ],
+                        "imageUrl": "$bullet-point-three$"
                       }
                     ]
                   },
@@ -792,8 +779,8 @@
                     "components": [
                       {
                         "styleId": "important-things-to-note-text-style",
-                        "type": "text",
                         "text": "$bullet-point-three-value$",
+                        "type": "text",
                         "vars": [
                           "bullet-point-three-value"
                         ]
@@ -801,6 +788,72 @@
                     ]
                   }
                 ]
+              },
+              {
+                "data": [
+                  {
+                    "styleId": "important-things-to-note-item-content-style",
+                    "components": [
+                      {
+                        "text": "",
+                        "type": "image",
+                        "vars": [
+                          "bullet-point-four"
+                        ],
+                        "imageUrl": "$bullet-point-four$"
+                      }
+                    ]
+                  },
+                  {
+                    "styleId": "important-things-to-note-item-content-text-style",
+                    "components": [
+                      {
+                        "styleId": "important-things-to-note-text-style",
+                        "text": "$bullet-point-four-value$",
+                        "type": "text",
+                        "vars": [
+                          "bullet-point-four-value"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "style": {
+                  "alignment": "horizontal"
+                }
+              },
+              {
+                "data": [
+                  {
+                    "styleId": "important-things-to-note-item-content-style",
+                    "components": [
+                      {
+                        "text": "",
+                        "type": "image",
+                        "vars": [
+                          "bullet-point-five"
+                        ],
+                        "imageUrl": "$bullet-point-five$"
+                      }
+                    ]
+                  },
+                  {
+                    "styleId": "important-things-to-note-item-content-style",
+                    "components": [
+                      {
+                        "styleId": "important-things-to-note-text-style",
+                        "text": "$bullet-point-five-value$",
+                        "type": "text",
+                        "vars": [
+                          "bullet-point-five-value"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "style": {
+                  "alignment": "horizontal"
+                }
               }
             ]
           }
@@ -817,8 +870,8 @@
                 "components": [
                   {
                     "styleId": "bottomsheet-title",
-                    "type": "text",
-                    "text": "List Tickets?"
+                    "text": "List Tickets?",
+                    "type": "text"
                   }
                 ]
               }
@@ -831,8 +884,8 @@
                 "components": [
                   {
                     "styleId": "bottomsheet-subtitle",
-                    "type": "text",
-                    "text": "Track status of your Listed tickets on the tickets itself and in your Order History"
+                    "text": "Track status of your Listed tickets on the tickets itself and in your Order History",
+                    "type": "text"
                   }
                 ]
               }
@@ -840,21 +893,21 @@
           },
           {
             "type": "utility",
+            "leftIcon": {
+              "url": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/alert.png"
+            },
+            "styleId": "bottomsheet-alert-container",
             "text": [
               {
                 "components": [
                   {
                     "styleId": "bottomsheet-alert",
-                    "type": "text",
-                    "text": "This action is irreversible. You will not be able to cancel the listing later."
+                    "text": "This action is irreversible. You will not be able to cancel the listing later.",
+                    "type": "text"
                   }
                 ]
               }
-            ],
-            "styleId": "bottomsheet-alert-container",
-            "leftIcon": {
-              "url": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/alert.png"
-            }
+            ]
           }
         ],
         "ctaData": [
@@ -882,14 +935,23 @@
       }
     },
     "actions": {
-      "continue": {
-        "type": "bottomsheet",
-        "id": "confirmation"
-      },
       "back": {
         "type": "closeScreen"
       },
-      "show-details-accordion": {
+      "continue": {
+        "id": "confirmation",
+        "type": "bottomsheet"
+      },
+      "faq-question1": {
+        "analytics": {
+          "index": 1
+        },
+        "type": "accordion"
+      },
+      "faq-question2": {
+        "analytics": {
+          "index": 2
+        },
         "type": "accordion"
       },
       "hide-details-accordion": {
@@ -898,18 +960,12 @@
       "list-ticket-close": {
         "type": "close"
       },
-      "faq-question1": {
-        "type": "accordion",
-        "analytics": {
-          "index": 1
-        }
-      },
-      "faq-question2": {
-        "type": "accordion",
-        "analytics": {
-          "index": 2
-        }
+      "show-details-accordion": {
+        "type": "accordion"
       }
     }
+  },
+  "message": {
+    "code": "SUCCESS"
   }
 }
