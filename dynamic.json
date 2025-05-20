@@ -110,6 +110,7 @@
                           ]
                         },
                         {
+                          "styleId": "seat-category-details-quantity-style"
                           "components": [
                             {
                               "type": "text",
