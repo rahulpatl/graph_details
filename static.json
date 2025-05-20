@@ -208,6 +208,7 @@
           "horizontalAlignment": "right"
       },
       "text-price-amount-style": {
+        "font": "body-regular-bold",
         "horizontalAlignment": "right"
       }
     },
