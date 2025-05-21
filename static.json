@@ -150,7 +150,7 @@
         "font": "large-bold"
       },
       "text-amount-paid-style": {
-        "font": "body-regular-bold"
+        "font": "large-bold"
       },
       "text-amount-value-breakdown-style": {
         "font": "large-bold",
@@ -209,7 +209,7 @@
           "horizontalAlignment": "right"
       },
       "text-price-amount-style": {
-        "font": "body-regular-bold",
+        "font": "large-bold",
         "horizontalAlignment": "right"
       }
     },
