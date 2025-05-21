@@ -150,7 +150,7 @@
         "font": "large-bold"
       },
       "text-amount-paid-style": {
-        "font": "body-regular-bold"
+        "font": "body-large"
       },
       "text-amount-value-breakdown-style": {
         "font": "large-bold",
