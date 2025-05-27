@@ -21,7 +21,7 @@
           "backgroundColor": "#CCCCCC"
       },
       "important-things-to-note-parent-content-style": {
-          "alignment":"horizontal",
+          "axis":"horizontal",
           "margin": "4,0,4,0"
       },
       "amount-description-style": {},
@@ -152,11 +152,11 @@
         }
       },
       "seat-category-details-content-style": {
-        "alignment": "horizontal",
+        "axis": "horizontal",
         "weight": 1
       },
       "seat-category-details-style": {
-        "alignment": "horizontal"
+        "axis": "horizontal"
       },
       "text-amount-breakdown-style": {
         "font": "large-bold"
@@ -304,7 +304,7 @@
         "data": {
           "data": {
             "style": {
-              "alignment": "horizontal"
+              "axis": "horizontal"
             },
             "data": [
               {
@@ -342,7 +342,7 @@
         "data": {
           "data": {
             "style": {
-              "alignment": "horizontal"
+              "axis": "horizontal"
             },
             "data": [
               {
@@ -380,7 +380,7 @@
         "data": {
           "data": {
             "style": {
-              "alignment": "horizontal"
+              "axis": "horizontal"
             },
             "data": [
               {
@@ -496,12 +496,12 @@
         "data": {
           "data": {
             "style": {
-              "alignment": "vertical"
+              "axis": "vertical"
             },
             "data": [
               {
                 "style": {
-                  "alignment": "horizontal"
+                  "axis": "horizontal"
                 },
                 "data": [
                   {
@@ -562,7 +562,7 @@
                   }
                 ],
                 "style": {
-                  "alignment": "horizontal"
+                  "axis": "horizontal"
                 }
               },
               {
@@ -595,7 +595,7 @@
                   }
                 ],
                 "style": {
-                  "alignment": "horizontal"
+                  "axis": "horizontal"
                 }
               },
               {
@@ -628,7 +628,7 @@
                   }
                 ],
                 "style": {
-                  "alignment": "horizontal"
+                  "axis": "horizontal"
                 }
               }
             ]
@@ -841,7 +841,7 @@
                   }
                 ],
                 "style": {
-                  "alignment": "horizontal"
+                  "axis": "horizontal"
                 }
               },
               {
@@ -873,7 +873,7 @@
                   }
                 ],
                 "style": {
-                  "alignment": "horizontal"
+                  "axis": "horizontal"
                 }
               }
             ]
