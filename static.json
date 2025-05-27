@@ -4,7 +4,18 @@
       "version": 1
     },
     "styles": {
+        "faq-answer-title-text-style": {
+            "font": "tiny-regular"
+        },
+        "header-title-text-style": {
+            "font": "body-medium"
+        },
+        "footer-text-style": {
+            "fontColor": "#FFFFFF",
+            "font": "subtitle-regular"
+        },
       "important-things-to-note-image-style": {
+          "fontSize": 10
       },    
       "ticket-resale-header-item-style": {
           "backgroundColor": "#CCCCCC"
@@ -26,7 +37,7 @@
         "padding": "0,0,0,0"
       },
       "amount-paid-breakdown-style": {
-        "padding": "8,8,8,8"
+        "margin": "8,8,8,8"
       },
       "amount-paid-breakdown-text-parent-style": {
         "padding": "4,8,4,8",
@@ -54,7 +65,7 @@
         "padding": "0,8,0,8"
       },
       "amount-paid-item-style": {
-        "padding": "8,12,8,12"
+        "margin": "8,12,8,12"
       },
       "cta-show-text-item-style": {
         "margin": "0,0,12,0"
@@ -100,7 +111,6 @@
       "faq-title-text-style": {
         "font": "small-regular"
       },
-      "footer-title": {},
       "footer-widget-style": {
         "padding": "8,0,8,16"
       },
@@ -113,7 +123,8 @@
         "padding": "16,12,16,12"
       },
       "important-things-to-note-item-content-style": {
-        "padding": "0,0,0,0"
+        "alignVertically": "top",
+        "padding": "4,4,0,0"
       },
       "important-things-to-note-text-style": {
         "font": "tiny-regular"
@@ -127,6 +138,7 @@
       "left-amount-container-style": {
         "weight": 1
       },
+      
       "mini-ticket-style": {
         "backgroundColor": "#CCCCCC",
         "border": {
@@ -150,12 +162,11 @@
         "font": "large-bold"
       },
       "text-amount-paid-style": {
-        "font": "large-bold"
+        "font": "body-regular-bold"
       },
       "text-amount-value-breakdown-style": {
         "font": "large-bold",
-        "fontColor": "#1FAD3E",
-        "horizontalAlignment": "right"
+        "fontColor": "#1FAD3E"
       },
       "ticket-event-deatil-subtitle": {
         "font": "tiny-regular",
@@ -180,37 +191,11 @@
         }
       },
       "ticket-resale-footer-item-style": {
-        "backgroundColor": ""
+        "margin": "8,16,8,16",
+        "height": 40
       },
       "total-amount-breakdown-style": {
-        "padding": "0,8,8,8"
-      },
-      "bottomsheet-title": {
-        "fontColor": "#333333",
-        "font": "large-medium"
-      },
-      "bottomsheet-subtitle": {
-        "fontColor": "#666666",
-        "font": "small-regular"
-      },
-      "bottomsheet-alert": {
-        "fontColor": "#1A1A1A",
-        "font": "tiny-regular"
-      },
-      "bottomsheet-alert-container": {
-        "backgroundColor": "#FCC42D",
-        "margin": "4,16,4,16",
-        "padding": "4,8,4,8",
-        "border": {
-          "cornerRadius": "8,8,8,8"
-        }
-      },
-      "seat-category-details-quantity-style": {
-          "horizontalAlignment": "right"
-      },
-      "text-price-amount-style": {
-        "font": "large-bold",
-        "horizontalAlignment": "right"
+        "margin": "0,8,8,8"
       }
     },
     "layouts": {
@@ -256,7 +241,7 @@
                 {
                   "components": [
                     {
-                      "styleId": "footer-title",
+                      "styleId": "footer-text-style",
                       "text": "$footer-title$",
                       "type": "text",
                       "vars": [
@@ -298,7 +283,7 @@
           },
           "startActions": [
             {
-              "iconUrl": "",
+              "iconUrl": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/left-chevron.png",
               "cta": {
                 "type": "variable",
                 "additionalData": {
@@ -338,7 +323,7 @@
               {
                 "components": [
                   {
-                    "styleId":  "text-price-amount-style",
+                    "styleId": "text-amount-paid-style",
                     "text": "$total-price$",
                     "type": "text",
                     "vars": [
@@ -515,6 +500,9 @@
             },
             "data": [
               {
+                "style": {
+                  "alignment": "horizontal"
+                },
                 "data": [
                   {
                     "styleId": "amount-paid-breakdown-text-parent-style",
@@ -542,10 +530,7 @@
                       }
                     ]
                   }
-                ],
-                "style": {
-                  "alignment": "horizontal"
-                }
+                ]
               },
               {
                 "data": [
@@ -612,6 +597,39 @@
                 "style": {
                   "alignment": "horizontal"
                 }
+              },
+              {
+                "data": [
+                  {
+                    "styleId": "amount-paid-breakdown-text-parent-style",
+                    "components": [
+                      {
+                        "styleId": "amount-paid-breakdown-text-style",
+                        "text": "$bms-club-label$",
+                        "type": "text",
+                        "vars": [
+                          "bms-club-label"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "styleId": "amount-paid-breakdown-text-parent-value-style",
+                    "components": [
+                      {
+                        "styleId": "amount-paid-breakdown-text-style",
+                        "text": "$bms-club-value$",
+                        "type": "text",
+                        "vars": [
+                          "bms-club-value"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "style": {
+                  "alignment": "horizontal"
+                }
               }
             ]
           }
@@ -655,20 +673,20 @@
               "text": {
                 "components": [
                   {
+                    "styleId": "faq-title-text-style",
                     "text": "$question$",
                     "type": "text",
                     "vars": [
                       "question"
                     ]
                   }
-                ],
-                "styleId": "faq-title-text-style"
+                ]
               }
             },
             "expanded": false,
             "image": {
               "styleId": "faq-image-style",
-              "url": "upperArrow.com"
+              "url": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/down-chevron.png"
             }
           }
         }
@@ -721,7 +739,6 @@
                     ]
                   },
                   {
-                    "styleId": "important-things-to-note-item-content-text-style",
                     "components": [
                       {
                         "styleId": "important-things-to-note-text-style",
@@ -742,7 +759,7 @@
                     "styleId": "important-things-to-note-item-content-style",
                     "components": [
                       {
-                        "text": "",
+                        "styleId": "important-things-to-note-image-style",
                         "type": "image",
                         "vars": [
                           "bullet-point-two"
@@ -752,7 +769,6 @@
                     ]
                   },
                   {
-                    "styleId": "important-things-to-note-item-content-style",
                     "components": [
                       {
                         "styleId": "important-things-to-note-text-style",
@@ -773,7 +789,7 @@
                     "styleId": "important-things-to-note-item-content-style",
                     "components": [
                       {
-                        "text": "",
+                        "styleId": "important-things-to-note-image-style",
                         "type": "image",
                         "vars": [
                           "bullet-point-three"
@@ -783,7 +799,6 @@
                     ]
                   },
                   {
-                    "styleId": "important-things-to-note-item-content-style",
                     "components": [
                       {
                         "styleId": "important-things-to-note-text-style",
@@ -813,7 +828,6 @@
                     ]
                   },
                   {
-                    "styleId": "important-things-to-note-item-content-text-style",
                     "components": [
                       {
                         "styleId": "important-things-to-note-text-style",
@@ -846,7 +860,6 @@
                     ]
                   },
                   {
-                    "styleId": "important-things-to-note-item-content-style",
                     "components": [
                       {
                         "styleId": "important-things-to-note-text-style",
@@ -902,9 +915,8 @@
           {
             "type": "utility",
             "leftIcon": {
-              "url": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/alert.png"
+              "url": "https://in.bmscdn.com/moviesmaster/ptm/share.png"
             },
-            "styleId": "bottomsheet-alert-container",
             "text": [
               {
                 "components": [
