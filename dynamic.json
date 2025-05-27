@@ -5,9 +5,8 @@
     },
     "sequence": [
       "mini-ticket-view",
-      "amount-paid-details",
+      "amount-paid",
       "amount-details",
-      "note-info-card",
       "important-things-to-note",
       "faq-section"
     ],
@@ -19,13 +18,10 @@
             {
               "layoutId": "ticket-resale-footer-item",
               "data": {
-                "footer-title": "Continue",
-                "cta": {
-                  "type": "router"
-                }
+                "footer-title": "Continue"
               }
             }
-          ]
+            ]
         }
       }
     },
@@ -37,7 +33,7 @@
             {
               "layoutId": "ticket-resale-header-item",
               "data": {
-                "header-title": "List Tickets"
+                "header-title": "List tickets"
               }
             }
           ]
@@ -45,6 +41,96 @@
       }
     },
     "widgets": {
+      "mini-ticket-view": {
+        "id": "miniTicket",
+        "data": {
+          "styleId": "mini-ticket-style",
+          "id": "miniTicket",
+          "data": [
+            {
+              "eventDetails": [
+                {
+                  "styleId": "ticket-event-deatil-title",
+                  "text": "Lollapalooza India",
+                  "maxLines": 2
+                },
+                {
+                  "styleId": "ticket-event-deatil-subtitle",
+                  "text": "Music Shows | English, Hindi, Punjabi",
+                  "maxLines": 1
+                },
+                {
+                  "styleId": "ticket-event-deatil-subtitle",
+                  "text": "Sat, 28 Jan | 1:00 PM",
+                  "maxLines": 1
+                },
+                {
+                  "styleId": "ticket-event-deatil-subtitle",
+                  "text": "Mahalakshmi Race Course: Mumbai",
+                  "maxLines": 1
+                }
+              ],
+              "ticketType": {
+                "styleId": "ticket-event-details-card-subtitle",
+                "text": "M-Ticket",
+                "maxLines": 0
+              },
+              "eventImage": {
+                "styleId": "movie-poster-image",
+                "url": "https://in.bmscdn.com/Events/moviecard/tr:l-image,w-240,i-@@moviesmaster@@ptm@@watch-trailer-txt.png,lfo-bottom,l-end:l-image,i-@@moviesmaster@@ptm@@play-button.png,lfo-center,l-end/ET00012104.jpg"
+              },
+              "footerWidget": {
+                "styleId": "footer-widget-style",
+                "text": [
+                  {
+                    "components": [
+                      {
+                        "type": "text",
+                        "text": "All your tickets will be listed at the price purchased."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "ticketList": [
+                {
+                  "seatCategoryDetails": [
+                    {
+                      "style": {
+                        "alignment": "horizontal"
+                      },
+                      "data": [
+                        {
+                          "styleId": "seat-category-details-content-style",
+                          "components": [
+                            {
+                              "type": "text",
+                              "text": "General Phase 4"
+                            }
+                          ]
+                        },
+                        {
+                          "components": [
+                            {
+                              "type": "text",
+                              "text": "2x"
+                            },
+                            {
+                              "type": "image",
+                              "text": "imageurl.com"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "type": "movieTicket"
+            }
+          ]
+        }
+      },
       "amount-details": {
         "id": "",
         "data": {
@@ -69,9 +155,6 @@
                       {
                         "layoutId": "cta-hide-text-item",
                         "data": {
-                          "cta": {
-                            "type": "accordion"
-                          },
                           "replaceTitle": "Hide Details"
                         }
                       }
@@ -86,11 +169,9 @@
                           "amount-you-paid-label": "Amount You Paid",
                           "amount-you-paid-value": "₹4.36",
                           "convenience-fees-label": "Convenience fees",
-                          "convenience-fees-value": "-₹2.36",
+                          "convenience-fees-value": "₹2.36",
                           "book-a-change-label": "BookAChange",
-                          "book-a-change-value": "-₹1.00",
-                          "bms-club-label": "BmsClub",
-                          "bms-club-value": "-₹1.00"
+                          "book-a-change-value": "₹1.00"
                         }
                       },
                       {
@@ -120,11 +201,10 @@
           }
         }
       },
-      "amount-paid-details": {
-        "id": "",
+      "amount-paid": {
+        "id": "amount-paid",
         "data": {
           "cards": {
-            "id": "amount-paid",
             "layoutId": "amount-paid-container",
             "data": [
               {
@@ -160,266 +240,70 @@
                 "data": {
                   "question": "What does Listing my tickets mean?",
                   "cta": {
-                    "type": "variable",
-                    "additionalData": {
-                      "ctaId": "faq-question1"
-                    }
-                  },
-                  "childCards": {
-                    "layoutId": "faq-answer-container",
-                    "analytics": {},
-                    "data": [
-                      {
-                        "layoutId": "faq-answer-title",
-                        "data": {
-                          "title": "The ‘List Your Tickets’ feature on BookMyShow allows you to list your tickets to be bought by other customers, if you’re unable to attend an event. Listing your tickets makes them available for other customers to purchase."
-                        }
-                      }
-                    ]
-                  }
+                  "type": "variable",
+                "additionalData": {
+                  "ctaId": "faq-question1"
+                }
+              },
+               "childCards": {
+            "layoutId": "important-things-to-note-container-temp",
+            "analytics": {},
+            "data": [
+              {
+                "layoutId": "important-things-to-note-bullets",
+                "data": {
+                  "bullet-point-one": "imageurl1.com",
+                  "bullet-point-two": "imageurl2.com",
+                  "bullet-point-three": "imageurl3.com",
+                  "bullet-point-one-value": "1- All tickets from this booking will be listed for purchase.",
+                  "bullet-point-two-value": "2- Tickets will be listed until Wed, 01 Dec | 4:00 PM.",
+                  "bullet-point-three-value": "3-  If no buyer is found until Wed, 01 Dec | 4:00 PM, the listing will be cancelled. You can pick up tickets from box office to enter the venue yourself."
+                }
+              },
+              {
+                "layoutId": "important-things-to-note-title",
+                "data": {
+                  "title": "   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                }
+              }
+            ]
+          }
                 }
               },
               {
                 "layoutId": "faq-body-item",
                 "data": {
-                  "question": "How will the ‘List Your Tickets’ feature help me if I am unable to attend an event?",
-                  "cta": {
-                    "type": "variable",
-                    "additionalData": {
-                      "ctaId": "faq-question2"
-                    }
-                  },
-                  "childCards": {
-                    "layoutId": "faq-answer-container",
-                    "analytics": {},
-                    "data": [
-                      {
-                        "layoutId": "faq-answer-title",
-                        "data": {
-                          "title": "If you're unable to attend an event, the ‘List Your Tickets’ feature allows you to securely list and sell your non-cancellable BookMyShow Live Event tickets directly through the app. You can sell your tickets at the same price you paid, ensuring they don’t go to waste. An advantage of listing your ticket with BookMyShow is that BMS has a large user base which can be leveraged to sell your listed tickets."
-                        }
-                      }
-                    ]
-                  }
+                  "question": "Who will buy my tickets?",
+                  "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                   "cta": {
+                "type": "variable",
+                "additionalData": {
+                  "ctaId": "faq-question2"
+                }
+              },
+               "childCards": {
+            "layoutId": "important-things-to-note-container-temp",
+            "analytics": {},
+            "data": [
+              {
+                "layoutId": "important-things-to-note-bullets",
+                "data": {
+                  "bullet-point-one": "imageurl1.com",
+                  "bullet-point-two": "imageurl2.com",
+                  "bullet-point-three": "imageurl3.com",
+                  "bullet-point-one-value": "1- All tickets from this booking will be listed for purchase.",
+                  "bullet-point-two-value": "2- Tickets will be listed until Wed, 01 Dec | 4:00 PM.",
+                  "bullet-point-three-value": "3-  If no buyer is found until Wed, 01 Dec | 4:00 PM, the listing will be cancelled. You can pick up tickets from box office to enter the venue yourself."
                 }
               },
               {
-                "layoutId": "faq-body-item",
+                "layoutId": "important-things-to-note-title",
                 "data": {
-                  "question": "Is this feature available for all tickets and events?",
-                  "cta": {
-                    "type": "variable",
-                    "additionalData": {
-                      "ctaId": "faq-question2"
-                    }
-                  },
-                  "childCards": {
-                    "layoutId": "faq-answer-container",
-                    "analytics": {},
-                    "data": [
-                      {
-                        "layoutId": "faq-answer-title",
-                        "data": {
-                          "title": "Currently, the ‘List Your Tickets’ feature is available for select non-cancellable BookMyShow Live events. This feature will expand to cover more events over time."
-                        }
-                      }
-                    ]
-                  }
+                  "title": "   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
                 }
-              },
-              {
-                "layoutId": "faq-body-item",
-                "data": {
-                  "question": "How do I list my tickets?",
-                  "cta": {
-                    "type": "variable",
-                    "additionalData": {
-                      "ctaId": "faq-question2"
-                    }
-                  },
-                  "childCards": {
-                    "layoutId": "faq-answer-container",
-                    "analytics": {},
-                    "data": [
-                      {
-                        "layoutId": "faq-answer-title",
-                        "data": {
-                          "title": "To list your tickets, follow these steps on the BookMyShow app:"
-                        }
-                      },
-                      {
-                        "layoutId": "important-things-to-note-bullets",
-                        "data": {
-                          "bullet-point-one-value": "1.Go to the ‘Your Order’ section under your Profile.",
-                          "bullet-point-two-value": "2.Select the tickets you wish to list.",
-                          "bullet-point-three-value": "3.Click on ‘List Your Tickets.’",
-                          "bullet-point-four-value": "4.Review the amount you’ll receive after listing.",
-                          "bullet-point-five-value": "5.Select ‘Continue’ to finalize listing your tickets."
-                        }
-                      },
-                      {
-                        "layoutId": "important-things-to-note-title",
-                        "data": {
-                          "title": "Please note: Refunds are issued as BMS Cash, which will be valid for two years. You can view it under the ‘Saved Payment Modes’ in Accounts and Settings."
-                        }
-                      }
-                    ]
-                  }
-                }
-              },
-              {
-                "layoutId": "faq-body-item",
-                "data": {
-                  "question": "What happens after I list my ticket?",
-                  "cta": {
-                    "type": "variable",
-                    "additionalData": {
-                      "ctaId": "faq-question2"
-                    }
-                  },
-                  "childCards": {
-                    "layoutId": "faq-answer-container",
-                    "analytics": {},
-                    "data": [
-                      {
-                        "layoutId": "faq-answer-title",
-                        "data": {
-                          "title": "You can track the status of your listed tickets in the ‘Your Orders’ section. Please note that once listed, tickets cannot be edited or cancelled. If sold, BMS Cash (excluding convenience fee, BookAChange, and BookMyShow Club, if purchased) will be credited, valid for two years.If unsold, your original tickets remain valid for the event and you can use them to attend the event.If you do not attend the event, you will not be eligible for a refund."
-                        }
-                      }
-                    ]
-                  }
-                }
-              },
-              {
-                "layoutId": "faq-body-item",
-                "data": {
-                  "question": "What happens if my tickets are sold?",
-                  "cta": {
-                    "type": "variable",
-                    "additionalData": {
-                      "ctaId": "faq-question2"
-                    }
-                  },
-                  "childCards": {
-                    "layoutId": "faq-answer-container",
-                    "analytics": {},
-                    "data": [
-                      {
-                        "layoutId": "faq-answer-title",
-                        "data": {
-                          "title": "You’ll receive an instant notification via email informing you of the same. BookMyShow will cancel your original ticket and credit the ticket amount as BMS Cash, which will be valid for two years, and can be used for future bookings. The buyer will receive the new booking details."
-                        }
-                      }
-                    ]
-                  }
-                }
-              },
-              {
-                "layoutId": "faq-body-item",
-                "data": {
-                  "question": "My event is coming up in a few days and I may not be able to attend. Can I list my ticket? If yes, what happens to it if it isn’t bought by someone?",
-                  "cta": {
-                    "type": "variable",
-                    "additionalData": {
-                      "ctaId": "faq-question2"
-                    }
-                  },
-                  "childCards": {
-                    "layoutId": "faq-answer-container",
-                    "analytics": {},
-                    "data": [
-                      {
-                        "layoutId": "faq-answer-title",
-                        "data": {
-                          "title": "Yes, you can definitely list your ticket to be bought by another buyer. If your ticket isn’t bought by the deadline (usually a few hours before the event), it remains valid for your use. You’ll also be notified when the listing expires. Please note that listing your ticket does not guarantee that it will be bought. BookMyShow shall not be held liable in the event that the ticket is not bought or is not utilised by you. If you do not attend the event, you will not be eligible for a refund."
-                        }
-                      }
-                    ]
-                  }
-                }
-              },
-              {
-                "layoutId": "faq-body-item",
-                "data": {
-                  "question": "Can I edit or cancel my ticket listing after it’s live?",
-                  "cta": {
-                    "type": "variable",
-                    "additionalData": {
-                      "ctaId": "faq-question2"
-                    }
-                  },
-                  "childCards": {
-                    "layoutId": "faq-answer-container",
-                    "analytics": {},
-                    "data": [
-                      {
-                        "layoutId": "faq-answer-title",
-                        "data": {
-                          "title": "Currently, once you list your ticket to be bought by others, However, if nobody buys your ticket before the event, it remains valid and you can attend the event as originally planned."
-                        }
-                      }
-                    ]
-                  }
-                }
-              },
-              {
-                "layoutId": "faq-body-item",
-                "data": {
-                  "question": "I used an offer in my original booking. Will I get that amount refunded if I list my ticket?",
-                  "cta": {
-                    "type": "variable",
-                    "additionalData": {
-                      "ctaId": "faq-question2"
-                    }
-                  },
-                  "childCards": {
-                    "layoutId": "faq-answer-container",
-                    "analytics": {},
-                    "data": [
-                      {
-                        "layoutId": "faq-answer-title",
-                        "data": {
-                          "title": "Yes. Here's how refunds work when you've used an offer:"
-                        }
-                      },
-                      {
-                        "layoutId": "important-things-to-note-bullets",
-                        "data": {
-                          "bullet-point-one": "imageurl1.com",
-                          "bullet-point-two": "imageurl2.com",
-                          "bullet-point-three": "imageurl3.com",
-                          "bullet-point-one-value": "- The ticket amount will be refunded to you as BMS Cash.",
-                          "bullet-point-two-value": "- Any offer used will be reversed back to the original offer pool—you won’t receive the discounted amount as part of the refund.You will be able to reuse this offer within its validity period.",
-                          "bullet-point-three-value": "- If you have used a Gift Voucher (GV), the amount will be refunded back to the same GV."
-                        }
-                      }
-                    ]
-                  }
-                }
-              },
-              {
-                "layoutId": "faq-body-item",
-                "data": {
-                  "question": "I had opted for home delivery for my tickets. Can I list them? If yes, then what happens if nobody buys them?",
-                  "cta": {
-                    "type": "variable",
-                    "additionalData": {
-                      "ctaId": "faq-question2"
-                    }
-                  },
-                  "childCards": {
-                    "layoutId": "faq-answer-container",
-                    "analytics": {},
-                    "data": [
-                      {
-                        "layoutId": "faq-answer-title",
-                        "data": {
-                          "title": "Yes, you can definitely list your tickets. Once listed, they are not dispatched for home delivery to avoid misuse. If your tickets are not bought, you can still attend the event; simply collect your physical tickets or bands at the box office counter on the day of the event. Don’t forget to carry a valid ID and your order confirmation."
-                        }
-                      }
-                    ]
-                  }
+              }
+            ]
+          }
                 }
               }
             ]
@@ -434,7 +318,7 @@
             "analytics": {},
             "data": [
               {
-                "layoutId": "faq-answer-title",
+                "layoutId": "important-things-to-note-title",
                 "data": {
                   "title": "Important Things To Note"
                 }
@@ -442,9 +326,9 @@
               {
                 "layoutId": "important-things-to-note-bullets",
                 "data": {
-                   "bullet-point-one": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/bullet-1.png",
-                   "bullet-point-two": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/bullet-2.png",
-                   "bullet-point-three": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/bullet-3.png",
+                  "bullet-point-one": "imageurl1.com",
+                  "bullet-point-two": "imageurl2.com",
+                  "bullet-point-three": "imageurl3.com",
                   "bullet-point-one-value": "All tickets from this booking will be listed for purchase.",
                   "bullet-point-two-value": "Tickets will be listed until Wed, 01 Dec | 4:00 PM.",
                   "bullet-point-three-value": "If no buyer is found until Wed, 01 Dec | 4:00 PM, the listing will be cancelled. You can pick up tickets from box office to enter the venue yourself."
@@ -453,115 +337,9 @@
             ]
           }
         }
-      },
-      "mini-ticket-view": {
-        "id": "miniTicket",
-        "data": {
-          "styleId": "mini-ticket-style",
-          "id": "miniTicket",
-          "data": [
-            {
-              "eventDetails": [
-                {
-                  "styleId": "ticket-event-deatil-title",
-                  "text": "Dev M-Ticket (WFH)",
-                  "cta": {
-                    "type": "router",
-                    "id": "movieSynopsis",
-                    "analytics": {
-                      "category": "header_clicked",
-                      "event_name": "cta_clicked",
-                      "event_type": "click"
-                    }
-                  },
-                  "maxLines": 2
-                },
-               
-                {
-                  "styleId": "ticket-event-deatil-subtitle",
-                  "text": "2027-12-01T21:00:00.000",
-                  "maxLines": 1
-                },
-                {
-                  "styleId": "ticket-event-deatil-subtitle",
-                  "text": "Online Streaming noops",
-                  "maxLines": 1
-                }
-              ],
-              "ticketType": {
-                "styleId": "ticket-event-details-card-subtitle",
-                "text": "ET",
-                "maxLines": 0
-              },
-              "eventImage": {
-                "styleId": "movie-poster-image",
-                "url": "https://in.bmscdn.com/Events/moviecard/tr:l-image,w-240,i-@@moviesmaster@@ptm@@watch-trailer-txt.png,lfo-bottom,l-end:l-image,i-@@moviesmaster@@ptm@@play-button.png,lfo-center,l-end/ET00012104.jpg",
-                "cta": {
-                  "type": "youtube",
-                  "analytics": {
-                    "category": "Trailer",
-                    "event_name": "cta_clicked",
-                    "event_type": "click"
-                  }
-                }
-              },
-              "footerWidget": {
-                "styleId": "footer-widget-style",
-                "text": [
-                  {
-                    "components": [
-                      {
-                        "text": "All your tickets will be listed at the price purchased.",
-                        "type": "text"
-                      }
-                    ]
-                  }
-                ]
-              },
-              "ticketList": [
-                {
-                  "seatCategoryDetails": [
-                    {
-                      "style": {
-                        "alignment": "horizontal"
-                      },
-                      "data": [
-                        {
-                          "styleId": "seat-category-details-content-style",
-                          "components": [
-                            {
-                              "text": "General Phase 4",
-                              "type": "text"
-                            }
-                          ]
-                        },
-                        {
-                          "components": [
-                            {
-                              "text": "1X",
-                              "type": "text"
-                            },
-                            {
-                              "text": "",
-                              "type": "image"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "type": "movieTicket"
-            }
-          ]
-        }
       }
     },
     "actions": {
-      "list-ticket-close": {
-        "type": "close"
-      },
       "list-tickets-api": {
         "type": "api_call",
         "additionalData": {
@@ -578,10 +356,6 @@
           }
         }
       }
-    },
-    "metadata": {}
-  },
-  "message": {
-    "code": "SUCCESS"
+    }
   }
 }
