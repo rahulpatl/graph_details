@@ -110,9 +110,7 @@
                           ]
                         },
                         {
-                          "style": {
-                            "horizontalAlignment": "end"
-                          },
+                          "styleId": "seat-category-details-value",
                           "components": [
                             {
                               "type": "text",
