@@ -168,7 +168,8 @@
       },
       "text-amount-value-breakdown-style": {
         "font": "large-bold",
-        "fontColor": "#1FAD3E"
+        "fontColor": "#1FAD3E",
+        "widthPercent": 20
       },
       "ticket-event-deatil-subtitle": {
         "font": "tiny-regular",
