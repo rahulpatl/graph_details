@@ -329,7 +329,7 @@
                 ]
               },
               {
-                "styleId": "amount-paid-total-price-style"
+                "styleId": "amount-paid-total-price-style",
                 "components": [
                   {
                     "styleId": "text-amount-paid-style",
