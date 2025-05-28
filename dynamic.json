@@ -97,7 +97,7 @@
                   "seatCategoryDetails": [
                     {
                       "style": {
-                        "alignment": "horizontal"
+                        "axis": "horizontal"
                       },
                       "data": [
                         {
