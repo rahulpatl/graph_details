@@ -110,6 +110,9 @@
                           ]
                         },
                         {
+                          "style": {
+                            "horizontalAlignment": "end"
+                          }
                           "components": [
                             {
                               "type": "text",
