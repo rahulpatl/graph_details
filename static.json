@@ -201,9 +201,6 @@
       },
       "seat-category-details-value": {
           "horizontalAlignment": "end"
-      },
-      "amount-paid-total-price-style": {
-         "horizontalAlignment": "end"
       }
     },
     "layouts": {
@@ -329,7 +326,6 @@
                 ]
               },
               {
-                "styleId": "amount-paid-total-price-style",
                 "components": [
                   {
                     "styleId": "text-amount-paid-style",
