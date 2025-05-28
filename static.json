@@ -198,6 +198,9 @@
       },
       "total-amount-breakdown-style": {
         "margin": "0,8,8,8"
+      },
+      "seat-category-details-value": {
+          "horizontalAlignment": "end"
       }
     },
     "layouts": {
