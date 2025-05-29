@@ -168,7 +168,7 @@
                         "layoutId": "amount-paid-breakdown",
                         "data": {
                           "amount-you-paid-label": "Amount You Paid",
-                          "amount-you-paid-value": "₹4.36",
+                          "amount-you-paid-value": "₹400000.36",
                           "convenience-fees-label": "Convenience fees",
                           "convenience-fees-value": "₹2.36",
                           "book-a-change-label": "BookAChange",
