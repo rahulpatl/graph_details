@@ -211,7 +211,8 @@
           "horizontalAlignment": "end"
       },
       "amount-paid-total-price-style": {
-          "horizontalAlignment": "end"
+          "horizontalAlignment": "end",
+          "font": "large-bold"
       }
     },
     "layouts": {
@@ -359,10 +360,9 @@
                 ]
               },
               {
-                "styleId": "amount-paid-total-price-style",
                 "components": [
                   {
-                    "styleId": "text-amount-paid-style",
+                    "styleId": "amount-paid-total-price-style",
                     "text": "$total-price$",
                     "type": "text",
                     "vars": [
