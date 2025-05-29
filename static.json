@@ -57,6 +57,11 @@
       "amount-paid-breakdown-text-style": {
         "font": "tiny-regular"
       },
+      "amount-paid-breakdown-text-value-style": {
+        "font": "tiny-regular",
+        "widthPercent": 20,
+        "horizontalAlignment": "end"
+      },
       "amount-paid-container-style": {
         "backgroundColor": "#FCC42D",
         "border": {
@@ -402,7 +407,7 @@
               {
                 "components": [
                   {
-                    "styleId": "amount-paid-breakdown-text-style",
+                    "styleId": "amount-paid-breakdown-text-value-style",
                     "text": "$amount-you-received-value$",
                     "type": "text",
                     "vars": [
@@ -563,7 +568,7 @@
                     "styleId": "amount-paid-breakdown-text-parent-value-style",
                     "components": [
                       {
-                        "styleId": "amount-paid-breakdown-text-style",
+                        "styleId": "amount-paid-breakdown-text-value-style",
                         "text": "$amount-you-paid-value$",
                         "type": "text",
                         "vars": [
@@ -593,7 +598,7 @@
                     "styleId": "amount-paid-breakdown-text-parent-value-style",
                     "components": [
                       {
-                        "styleId": "amount-paid-breakdown-text-style",
+                        "styleId": "amount-paid-breakdown-text-value-style",
                         "text": "$convenience-fees-value$",
                         "type": "text",
                         "vars": [
@@ -626,7 +631,7 @@
                     "styleId": "amount-paid-breakdown-text-parent-value-style",
                     "components": [
                       {
-                        "styleId": "amount-paid-breakdown-text-style",
+                        "styleId": "amount-paid-breakdown-text-value-style",
                         "text": "$book-a-change-value$",
                         "type": "text",
                         "vars": [
@@ -659,7 +664,7 @@
                     "styleId": "amount-paid-breakdown-text-parent-value-style",
                     "components": [
                       {
-                        "styleId": "amount-paid-breakdown-text-style",
+                        "styleId": "amount-paid-breakdown-text-value-style",
                         "text": "$bms-club-value$",
                         "type": "text",
                         "vars": [
