@@ -4,6 +4,16 @@
       "version": 1
     },
     "styles": {
+        "number-of-seat-image-style": {
+             "fontSize": "15",
+            "imageVerticalAlignment": "bottom"
+        },
+        "faq-answer-container-style": {
+            "margin": "0,0,4,0"
+        },
+        "amount-description-text-style": {
+            "font":"tiny-regular"
+        },
         "faq-answer-title-text-style": {
             "font": "tiny-regular"
         },
@@ -15,7 +25,7 @@
             "font": "subtitle-regular"
         },
       "important-things-to-note-image-style": {
-          "fontSize": "10"
+          "fontSize": "12"
       },    
       "ticket-resale-header-item-style": {
           "backgroundColor": "#CCCCCC"
@@ -37,14 +47,12 @@
         "padding": "0,0,0,0"
       },
       "amount-paid-breakdown-style": {
-        "margin": "8,8,8,8"
       },
       "amount-paid-breakdown-text-parent-style": {
-        "padding": "4,8,4,8",
         "weight": 1
       },
       "amount-paid-breakdown-text-parent-value-style": {
-        "padding": "4,8,4,8"
+        "padding": "4,0,4,0"
       },
       "amount-paid-breakdown-text-style": {
         "font": "tiny-regular"
@@ -61,8 +69,8 @@
         "border": {
           "cornerRadius": "12,12,12,12"
         },
-        "margin": "12,0,12,0",
-        "padding": "0,8,0,8"
+        "margin": "12,0,0,0",
+        "padding": "8,8,8,8"
       },
       "amount-paid-item-style": {
         "margin": "8,12,8,12"
@@ -79,7 +87,7 @@
           "pattern": "2,2",
           "side": "bottom",
           "type": "dashed",
-          "width": 2
+          "width": 1
         },
         "lineMargin": "0,0,8,0"
       },
@@ -112,7 +120,7 @@
         "font": "small-regular"
       },
       "footer-widget-style": {
-        "padding": "8,0,8,16"
+        "padding": "8,0,8,8"
       },
       "important-things-to-note-container-style": {
         "backgroundColor": "#FFFFFF",
@@ -123,7 +131,7 @@
         "padding": "16,12,16,12"
       },
       "important-things-to-note-item-content-style": {
-        "verticalAlignment": "bottom",
+        "verticalAlignment": "top",
         "horizontalAlignment": "end",
         "padding": "4,4,0,0",
         "backgroundColor": "#4caf50"
@@ -132,7 +140,7 @@
         "font": "tiny-regular"
       },
       "important-things-to-note-title-style": {
-        "padding": "0,0,0,0"
+        "margin": "0,0,12,0"
       },
       "important-things-to-note-title-text-style": {
         "font": "small-regular"
@@ -140,7 +148,6 @@
       "left-amount-container-style": {
         "weight": 1
       },
-      
       "mini-ticket-style": {
         "backgroundColor": "#CCCCCC",
         "border": {
@@ -160,17 +167,19 @@
       "seat-category-details-style": {
         "axis": "horizontal"
       },
+      
+      "number-of-seat-text-style": {
+          "font": "tiny-regular"
+          },
       "text-amount-breakdown-style": {
-        "font": "large-bold"
+        "font": "small-regular"
       },
       "text-amount-paid-style": {
-        "font": "body-regular-bold"
+        "font": "large-bold"
       },
       "text-amount-value-breakdown-style": {
         "font": "large-bold",
-        "fontColor": "#1FAD3E",
-        "widthPercent": 20,
-        "horizontalAlignment": "end"
+        "fontColor": "#1FAD3E"
       },
       "ticket-event-deatil-subtitle": {
         "font": "tiny-regular",
@@ -198,9 +207,6 @@
         "margin": "8,16,8,16",
         "height": 40
       },
-      "total-amount-breakdown-style": {
-        "margin": "0,8,8,8"
-      },
       "seat-category-details-value": {
           "horizontalAlignment": "end"
       }
@@ -209,7 +215,7 @@
       
        "faq-answer-container": {
         "type": "genericWidget",
-        "styleId": "faq-answer-title-style"
+        "styleId": "faq-answer-container-style"
       },
        "faq-answer-title": {
         "type": "hybrid-text",
@@ -221,6 +227,28 @@
                 "components": [
                   {
                     "styleId": "faq-answer-title-text-style",
+                    "text": "$title$",
+                    "type": "text",
+                    "vars": [
+                      "title"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+       "important-things-to-note-title": {
+        "type": "hybrid-text",
+        "styleId": "important-things-to-note-title-style",
+        "data": {
+          "data": {
+            "data": [
+              {
+                "components": [
+                  {
+                    "styleId": "important-things-to-note-title-text-style",
                     "text": "$title$",
                     "type": "text",
                     "vars": [
@@ -345,7 +373,6 @@
       },
       "total-amount-breakdown": {
         "type": "hybrid-text",
-        "styleId": "total-amount-breakdown-style",
         "data": {
           "data": {
             "style": {
@@ -487,6 +514,7 @@
           "data": {
             "components": [
               {
+                "styleId": "amount-description-text-style",  
                 "text": "$description$",
                 "type": "text",
                 "vars": [
@@ -701,28 +729,6 @@
       "important-things-to-note-container": {
         "type": "genericWidget",
         "styleId": "important-things-to-note-container-style"
-      },
-       "important-things-to-note-title": {
-        "type": "hybrid-text",
-        "styleId": "important-things-to-note-title-style",
-        "data": {
-          "data": {
-            "data": [
-              {
-                "components": [
-                  {
-                    "styleId": "important-things-to-note-title-text-style",
-                    "text": "$title$",
-                    "type": "text",
-                    "vars": [
-                      "title"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        }
       },
       "important-things-to-note-bullets": {
         "type": "hybrid-text",
