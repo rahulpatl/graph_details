@@ -212,7 +212,8 @@
       },
       "amount-paid-total-price-style": {
           "horizontalAlignment": "end",
-          "font": "large-bold"
+          "font": "large-bold",
+          "widthPercent": 20
       }
     },
     "layouts": {
