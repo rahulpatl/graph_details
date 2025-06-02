@@ -154,6 +154,9 @@
         "weight": 1,
         "padding": "8,12,8,12"
       },
+      "amount-paid-breakdown-container-style": {
+        "weight": 1
+      },
       "mini-ticket-style": {
         "backgroundColor": "#CCCCCC",
         "border": {
@@ -431,7 +434,7 @@
             },
             "data": [
               {
-                "styleId": "left-amount-container-style",
+                "styleId": "amount-paid-breakdown-container-style",
                 "components": [
                   {
                     "styleId": "text-amount-breakdown-style",
