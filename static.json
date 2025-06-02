@@ -151,7 +151,8 @@
         "font": "small-regular"
       },
       "left-amount-container-style": {
-        "weight": 1
+        "weight": 1,
+        "padding": "8,12,8,12"
       },
       "mini-ticket-style": {
         "backgroundColor": "#CCCCCC",
