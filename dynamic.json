@@ -346,11 +346,6 @@
         "additionalData": {
           "method": "GET",
           "endpoint": "https://raw.githubusercontent.com/rahulpatl/graph_details/refs/heads/master/listTicket.json",
-          "data": {
-            "bookingId": "",
-            "transId": "",
-            "transKey": ""
-          },
           "header": {
             "x-lsid": "",
             "x-memberid": ""
