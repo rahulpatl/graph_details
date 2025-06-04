@@ -344,8 +344,8 @@
       "list-tickets-api": {
         "type": "api_call",
         "additionalData": {
-          "method": "POST",
-          "endpoint": "http://in-cx-help-centre-app.sit.aps1.bookmyshow.org/api/cx/help-centre/v1/ticketresale/commit",
+          "method": "GET",
+          "endpoint": "https://raw.githubusercontent.com/rahulpatl/graph_details/refs/heads/master/listTicket.json",
           "data": {
             "bookingId": "",
             "transId": "",
