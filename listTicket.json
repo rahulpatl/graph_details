@@ -2,9 +2,21 @@
   "data": {},
   "metadata": {
     "cta": {
-      "id": "confirmation",
+      "id": "ptm",
       "type": "router",
-      "url": "in.bookmyshow.com"
+      "additionalData": {
+        "transactionId": "4660185536",
+        "bookingId": "DVFT00RERRGUJR",
+        "snackbarData": {
+          "title": {
+            "text": ""
+          },
+          "action": {
+            "iconUrl": ""
+          }
+        }
+      }
     }
-  }
+  },
+  "statusCode": 200
 }
