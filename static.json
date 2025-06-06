@@ -40,7 +40,7 @@
         "border": {
           "cornerRadius": "12,12,12,12"
         },
-        "margin": "0,16,0,16",
+        "margin": "12,16,0,16",
         "padding": "12,12,12,12"
       },
       "amount-paid-breakdown-item-style": {
@@ -67,7 +67,7 @@
         "border": {
           "cornerRadius": "12,12,12,12"
         },
-        "margin": "12,16,0,16"
+        "margin": "24,16,0,16"
       },
       "amount-paid-down-container-style": {
         "backgroundColor": "#F2F5F9",
@@ -113,7 +113,7 @@
         "padding": "0,0,12,0"
       },
       "faq-header-container-style": {
-        "margin": "0,16,0,16"
+        "margin": "12,16,0,16"
       },
       "faq-header-item-text-style": {
         "font": "small-regular"
@@ -132,7 +132,7 @@
         "border": {
           "cornerRadius": "8,8,8,8"
         },
-        "margin": "0,16,0,16",
+        "margin": "12,16,0,16",
         "padding": "16,12,16,12"
       },
       "important-things-to-note-item-content-style": {
