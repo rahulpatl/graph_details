@@ -113,12 +113,14 @@
                           "styleId": "seat-category-details-value",
                           "components": [
                             {
+                              "styleId": "number-of-seat-text-style",
                               "type": "text",
                               "text": "2x"
                             },
                             {
+                              "styleId": "number-of-seat-image-style",
                               "type": "image",
-                              "text": "imageurl.com"
+                              "text": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/ticket-frame.png"
                             }
                           ]
                         }
