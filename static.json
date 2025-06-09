@@ -139,7 +139,7 @@
         "verticalAlignment": "top",
         "padding": "4,4,0,0",
         "backgroundColor": "#4caf50",
-        "widthPercent": 10
+        "widthPercent": 6
       },
       "important-things-to-note-text-style": {
         "font": "tiny-regular"
