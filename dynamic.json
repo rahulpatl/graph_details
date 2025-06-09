@@ -255,9 +255,9 @@
               {
                 "layoutId": "important-things-to-note-bullets",
                 "data": {
-                  "bullet-point-one": "imageurl1.com",
-                  "bullet-point-two": "imageurl2.com",
-                  "bullet-point-three": "imageurl3.com",
+                  "bullet-point-one": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/bullet-1.png",
+                  "bullet-point-two": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/bullet-2.png",
+                  "bullet-point-three": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/bullet-3.png",
                   "bullet-point-one-value": "1- All tickets from this booking will be listed for purchase.",
                   "bullet-point-two-value": "2- Tickets will be listed until Wed, 01 Dec | 4:00 PM.",
                   "bullet-point-three-value": "3-  If no buyer is found until Wed, 01 Dec | 4:00 PM, the listing will be cancelled. You can pick up tickets from box office to enter the venue yourself."
