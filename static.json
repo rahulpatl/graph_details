@@ -25,8 +25,7 @@
             "font": "subtitle-regular"
         },
       "important-things-to-note-image-style": {
-          "fontSize": "12",
-          "widthPercent": 4
+          "fontSize": "12"
       },    
       "ticket-resale-header-item-style": {
           "backgroundColor": "#CCCCCC"
@@ -139,7 +138,8 @@
       "important-things-to-note-item-content-style": {
         "verticalAlignment": "top",
         "padding": "4,4,0,0",
-        "backgroundColor": "#4caf50"
+        "backgroundColor": "#4caf50",
+        "widthPercent": 10
       },
       "important-things-to-note-text-style": {
         "font": "tiny-regular"
