@@ -120,7 +120,7 @@
                             {
                               "styleId": "number-of-seat-image-style",
                               "type": "image",
-                              "text": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/ticket-frame.png"
+                              "imageUrl": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/ticket-frame.png"
                             }
                           ]
                         }
