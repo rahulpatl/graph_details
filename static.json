@@ -138,7 +138,6 @@
       },
       "important-things-to-note-item-content-style": {
         "verticalAlignment": "top",
-        "horizontalAlignment": "end",
         "padding": "4,4,0,0",
         "backgroundColor": "#4caf50"
       },
