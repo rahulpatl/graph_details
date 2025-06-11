@@ -67,7 +67,8 @@
         "border": {
           "cornerRadius": "12,12,12,12"
         },
-        "margin": "24,16,0,16"
+        "margin": "24,16,0,16",
+        "padding": "8,12,8,12"
       },
       "amount-paid-down-container-style": {
         "backgroundColor": "#F2F5F9",
