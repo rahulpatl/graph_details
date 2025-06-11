@@ -1,19 +1,4 @@
 {
-  "metadata": {
-  "data": {},
-  "metadata": {
-    "cta": {
-      "type": "toast",
-      "additionalData": {
-        "toastData": {
-          "type": "failure",
-          "title": ">Specify what went wrong here<",
-          "backgroundColor": "#FF0000"
-        }
-      }
-    }
-  }
-},
   "data": {
     "meta": {
       "version": 1
