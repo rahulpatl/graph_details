@@ -435,7 +435,7 @@
             },
             "data": [
               {
-                "styleId": "amount-paid-breakdown-container-style",
+                "styleId": "left-amount-container-style",
                 "components": [
                   {
                     "styleId": "text-amount-breakdown-style",
