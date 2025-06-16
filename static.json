@@ -226,6 +226,9 @@
           "horizontalAlignment": "end",
           "font": "large-bold",
           "widthPercent": 20
+      },
+      "bottomsheet-left-icon-style": {
+          "width": 24
       }
     },
     "layouts": {
@@ -913,75 +916,85 @@
     },
     "bottomsheets": {
       "confirmation": {
-        "widgets": [
+          "widgets": [
           {
-            "type": "text",
-            "data": [
+              "type": "text",
+              "data": [
               {
-                "components": [
+                  "components": [
                   {
-                    "styleId": "bottomsheet-title",
-                    "text": "List Tickets?",
-                    "type": "text"
+                      "styleId": "bottomsheet-title",
+                      "text": "List Tickets?",
+                      "type": "text"
                   }
-                ]
+                  ]
               }
-            ]
+              ]
           },
           {
-            "type": "text",
-            "data": [
+              "type": "text",
+              "data": [
               {
-                "components": [
+                  "components": [
                   {
-                    "styleId": "bottomsheet-subtitle",
-                    "text": "Track status of your Listed tickets on the tickets itself and in your Order History",
-                    "type": "text"
+                      "styleId": "bottomsheet-subtitle",
+                      "text": "Track status of your Listed tickets on the tickets itself and in your Order History",
+                      "type": "text"
                   }
-                ]
+                  ]
               }
-            ]
+              ]
           },
           {
-            "type": "utility",
-            "leftIcon": {
-              "url": "https://in.bmscdn.com/moviesmaster/ptm/share.png"
-            },
-            "text": [
+              "type": "utility",
+              "styleId": "bottomsheet-alert-container",
+              "leftIcon": {
+                  "url": "https://in.bmscdn.com/bms-prod-cx/ticket-resale/info/alert.png",
+                  "styleId": "bottomsheet-left-icon-style"
+              },
+              "text": [
               {
-                "components": [
+                  "components": [
                   {
-                    "styleId": "bottomsheet-alert",
-                    "text": "This action is irreversible. You will not be able to cancel the listing later.",
-                    "type": "text"
+                      "styleId": "bottomsheet-alert",
+                      "text": "This action is irreversible. You will not be able to cancel the listing later.",
+                      "type": "text"
                   }
-                ]
+                  ]
               }
-            ]
-          }
-        ],
-        "ctaData": [
-          {
-            "text": "Cancel",
-            "style": "secondary",
-            "cta": {
-              "type": "variable",
-              "additionalData": {
-                "ctaId": "list-ticket-close"
-              }
+              ]
             }
+          ],
+          "ctaData": [
+          {
+              "text": "Cancel",
+              "style": "secondary",
+              "cta": {
+                  "type": "variable",
+                  "additionalData": {
+                      "ctaId": "list-ticket-close"
+                  }
+              }
           },
           {
-            "text": "List Tickets",
-            "style": "primary",
-            "cta": {
-              "type": "variable",
-              "additionalData": {
-                "ctaId": "list-tickets-api"
+              "text": "List Tickets",
+              "style": "primary",
+              "cta": {
+                  "type": "variable",
+                  "additionalData": {
+                      "ctaId": "list-tickets-api"
+                  }
               }
-            }
           }
-        ]
+          ],
+          "analytics": {
+              "event_name": "widget_viewed",
+              "event_type": "impression",
+              "widget_id": "resale_confirm",
+              "widget_title": "List Ticket",
+              "screen_name": "resale_confirm_bottomsheet"
+          }
+        }
       }
     },
     "actions": {
