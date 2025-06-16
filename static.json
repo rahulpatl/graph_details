@@ -953,17 +953,17 @@
                   "styleId": "bottomsheet-left-icon-style"
               },
               "text": [
-              {
+                {
                   "components": [
-                  {
+                    {
                       "styleId": "bottomsheet-alert",
                       "text": "This action is irreversible. You will not be able to cancel the listing later.",
                       "type": "text"
-                  }
+                    }
                   ]
-              }
+                }
               ]
-            }
+          }
           ],
           "ctaData": [
           {
@@ -994,7 +994,6 @@
               "widget_title": "List Ticket",
               "screen_name": "resale_confirm_bottomsheet"
           }
-        }
       }
     },
     "actions": {
