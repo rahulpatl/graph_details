@@ -231,24 +231,27 @@
                 "font": "tiny-regular",
                 "fontColor": "#1A1A1A"
             },
-            "bottomsheet-alert-container": {
-                "backgroundColor": "#FCC42D",
-                "border": {
-                    "cornerRadius": "8,8,8,8"
-                },
-                "margin": "4,16,4,16",
-                "padding": "4,8,4,8"
-            },
-            "bottomsheet-subtitle": {
-                "font": "small-regular",
-                "fontColor": "#666666"
-            },
-            "bottomsheet-title": {
-                "font": "large-medium",
-                "fontColor": "#333333"
-            },
+      "bottomsheet-alert-container": {
+          "backgroundColor": "#FCC42D",
+          "border": {
+              "cornerRadius": "8,8,8,8"
+          },
+          "margin": "4,16,4,16",
+          "padding": "4,8,4,8"
+      },
+      "bottomsheet-subtitle": {
+          "font": "small-regular",
+          "fontColor": "#666666"
+        },
+      "bottomsheet-title": {
+          "font": "large-medium",
+          "fontColor": "#333333"
+      },
       "bottomsheet-left-icon-style": {
           "width": 24
+      },
+      "bottomsheet-title-container": {
+          "margin": "8,12,8,12"
       }
     },
     "layouts": {
@@ -939,6 +942,7 @@
           "widgets": [
           {
               "type": "text",
+              "styleId": "bottomsheet-title-container",
               "data": [
               {
                   "components": [
