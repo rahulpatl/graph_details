@@ -251,7 +251,7 @@
           "width": 24
       },
       "bottomsheet-title-container": {
-          "margin": "8,12,8,12"
+          "margin": "6,12,6,12"
       }
     },
     "layouts": {
