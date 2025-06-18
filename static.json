@@ -568,6 +568,45 @@
           }
         }
       },
+      "amount-paid-breakdown-item": {
+          "type": "hybrid-text",
+          "styleId": "amount-paid-breakdown-style",
+          "data": {
+              "data": {
+                  "style": {
+                      "axis": "horizontal"
+                  },
+                  "data": [
+                  {
+                      "styleId": "amount-paid-breakdown-text-parent-style",
+                      "components": [
+                        {
+                            "styleId": "amount-paid-breakdown-text-style",
+                            "text": "$amount-you-paid-label$",
+                            "type": "text",
+                            "vars": [
+                                "amount-you-paid-label"
+                            ]
+                        }
+                      ]
+                  },
+                  {
+                      "styleId": "amount-paid-breakdown-text-parent-value-style",
+                      "components": [
+                        {
+                          "styleId": "amount-paid-breakdown-text-value-style",
+                          "text": "$amount-you-paid-value$",
+                          "type": "text",
+                          "vars": [
+                              "amount-you-paid-value"
+                          ]
+                        }
+                      ]
+                  }
+                ]
+              }
+          }
+      },
       "amount-paid-breakdown": {
         "type": "hybrid-text",
         "styleId": "amount-paid-breakdown-style",
