@@ -568,7 +568,7 @@
           }
         }
       },
-      "amount-paid-breakdown-item": {
+      "amount-paid-child-item": {
           "type": "hybrid-text",
           "styleId": "amount-paid-breakdown-style",
           "data": {
