@@ -167,24 +167,24 @@
                     "layoutId": "amount-paid-down-container",
                     "data": [
                       {
-                        "layoutId": "amount-paid-breakdown",
+                        "layoutId": "amount-paid-child-item",
                         "data": {
-                          "amount-you-paid-label": "Amount You Paid",
-                          "amount-you-paid-value": "₹400000.36"
+                          "child-text": "Amount You Paid",
+                          "child-text-value": "₹400000.36"
                         }
                       },
                       {
-                          "layoutId": "amount-paid-breakdown",
+                          "layoutId": "amount-paid-child-item",
                           "data": {
-                              "convenience-fees-label": "Convenience fees",
-                              "convenience-fees-value": "₹2.36"
+                              "child-text": "Convenience fees",
+                              "child-text-value": "₹2.36"
                           }
                       },
                       {
-                          "layoutId": "amount-paid-breakdown",
+                          "layoutId": "amount-paid-child-item",
                           "data": {
-                              "book-a-change-label": "BookAChange",
-                              "book-a-change-value": "₹1.00"
+                              "child-text": "BookAChange",
+                              "child-text-value": "₹1.00"
                           }
                       },
                       {
