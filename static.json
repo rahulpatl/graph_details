@@ -582,10 +582,10 @@
                       "components": [
                         {
                             "styleId": "amount-paid-breakdown-text-style",
-                            "text": "$amount-you-paid-label$",
+                            "text": "$child-text$",
                             "type": "text",
                             "vars": [
-                                "amount-you-paid-label"
+                                "child-text"
                             ]
                         }
                       ]
@@ -595,10 +595,10 @@
                       "components": [
                         {
                           "styleId": "amount-paid-breakdown-text-value-style",
-                          "text": "$amount-you-paid-value$",
+                          "text": "$child-text-value$",
                           "type": "text",
                           "vars": [
-                              "amount-you-paid-value"
+                              "child-text-value"
                           ]
                         }
                       ]
