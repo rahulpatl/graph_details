@@ -236,7 +236,7 @@
           "border": {
               "cornerRadius": "8,8,8,8"
           },
-          "margin": "4,16,4,16",
+          "margin": "4,16,8,16",
           "padding": "4,8,4,8"
       },
       "bottomsheet-subtitle": {
@@ -251,7 +251,10 @@
           "width": 24
       },
       "bottomsheet-title-container": {
-          "margin": "2,12,2,12"
+          "margin": "12,12,2,12"
+      },
+      "bottomsheet-subtitle-container": {
+          "margin": "12,12,2,12"
       }
     },
     "layouts": {
@@ -996,6 +999,7 @@
           },
           {
               "type": "text",
+              "styleId": "bottomsheet-subtitle-container",
               "data": [
               {
                   "components": [
