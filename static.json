@@ -1,1100 +1,1092 @@
 {
-  "data": {
-    "meta": {
-      "version": 1
-    },
-    "styles": {
-        "number-of-seat-image-style": {
-             "fontSize": "15",
-            "imageVerticalAlignment": "bottom"
+    "data": {
+        "meta": {
+            "version": 1
         },
-        "faq-answer-container-style": {
-            "margin": "0,0,4,0"
-        },
-        "amount-description-text-style": {
-            "font":"tiny-regular"
-        },
-        "faq-answer-title-text-style": {
-            "font": "tiny-regular"
-        },
-        "header-title-text-style": {
-            "font": "body-medium"
-        },
-        "footer-text-style": {
-            "fontColor": "#FFFFFF",
-            "font": "subtitle-regular"
-        },
-      "important-things-to-note-image-style": {
-          "fontSize": "12"
-      },    
-      "ticket-resale-header-item-style": {
-          "backgroundColor": "#CCCCCC"
-      },
-      "important-things-to-note-parent-content-style": {
-          "axis":"horizontal",
-          "margin": "4,0,4,0"
-      },
-      "amount-description-style": {},
-      "amount-details-container-style": {
-        "backgroundColor": "#FFFFFF",
-        "border": {
-          "cornerRadius": "12,12,12,12"
-        },
-        "margin": "12,16,0,16",
-        "padding": "12,12,12,12"
-      },
-      "amount-paid-breakdown-item-style": {
-        "padding": "0,0,0,0"
-      },
-      "amount-paid-breakdown-style": {
-      },
-      "amount-paid-breakdown-text-parent-style": {
-        "weight": 1
-      },
-      "amount-paid-breakdown-text-parent-value-style": {
-        "padding": "4,0,4,0"
-      },
-      "amount-paid-breakdown-text-style": {
-        "font": "tiny-regular"
-      },
-      "amount-paid-breakdown-text-value-style": {
-        "font": "tiny-regular",
-        "widthPercent": 20,
-        "horizontalAlignment": "end"
-      },
-      "amount-paid-container-style": {
-        "backgroundColor": "#FCC42D",
-        "border": {
-          "cornerRadius": "12,12,12,12"
-        },
-        "margin": "24,16,0,16",
-        "padding": "8,12,8,12"
-      },
-      "amount-paid-down-container-style": {
-        "backgroundColor": "#F2F5F9",
-        "border": {
-          "cornerRadius": "12,12,12,12"
-        },
-        "margin": "12,0,0,0",
-        "padding": "8,8,8,8"
-      },
-      "amount-paid-item-style": {
-        "margin": "0,0,0,0"
-      },
-      "cta-show-text-item-style": {
-        "margin": "0,0,12,0"
-      },
-      "cta-show-text-style": {
-        "fontColor": "#DC354B"
-      },
-      "dashed-separator": {
-        "border": {
-          "color": "#CCCCCC",
-          "pattern": "2,2",
-          "side": "bottom",
-          "type": "dashed",
-          "width": 1
-        },
-        "lineMargin": "0,0,8,0"
-      },
-      "faq-body-container-style": {
-        "margin": "0,16,0,16"
-      },
-      "faq-body-item-style": {
-        "backgroundColor": "#FFFFFF",
-        "border": {
-          "cornerRadius": "8,8,8,8"
-        },
-        "margin": "6,0,6,0",
-        "padding": "0,12,0,12",
-        "height": 64
-      },
-      "faq-description-text-style": {
-        "font": "tiny-regular",
-        "padding": "0,0,12,0"
-      },
-      "faq-header-container-style": {
-        "margin": "12,16,0,16"
-      },
-      "faq-header-item-text-style": {
-        "font": "small-regular"
-      },
-      "faq-image-style": {
-        "padding": "22,0,22,0"
-      },
-      "faq-title-text-style": {
-        "font": "small-regular"
-      },
-      "footer-widget-style": {
-        "padding": "8,0,8,8"
-      },
-      "important-things-to-note-container-style": {
-        "backgroundColor": "#FFFFFF",
-        "border": {
-          "cornerRadius": "8,8,8,8"
-        },
-        "margin": "12,16,0,16",
-        "padding": "16,12,16,12"
-      },
-      "important-things-to-note-item-content-style": {
-        "verticalAlignment": "top",
-        "padding": "4,4,0,0",
-        "backgroundColor": "#4caf50",
-        "widthPercent": 6
-      },
-      "important-things-to-note-text-style": {
-        "font": "tiny-regular"
-      },
-      "important-things-to-note-title-style": {
-        "margin": "0,0,12,0"
-      },
-      "important-things-to-note-title-text-style": {
-        "font": "small-regular"
-      },
-      "left-amount-container-style": {
-        "weight": 1,
-        "padding": "0,0,0,0"
-      },
-      "amount-paid-breakdown-container-style": {
-        "weight": 1
-      },
-      "mini-ticket-style": {
-        "backgroundColor": "#CCCCCC",
-        "border": {
-          "cornerRadius": "0,0,16,16"
-        },
-        "padding": "8,30,8,30"
-      },
-      "movie-poster-image": {
-        "border": {
-          "cornerRadius": "12,12,12,12"
-        }
-      },
-      "seat-category-details-content-style": {
-        "axis": "horizontal",
-        "weight": 1
-      },
-      "seat-category-details-style": {
-        "axis": "horizontal"
-      },
-      
-      "number-of-seat-text-style": {
-          "font": "tiny-regular"
-          },
-      "text-amount-breakdown-style": {
-        "font": "small-regular"
-      },
-      "text-amount-paid-style": {
-        "font": "large-bold"
-      },
-      "text-amount-value-breakdown-style": {
-        "font": "large-bold",
-        "fontColor": "#1FAD3E",
-        "horizontalAlignment": "end",
-        "widthPercent": 20
-      },
-      "ticket-event-deatil-subtitle": {
-        "font": "tiny-regular",
-        "fontColor": "#666666",
-        "lineMargin": "0,0,8,0"
-      },
-      "ticket-event-deatil-title": {
-        "font": "large-bold",
-        "fontColor": "#000000",
-        "lineMargin": "0,0,8,0"
-      },
-      "ticket-event-details-card-subtitle": {
-        "font": "tiny-regular",
-        "fontColor": "#666666",
-        "lineMargin": "0,0,0,0"
-      },
-      "ticket-resale-footer-container-style": {
-        "backgroundColor": "#FFFFFF",
-        "margin": "0, 0, 0, 0",
-        "shadow": {
-          "elevation": 8
-        }
-      },
-      "ticket-resale-footer-item-style": {
-        "margin": "8,16,8,16",
-        "height": 40
-      },
-      "seat-category-details-value": {
-          "horizontalAlignment": "end"
-      },
-      "amount-paid-total-price-style": {
-          "horizontalAlignment": "end",
-          "font": "large-bold",
-          "widthPercent": 20
-      },
-      "bottomsheet-alert": {
+        "styles": {
+            "amount-description-text-style": {
+                "font": "tiny-regular"
+            },
+            "amount-details-container-style": {
+                "backgroundColor": "#FFFFFF",
+                "border": {
+                    "cornerRadius": "12,12,12,12"
+                },
+                "margin": "12,16,0,16",
+                "padding": "12,12,12,12"
+            },
+            "amount-paid-breakdown-item-style": {
+                "padding": "0,0,0,0"
+            },
+            "amount-paid-breakdown-text-parent-style": {
+                "weight": 1
+            },
+            "amount-paid-breakdown-text-parent-value-style": {
+                "padding": "4,0,4,0"
+            },
+            "amount-paid-breakdown-text-style": {
+                "font": "tiny-regular"
+            },
+            "amount-paid-breakdown-text-value-style": {
+                "font": "tiny-regular",
+                "horizontalAlignment": "end",
+                "widthPercent": 20
+            },
+            "amount-paid-container-style": {
+                "backgroundColor": "#FCC42D",
+                "border": {
+                    "cornerRadius": "12,12,12,12"
+                },
+                "margin": "24,16,0,16",
+                "padding": "8,12,8,12"
+            },
+            "amount-paid-down-container-style": {
+                "backgroundColor": "#F2F5F9",
+                "border": {
+                    "cornerRadius": "12,12,12,12"
+                },
+                "margin": "12,0,0,0",
+                "padding": "8,8,8,8"
+            },
+            "amount-paid-item-style": {},
+            "amount-paid-total-price-style": {
+                "font": "large-bold",
+                "horizontalAlignment": "end",
+                "widthPercent": 20
+            },
+            "bottomsheet-alert": {
                 "font": "tiny-regular",
                 "fontColor": "#1A1A1A"
             },
-      "bottomsheet-alert-container": {
-          "backgroundColor": "#FCC42D",
-          "border": {
-              "cornerRadius": "8,8,8,8"
-          },
-          "margin": "4,16,8,16",
-          "padding": "4,8,4,8"
-      },
-      "bottomsheet-subtitle": {
-          "font": "small-regular",
-          "fontColor": "#666666"
-        },
-      "bottomsheet-title": {
-          "font": "large-medium",
-          "fontColor": "#333333"
-      },
-      "bottomsheet-left-icon-style": {
-          "width": 24
-      },
-      "bottomsheet-title-container": {
-          "margin": "12,12,2,12"
-      },
-      "bottomsheet-subtitle-container": {
-          "margin": "12,12,2,12"
-      }
-    },
-    "layouts": {
-      
-       "faq-answer-container": {
-        "type": "genericWidget",
-        "styleId": "faq-answer-container-style"
-      },
-       "faq-answer-title": {
-        "type": "hybrid-text",
-        "styleId": "faq-answer-title-style",
-        "data": {
-          "data": {
-            "data": [
-              {
-                "components": [
-                  {
-                    "styleId": "faq-answer-title-text-style",
-                    "text": "$title$",
-                    "type": "text",
-                    "vars": [
-                      "title"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-       "important-things-to-note-title": {
-        "type": "hybrid-text",
-        "styleId": "important-things-to-note-title-style",
-        "data": {
-          "data": {
-            "data": [
-              {
-                "components": [
-                  {
-                    "styleId": "important-things-to-note-title-text-style",
-                    "text": "$title$",
-                    "type": "text",
-                    "vars": [
-                      "title"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "ticket-resale-footer-container": {
-        "type": "footer-container",
-        "styleId": "ticket-resale-footer-container-style"
-      },
-      "ticket-resale-footer-item": {
-        "type": "footer",
-        "styleId": "ticket-resale-footer-item-style",
-        "data": {
-          "data": [
-            {
-              "label": "",
-              "text": [
-                {
-                  "components": [
-                    {
-                      "styleId": "footer-text-style",
-                      "text": "$footer-title$",
-                      "type": "text",
-                      "vars": [
-                        "footer-title"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "cta": {
-                "type": "variable",
-                "additionalData": {
-                  "ctaId": "continue"
-                }
-              }
-            }
-          ]
-        }
-      },
-      "ticket-resale-header-container": {
-        "type": "header-container",
-        "styleId": "ticket-resale-header-container-style"
-      },
-      "ticket-resale-header-item": {
-        "type": "header",
-        "styleId": "ticket-resale-header-item-style",
-        "data": {
-          "title": {
-            "components": [
-              {
-                "styleId": "header-title-text-style",
-                "text": "$header-title$",
-                "type": "text",
-                "vars": [
-                  "header-title"
-                ]
-              }
-            ]
-          },
-          "startActions": [
-            {
-              "iconUrl": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/left-chevron.png",
-              "cta": {
-                "type": "variable",
-                "additionalData": {
-                  "ctaId": "back"
-                }
-              }
-            }
-          ]
-        }
-      },
-      "amount-paid-container": {
-        "type": "genericWidget",
-        "styleId": "amount-paid-container-style"
-      },
-      "amount-paid-item": {
-        "type": "hybrid-text",
-        "styleId": "amount-paid-item-style",
-        "data": {
-          "data": {
-            "style": {
-              "axis": "horizontal"
-            },
-            "data": [
-              {
-                "styleId": "left-amount-container-style",
-                "components": [
-                  {
-                    "styleId": "text-amount-paid-style",
-                    "text": "$title$",
-                    "type": "text",
-                    "vars": [
-                      "title"
-                    ]
-                  }
-                ]
-              },
-              {
-                "components": [
-                  {
-                    "styleId": "amount-paid-total-price-style",
-                    "text": "$total-price$",
-                    "type": "text",
-                    "vars": [
-                      "total-price"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "total-amount-breakdown": {
-        "type": "hybrid-text",
-        "data": {
-          "data": {
-            "style": {
-              "axis": "horizontal"
-            },
-            "data": [
-              {
-                "styleId": "amount-paid-breakdown-text-parent-style",
-                "components": [
-                  {
-                    "styleId": "amount-paid-breakdown-text-style",
-                    "text": "$amount-you-received-label$",
-                    "type": "text",
-                    "vars": [
-                      "amount-you-received-label"
-                    ]
-                  }
-                ]
-              },
-              {
-                "components": [
-                  {
-                    "styleId": "amount-paid-breakdown-text-value-style",
-                    "text": "$amount-you-received-value$",
-                    "type": "text",
-                    "vars": [
-                      "amount-you-received-value"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "amount-paid-breakdown-item": {
-        "type": "hybrid-text",
-        "styleId": "amount-paid-breakdown-item-style",
-        "data": {
-          "data": {
-            "style": {
-              "axis": "horizontal"
-            },
-            "data": [
-              {
-                "styleId": "left-amount-container-style",
-                "components": [
-                  {
-                    "styleId": "text-amount-breakdown-style",
-                    "text": "$title$",
-                    "type": "text",
-                    "vars": [
-                      "title"
-                    ]
-                  }
-                ]
-              },
-              {
-                "components": [
-                  {
-                    "styleId": "text-amount-value-breakdown-style",
-                    "text": "$total-price$",
-                    "type": "text",
-                    "vars": [
-                      "total-price"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "cta-show-text-item": {
-        "type": "accordion",
-        "styleId": "cta-show-text-item-style",
-        "data": {
-          "data": {
-            "title": {
-              "text": {
-                "components": [
-                  {
-                    "styleId": "cta-show-text-style",
-                    "text": "$title$",
-                    "type": "text",
-                    "vars": [
-                      "title"
-                    ]
-                  }
-                ]
-              },
-              "cta": {
-                "type": "variable",
-                "additionalData": {
-                  "ctaId": "show-details-accordion"
-                }
-              }
-            },
-            "expanded": true
-          }
-        }
-      },
-      "cta-hide-text-item": {
-        "type": "hybrid-text",
-        "styleId": "cta-show-text-item-style",
-        "data": {
-          "data": {
-            "cta": {
-              "type": "variable",
-              "additionalData": {
-                "ctaId": "hide-details-accordion"
-              }
-            },
-            "components": [
-              {
-                "styleId": "cta-show-text-style",
-                "text": "$replaceTitle$",
-                "type": "text",
-                "vars": [
-                  "replaceTitle"
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "amount-paid-down-container": {
-        "type": "genericWidget",
-        "styleId": "amount-paid-down-container-style"
-      },
-      "amount-details-container": {
-        "type": "genericWidget",
-        "styleId": "amount-details-container-style"
-      },
-      "amount-description": {
-        "type": "hybrid-text",
-        "styleId": "amount-description-style",
-        "data": {
-          "data": {
-            "components": [
-              {
-                "styleId": "amount-description-text-style",  
-                "text": "$description$",
-                "type": "text",
-                "vars": [
-                  "description"
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "amount-paid-child-item": {
-          "type": "hybrid-text",
-          "styleId": "amount-paid-breakdown-style",
-          "data": {
-              "data": {
-                  "style": {
-                      "axis": "horizontal"
-                  },
-                  "data": [
-                  {
-                      "styleId": "amount-paid-breakdown-text-parent-style",
-                      "components": [
-                        {
-                            "styleId": "amount-paid-breakdown-text-style",
-                            "text": "$child-text$",
-                            "type": "text",
-                            "vars": [
-                                "child-text"
-                            ]
-                        }
-                      ]
-                  },
-                  {
-                      "styleId": "amount-paid-breakdown-text-parent-value-style",
-                      "components": [
-                        {
-                          "styleId": "amount-paid-breakdown-text-value-style",
-                          "text": "$child-text-value$",
-                          "type": "text",
-                          "vars": [
-                              "child-text-value"
-                          ]
-                        }
-                      ]
-                  }
-                ]
-              }
-          }
-      },
-      "amount-paid-breakdown": {
-        "type": "hybrid-text",
-        "styleId": "amount-paid-breakdown-style",
-        "data": {
-          "data": {
-            "style": {
-              "axis": "vertical"
-            },
-            "data": [
-              {
-                "style": {
-                  "axis": "horizontal"
+            "bottomsheet-alert-container": {
+                "backgroundColor": "#FCC42D",
+                "border": {
+                    "cornerRadius": "8,8,8,8"
                 },
-                "data": [
-                  {
-                    "styleId": "amount-paid-breakdown-text-parent-style",
-                    "components": [
-                      {
-                        "styleId": "amount-paid-breakdown-text-style",
-                        "text": "$amount-you-paid-label$",
-                        "type": "text",
-                        "vars": [
-                          "amount-you-paid-label"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "styleId": "amount-paid-breakdown-text-parent-value-style",
-                    "components": [
-                      {
-                        "styleId": "amount-paid-breakdown-text-value-style",
-                        "text": "$amount-you-paid-value$",
-                        "type": "text",
-                        "vars": [
-                          "amount-you-paid-value"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "data": [
-                  {
-                    "styleId": "amount-paid-breakdown-text-parent-style",
-                    "components": [
-                      {
-                        "styleId": "amount-paid-breakdown-text-style",
-                        "text": "$convenience-fees-label$",
-                        "type": "text",
-                        "vars": [
-                          "convenience-fees-label"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "styleId": "amount-paid-breakdown-text-parent-value-style",
-                    "components": [
-                      {
-                        "styleId": "amount-paid-breakdown-text-value-style",
-                        "text": "$convenience-fees-value$",
-                        "type": "text",
-                        "vars": [
-                          "convenience-fees-value"
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "style": {
-                  "axis": "horizontal"
-                }
-              },
-              {
-                "data": [
-                  {
-                    "styleId": "amount-paid-breakdown-text-parent-style",
-                    "components": [
-                      {
-                        "styleId": "amount-paid-breakdown-text-style",
-                        "text": "$book-a-change-label$",
-                        "type": "text",
-                        "vars": [
-                          "book-a-change-label"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "styleId": "amount-paid-breakdown-text-parent-value-style",
-                    "components": [
-                      {
-                        "styleId": "amount-paid-breakdown-text-value-style",
-                        "text": "$book-a-change-value$",
-                        "type": "text",
-                        "vars": [
-                          "book-a-change-value"
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "style": {
-                  "axis": "horizontal"
-                }
-              },
-              {
-                "data": [
-                  {
-                    "styleId": "amount-paid-breakdown-text-parent-style",
-                    "components": [
-                      {
-                        "styleId": "amount-paid-breakdown-text-style",
-                        "text": "$bms-club-label$",
-                        "type": "text",
-                        "vars": [
-                          "bms-club-label"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "styleId": "amount-paid-breakdown-text-parent-value-style",
-                    "components": [
-                      {
-                        "styleId": "amount-paid-breakdown-text-value-style",
-                        "text": "$bms-club-value$",
-                        "type": "text",
-                        "vars": [
-                          "bms-club-value"
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "style": {
-                  "axis": "horizontal"
-                }
-              }
-            ]
-          }
-        }
-      },
-      "separator-widget": {
-        "type": "separator",
-        "styleId": "dashed-separator"
-      },
-      "faq-header-container": {
-        "type": "genericWidget",
-        "styleId": "faq-header-container-style"
-      },
-      "faq-header-item": {
-        "type": "hybrid-text",
-        "data": {
-          "data": {
-            "components": [
-              {
-                "styleId": "faq-header-item-text-style",
-                "text": "$title$",
-                "type": "text",
-                "vars": [
-                  "title"
-                ]
-              }
-            ]
-          }
-        }
-      },
-      "faq-body-container": {
-        "type": "genericWidget",
-        "styleId": "faq-body-container-style"
-      },
-      "faq-body-item": {
-        "type": "accordion",
-        "styleId": "faq-body-item-style",
-        "data": {
-          "data": {
-            "title": {
-              "text": {
-                "components": [
-                  {
-                    "styleId": "faq-title-text-style",
-                    "text": "$question$",
-                    "type": "text",
-                    "vars": [
-                      "question"
-                    ]
-                  }
-                ]
-              }
+                "margin": "4,16,4,16",
+                "padding": "4,8,4,8"
             },
-            "expanded": false,
-            "image": {
-              "styleId": "faq-image-style",
-              "url": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/down-chevron.png"
+            "bottomsheet-subtitle": {
+                "font": "small-regular",
+                "fontColor": "#666666"
+            },
+            "bottomsheet-title": {
+                "font": "large-medium",
+                "fontColor": "#333333"
+            },
+            "cta-show-text-item-style": {
+                "margin": "0,0,12,0"
+            },
+            "cta-show-text-style": {
+                "fontColor": "#DC354B"
+            },
+            "dashed-separator": {
+                "border": {
+                    "color": "#CCCCCC",
+                    "pattern": "2,2",
+                    "side": "bottom",
+                    "type": "dashed",
+                    "width": 1
+                },
+                "lineMargin": "0,0,8,0"
+            },
+            "faq-answer-container-style": {
+                "margin": "0,0,22,0"
+            },
+            "faq-answer-title-text-style": {
+                "font": "tiny-regular"
+            },
+            "faq-body-container-style": {
+                "margin": "0,16,0,16"
+            },
+            "faq-body-item-style": {
+                "backgroundColor": "#FFFFFF",
+                "border": {
+                    "cornerRadius": "8,8,8,8"
+                },
+                "height": 64,
+                "margin": "0,0,12,0",
+                "padding": "0,12,0,12"
+            },
+            "faq-description-text-style": {
+                "font": "tiny-regular",
+                "padding": "0,0,12,0"
+            },
+            "faq-header-container-style": {
+                "margin": "12,16,12,16"
+            },
+            "faq-header-item-text-style": {
+                "font": "small-regular"
+            },
+            "faq-image-style": {
+                "padding": "22,0,22,0"
+            },
+            "faq-title-text-style": {
+                "font": "small-regular"
+            },
+            "footer-text-style": {
+                "font": "subtitle-regular",
+                "fontColor": "#FFFFFF"
+            },
+            "footer-widget-style": {
+                "padding": "8,0,8,8"
+            },
+            "header-title-text-style": {
+                "font": "body-medium"
+            },
+            "important-things-to-note-container-style": {
+                "backgroundColor": "#FFFFFF",
+                "border": {
+                    "cornerRadius": "8,8,8,8"
+                },
+                "margin": "12,16,0,16",
+                "padding": "16,12,0,12"
+            },
+            "important-things-to-note-image-style": {
+                "fontSize": "12"
+            },
+            "important-things-to-note-item-content-style": {
+                "padding": "4,4,0,0",
+                "verticalAlignment": "top",
+                "widthPercent": 6
+            },
+            "important-things-to-note-parent-content-style": {
+                "axis": "horizontal",
+                "margin": "4,0,4,0"
+            },
+            "important-things-to-note-text-style": {
+                "font": "tiny-regular"
+            },
+            "important-things-to-note-title-style": {
+                "margin": "0,0,12,0"
+            },
+            "important-things-to-note-title-text-style": {
+                "font": "small-regular"
+            },
+            "left-amount-container-style": {
+                "weight": 1
+            },
+            "mini-ticket-style": {
+                "backgroundColor": "#CCCCCC",
+                "border": {
+                    "cornerRadius": "0,0,16,16"
+                },
+                "padding": "8,30,8,30"
+            },
+            "movie-poster-image": {
+                "border": {
+                    "cornerRadius": "12,12,12,12"
+                }
+            },
+            "number-of-seat-image-style": {
+                "fontSize": "15",
+                "imageVerticalAlignment": "bottom"
+            },
+            "number-of-seat-text-style": {
+                "font": "tiny-regular"
+            },
+            "seat-category-details-content-style": {
+                "axis": "horizontal",
+                "weight": 1
+            },
+            "seat-category-details-style": {
+                "axis": "horizontal"
+            },
+            "seat-category-details-value": {
+                "horizontalAlignment": "end"
+            },
+            "text-amount-breakdown-style": {
+                "font": "small-regular"
+            },
+            "text-amount-paid-style": {
+                "font": "large-bold"
+            },
+            "text-amount-value-breakdown-style": {
+                "font": "large-bold",
+                "fontColor": "#1FAD3E",
+                "horizontalAlignment": "end",
+                "widthPercent": 20
+            },
+            "ticket-event-deatil-subtitle": {
+                "font": "tiny-regular",
+                "fontColor": "#666666"
+            },
+            "ticket-event-deatil-title": {
+                "font": "large-bold",
+                "fontColor": "#000000",
+                "lineMargin": "0,0,8,0"
+            },
+            "ticket-event-details-card-subtitle": {
+                "font": "tiny-regular",
+                "fontColor": "#666666"
+            },
+            "ticket-resale-footer-container-style": {
+                "backgroundColor": "#FFFFFF",
+                "shadow": {
+                    "elevation": 1
+                }
+            },
+            "ticket-resale-footer-item-style": {
+                "height": 40,
+                "margin": "8,16,8,16"
+            },
+            "ticket-resale-header-container-style": {
+                "backgroundColor": "#CCCCCC"
+            },
+            "ticket-resale-header-item-style": {
+                "backgroundColor": "#CCCCCC"
             }
-          }
-        }
-      },
-      "important-things-to-note-container": {
-        "type": "genericWidget",
-        "styleId": "important-things-to-note-container-style"
-      },
-      "important-things-to-note-bullets": {
-        "type": "hybrid-text",
-        "data": {
-          "data": {
-            "data": [
-              {
-                  "styleId": "important-things-to-note-parent-content-style",
-                "data": [
-                  {
-                    "styleId": "important-things-to-note-item-content-style",
-                    "components": [
-                      {
-                        "styleId": "important-things-to-note-image-style",
-                        "type": "image",
-                        "vars": [
-                          "bullet-point-one"
-                        ],
-                        "imageUrl": "$bullet-point-one$"
-                      }
+        },
+        "layouts": {
+            "ticket-resale-footer-container": {
+                "type": "footer-container",
+                "styleId": "ticket-resale-footer-container-style"
+            },
+            "ticket-resale-footer-item": {
+                "type": "footer",
+                "styleId": "ticket-resale-footer-item-style",
+                "data": {
+                    "data": [
+                        {
+                            "label": "",
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "footer-text-style",
+                                            "text": "$footer-title$",
+                                            "type": "text",
+                                            "vars": [
+                                                "footer-title"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "cta": {
+                                "type": "variable",
+                                "additionalData": {
+                                    "ctaId": "continue"
+                                }
+                            }
+                        }
                     ]
-                  },
-                  {
-                    "components": [
-                      {
-                        "styleId": "important-things-to-note-text-style",
-                        "text": "$bullet-point-one-value$",
-                        "type": "text",
-                        "vars": [
-                          "bullet-point-one-value"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "styleId": "important-things-to-note-parent-content-style",  
-                "data": [
-                  {
-                    "styleId": "important-things-to-note-item-content-style",
-                    "components": [
-                      {
-                        "styleId": "important-things-to-note-image-style",
-                        "type": "image",
-                        "vars": [
-                          "bullet-point-two"
-                        ],
-                        "imageUrl": "$bullet-point-two$"
-                      }
-                    ]
-                  },
-                  {
-                    "components": [
-                      {
-                        "styleId": "important-things-to-note-text-style",
-                        "text": "$bullet-point-two-value$",
-                        "type": "text",
-                        "vars": [
-                          "bullet-point-two-value"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "styleId": "important-things-to-note-parent-content-style",  
-                "data": [
-                     {
-                    "styleId": "important-things-to-note-item-content-style",
-                    "components": [
-                      {
-                        "styleId": "important-things-to-note-image-style",
-                        "type": "image",
-                        "vars": [
-                          "bullet-point-three"
-                        ],
-                        "imageUrl": "$bullet-point-three$"
-                      }
-                    ]
-                  },
-                  {
-                    "components": [
-                      {
-                        "styleId": "important-things-to-note-text-style",
-                        "text": "$bullet-point-three-value$",
-                        "type": "text",
-                        "vars": [
-                          "bullet-point-three-value"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "data": [
-                  {
-                    "styleId": "important-things-to-note-item-content-style",
-                    "components": [
-                      {
-                        "text": "",
-                        "type": "image",
-                        "vars": [
-                          "bullet-point-four"
-                        ],
-                        "imageUrl": "$bullet-point-four$"
-                      }
-                    ]
-                  },
-                  {
-                    "components": [
-                      {
-                        "styleId": "important-things-to-note-text-style",
-                        "text": "$bullet-point-four-value$",
-                        "type": "text",
-                        "vars": [
-                          "bullet-point-four-value"
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "style": {
-                  "axis": "horizontal"
                 }
-              },
-              {
-                "data": [
-                  {
-                    "styleId": "important-things-to-note-item-content-style",
-                    "components": [
-                      {
-                        "text": "",
-                        "type": "image",
-                        "vars": [
-                          "bullet-point-five"
-                        ],
-                        "imageUrl": "$bullet-point-five$"
-                      }
-                    ]
-                  },
-                  {
-                    "components": [
-                      {
-                        "styleId": "important-things-to-note-text-style",
-                        "text": "$bullet-point-five-value$",
-                        "type": "text",
-                        "vars": [
-                          "bullet-point-five-value"
+            },
+            "ticket-resale-header-container": {
+                "type": "header-container",
+                "styleId": "ticket-resale-header-container-style"
+            },
+            "ticket-resale-header-item": {
+                "type": "header",
+                "styleId": "ticket-resale-header-item-style",
+                "data": {
+                    "title": {
+                        "components": [
+                            {
+                                "styleId": "header-title-text-style",
+                                "text": "$header-title$",
+                                "type": "text",
+                                "vars": [
+                                    "header-title"
+                                ]
+                            }
                         ]
-                      }
+                    },
+                    "startActions": [
+                        {
+                            "iconUrl": "https://in.bmscdn.com/bms-prod-cx/ticket-resale/info/left-chevron.png",
+                            "cta": {
+                                "type": "variable",
+                                "additionalData": {
+                                    "ctaId": "back"
+                                }
+                            }
+                        }
                     ]
-                  }
-                ],
-                "style": {
-                  "axis": "horizontal"
                 }
-              }
-            ]
-          }
-        }
-      }
-    },
-    "bottomsheets": {
-      "confirmation": {
-          "widgets": [
-          {
-              "type": "text",
-              "styleId": "bottomsheet-title-container",
-              "data": [
-              {
-                  "components": [
-                  {
-                      "styleId": "bottomsheet-title",
-                      "text": "List Tickets?",
-                      "type": "text"
-                  }
-                  ]
-              }
-              ]
-          },
-          {
-              "type": "text",
-              "styleId": "bottomsheet-subtitle-container",
-              "data": [
-              {
-                  "components": [
-                  {
-                      "styleId": "bottomsheet-subtitle",
-                      "text": "Track status of your Listed tickets on the tickets itself and in your Order History",
-                      "type": "text"
-                  }
-                  ]
-              }
-              ]
-          },
-          {
-              "type": "utility",
-              "styleId": "bottomsheet-alert-container",
-              "leftIcon": {
-                  "url": "https://in.bmscdn.com/bms-prod-cx/ticket-resale/info/alert.png",
-                  "styleId": "bottomsheet-left-icon-style"
-              },
-              "text": [
-                {
-                  "components": [
-                    {
-                      "styleId": "bottomsheet-alert",
-                      "text": "This action is irreversible. You will not be able to cancel the listing later.",
-                      "type": "text"
+            },
+            "amount-paid-container": {
+                "type": "genericWidget",
+                "styleId": "amount-paid-container-style"
+            },
+            "amount-paid-item": {
+                "type": "hybrid-text",
+                "styleId": "amount-paid-item-style",
+                "data": {
+                    "data": {
+                        "style": {
+                            "axis": "horizontal"
+                        },
+                        "data": [
+                            {
+                                "styleId": "left-amount-container-style",
+                                "components": [
+                                    {
+                                        "styleId": "text-amount-paid-style",
+                                        "text": "$title$",
+                                        "type": "text",
+                                        "vars": [
+                                            "title"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "components": [
+                                    {
+                                        "styleId": "amount-paid-total-price-style",
+                                        "text": "$total-price$",
+                                        "type": "text",
+                                        "vars": [
+                                            "total-price"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
-                  ]
                 }
-              ]
-          }
-          ],
-          "ctaData": [
-          {
-              "text": "Cancel",
-              "style": "secondary",
-              "cta": {
-                  "type": "variable",
-                  "additionalData": {
-                      "ctaId": "list-ticket-close"
-                  }
-              }
-          },
-          {
-              "text": "List Tickets",
-              "style": "primary",
-              "cta": {
-                  "type": "variable",
-                  "additionalData": {
-                      "ctaId": "list-tickets-api"
-                  }
-              }
-          }
-          ],
-          "analytics": {
-              "event_name": "widget_viewed",
-              "event_type": "impression",
-              "widget_id": "resale_confirm",
-              "widget_title": "List Ticket",
-              "screen_name": "resale_confirm_bottomsheet"
-          }
-      }
+            },
+            "total-amount-breakdown": {
+                "type": "hybrid-text",
+                "data": {
+                    "data": {
+                        "style": {
+                            "axis": "horizontal"
+                        },
+                        "data": [
+                            {
+                                "styleId": "amount-paid-breakdown-text-parent-style",
+                                "components": [
+                                    {
+                                        "styleId": "amount-paid-breakdown-text-style",
+                                        "text": "$amount-you-received-label$",
+                                        "type": "text",
+                                        "vars": [
+                                            "amount-you-received-label"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "components": [
+                                    {
+                                        "styleId": "amount-paid-breakdown-text-value-style",
+                                        "text": "$amount-you-received-value$",
+                                        "type": "text",
+                                        "vars": [
+                                            "amount-you-received-value"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "amount-paid-breakdown-item": {
+                "type": "hybrid-text",
+                "styleId": "amount-paid-breakdown-item-style",
+                "data": {
+                    "data": {
+                        "style": {
+                            "axis": "horizontal"
+                        },
+                        "data": [
+                            {
+                                "styleId": "left-amount-container-style",
+                                "components": [
+                                    {
+                                        "styleId": "text-amount-breakdown-style",
+                                        "text": "$title$",
+                                        "type": "text",
+                                        "vars": [
+                                            "title"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "components": [
+                                    {
+                                        "styleId": "text-amount-value-breakdown-style",
+                                        "text": "$total-price$",
+                                        "type": "text",
+                                        "vars": [
+                                            "total-price"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "cta-show-text-item": {
+                "type": "accordion",
+                "styleId": "cta-show-text-item-style",
+                "data": {
+                    "data": {
+                        "title": {
+                            "text": {
+                                "components": [
+                                    {
+                                        "styleId": "cta-show-text-style",
+                                        "text": "$title$",
+                                        "type": "text",
+                                        "vars": [
+                                            "title"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "cta": {
+                                "type": "variable",
+                                "additionalData": {
+                                    "ctaId": "show-details-accordion"
+                                }
+                            }
+                        },
+                        "expanded": false
+                    }
+                }
+            },
+            "cta-hide-text-item": {
+                "type": "hybrid-text",
+                "styleId": "cta-show-text-item-style",
+                "data": {
+                    "data": {
+                        "cta": {
+                            "type": "variable",
+                            "additionalData": {
+                                "ctaId": "hide-details-accordion"
+                            }
+                        },
+                        "components": [
+                            {
+                                "styleId": "cta-show-text-style",
+                                "text": "$replaceTitle$",
+                                "type": "text",
+                                "vars": [
+                                    "replaceTitle"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "amount-paid-down-container": {
+                "type": "genericWidget",
+                "styleId": "amount-paid-down-container-style"
+            },
+            "amount-details-container": {
+                "type": "genericWidget",
+                "styleId": "amount-details-container-style"
+            },
+            "amount-description": {
+                "type": "hybrid-text",
+                "styleId": "amount-description-style",
+                "data": {
+                    "data": {
+                        "components": [
+                            {
+                                "styleId": "amount-description-text-style",
+                                "text": "$description$",
+                                "type": "text",
+                                "vars": [
+                                    "description"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "amount-paid-breakdown": {
+                "type": "hybrid-text",
+                "styleId": "amount-paid-breakdown-style",
+                "data": {
+                    "data": {
+                        "style": {
+                            "axis": "vertical"
+                        },
+                        "data": [
+                            {
+                                "data": [
+                                    {
+                                        "styleId": "amount-paid-breakdown-text-parent-style",
+                                        "components": [
+                                            {
+                                                "styleId": "amount-paid-breakdown-text-style",
+                                                "text": "$amount-you-paid-label$",
+                                                "type": "text",
+                                                "vars": [
+                                                    "amount-you-paid-label"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "styleId": "amount-paid-breakdown-text-parent-value-style",
+                                        "components": [
+                                            {
+                                                "styleId": "amount-paid-breakdown-text-value-style",
+                                                "text": "$amount-you-paid-value$",
+                                                "type": "text",
+                                                "vars": [
+                                                    "amount-you-paid-value"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "style": {
+                                    "axis": "horizontal"
+                                }
+                            },
+                            {
+                                "data": [
+                                    {
+                                        "styleId": "amount-paid-breakdown-text-parent-style",
+                                        "components": [
+                                            {
+                                                "styleId": "amount-paid-breakdown-text-style",
+                                                "text": "$convenience-fees-label$",
+                                                "type": "text",
+                                                "vars": [
+                                                    "convenience-fees-label"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "styleId": "amount-paid-breakdown-text-parent-value-style",
+                                        "components": [
+                                            {
+                                                "styleId": "amount-paid-breakdown-text-value-style",
+                                                "text": "$convenience-fees-value$",
+                                                "type": "text",
+                                                "vars": [
+                                                    "convenience-fees-value"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "style": {
+                                    "axis": "horizontal"
+                                }
+                            },
+                            {
+                                "data": [
+                                    {
+                                        "styleId": "amount-paid-breakdown-text-parent-style",
+                                        "components": [
+                                            {
+                                                "styleId": "amount-paid-breakdown-text-style",
+                                                "text": "$book-a-change-label$",
+                                                "type": "text",
+                                                "vars": [
+                                                    "book-a-change-label"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "styleId": "amount-paid-breakdown-text-parent-value-style",
+                                        "components": [
+                                            {
+                                                "styleId": "amount-paid-breakdown-text-value-style",
+                                                "text": "$book-a-change-value$",
+                                                "type": "text",
+                                                "vars": [
+                                                    "book-a-change-value"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "style": {
+                                    "axis": "horizontal"
+                                }
+                            },
+                            {
+                                "data": [
+                                    {
+                                        "styleId": "amount-paid-breakdown-text-parent-style",
+                                        "components": [
+                                            {
+                                                "styleId": "amount-paid-breakdown-text-style",
+                                                "text": "$bms-club-purchase-label$",
+                                                "type": "text",
+                                                "vars": [
+                                                    "bms-club-purchase-label"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "styleId": "amount-paid-breakdown-text-parent-value-style",
+                                        "components": [
+                                            {
+                                                "styleId": "amount-paid-breakdown-text-value-style",
+                                                "text": "$bms-club-purchase-value$",
+                                                "type": "text",
+                                                "vars": [
+                                                    "bms-club-purchase-value"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "style": {
+                                    "axis": "horizontal"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "separator-widget": {
+                "type": "separator",
+                "styleId": "dashed-separator"
+            },
+            "faq-header-container": {
+                "type": "genericWidget",
+                "styleId": "faq-header-container-style"
+            },
+            "faq-header-item": {
+                "type": "hybrid-text",
+                "data": {
+                    "data": {
+                        "components": [
+                            {
+                                "styleId": "faq-header-item-text-style",
+                                "text": "$title$",
+                                "type": "text",
+                                "vars": [
+                                    "title"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "faq-body-container": {
+                "type": "genericWidget",
+                "styleId": "faq-body-container-style"
+            },
+            "faq-body-item": {
+                "type": "accordion",
+                "styleId": "faq-body-item-style",
+                "data": {
+                    "data": {
+                        "title": {
+                            "text": {
+                                "components": [
+                                    {
+                                        "styleId": "faq-title-text-style",
+                                        "text": "$question$",
+                                        "type": "text",
+                                        "vars": [
+                                            "question"
+                                        ]
+                                    }
+                                ],
+                                "styleId": "faq-title-text-style"
+                            }
+                        },
+                        "expanded": false,
+                        "image": {
+                            "styleId": "faq-image-style",
+                            "url": "https://in.bmscdn.com/bms-prod-cx/ticket-resale/info/down-chevron.png"
+                        }
+                    }
+                }
+            },
+            "faq-answer-container": {
+                "type": "genericWidget",
+                "styleId": "faq-answer-container-style"
+            },
+            "faq-answer-title": {
+                "type": "hybrid-text",
+                "styleId": "faq-answer-title-style",
+                "data": {
+                    "data": {
+                        "data": [
+                            {
+                                "components": [
+                                    {
+                                        "styleId": "faq-answer-title-text-style",
+                                        "text": "$title$",
+                                        "type": "text",
+                                        "vars": [
+                                            "title"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "important-things-to-note-container": {
+                "type": "genericWidget",
+                "styleId": "important-things-to-note-container-style"
+            },
+            "important-things-to-note-title": {
+                "type": "hybrid-text",
+                "styleId": "important-things-to-note-title-style",
+                "data": {
+                    "data": {
+                        "data": [
+                            {
+                                "components": [
+                                    {
+                                        "styleId": "important-things-to-note-title-text-style",
+                                        "text": "$title$",
+                                        "type": "text",
+                                        "vars": [
+                                            "title"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "important-things-to-note-bullets": {
+                "type": "hybrid-text",
+                "data": {
+                    "data": {
+                        "data": [
+                            {
+                                "styleId": "important-things-to-note-parent-content-style",
+                                "data": [
+                                    {
+                                        "styleId": "important-things-to-note-item-content-style",
+                                        "components": [
+                                            {
+                                                "styleId": "important-things-to-note-image-style",
+                                                "type": "image",
+                                                "vars": [
+                                                    "bullet-point-one"
+                                                ],
+                                                "imageUrl": "$bullet-point-one$"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "styleId": "important-things-to-note-item-content-text-style",
+                                        "components": [
+                                            {
+                                                "styleId": "important-things-to-note-text-style",
+                                                "text": "$bullet-point-one-value$",
+                                                "type": "text",
+                                                "vars": [
+                                                    "bullet-point-one-value"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "styleId": "important-things-to-note-parent-content-style",
+                                "data": [
+                                    {
+                                        "styleId": "important-things-to-note-item-content-style",
+                                        "components": [
+                                            {
+                                                "styleId": "important-things-to-note-image-style",
+                                                "type": "image",
+                                                "vars": [
+                                                    "bullet-point-two"
+                                                ],
+                                                "imageUrl": "$bullet-point-two$"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "components": [
+                                            {
+                                                "styleId": "important-things-to-note-text-style",
+                                                "text": "$bullet-point-two-value$",
+                                                "type": "text",
+                                                "vars": [
+                                                    "bullet-point-two-value"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "styleId": "important-things-to-note-parent-content-style",
+                                "data": [
+                                    {
+                                        "styleId": "important-things-to-note-item-content-style",
+                                        "components": [
+                                            {
+                                                "styleId": "important-things-to-note-image-style",
+                                                "type": "image",
+                                                "vars": [
+                                                    "bullet-point-three"
+                                                ],
+                                                "imageUrl": "$bullet-point-three$"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "components": [
+                                            {
+                                                "styleId": "important-things-to-note-text-style",
+                                                "text": "$bullet-point-three-value$",
+                                                "type": "text",
+                                                "vars": [
+                                                    "bullet-point-three-value"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "styleId": "important-things-to-note-parent-content-style",
+                                "data": [
+                                    {
+                                        "styleId": "important-things-to-note-item-content-style",
+                                        "components": [
+                                            {
+                                                "styleId": "important-things-to-note-image-style",
+                                                "type": "image",
+                                                "vars": [
+                                                    "bullet-point-four"
+                                                ],
+                                                "imageUrl": "$bullet-point-four$"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "styleId": "important-things-to-note-item-content-text-style",
+                                        "components": [
+                                            {
+                                                "styleId": "important-things-to-note-text-style",
+                                                "text": "$bullet-point-four-value$",
+                                                "type": "text",
+                                                "vars": [
+                                                    "bullet-point-four-value"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "styleId": "important-things-to-note-parent-content-style",
+                                "data": [
+                                    {
+                                        "styleId": "important-things-to-note-item-content-style",
+                                        "components": [
+                                            {
+                                                "styleId": "important-things-to-note-image-style",
+                                                "type": "image",
+                                                "vars": [
+                                                    "bullet-point-five"
+                                                ],
+                                                "imageUrl": "$bullet-point-five$"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "components": [
+                                            {
+                                                "styleId": "important-things-to-note-text-style",
+                                                "text": "$bullet-point-five-value$",
+                                                "type": "text",
+                                                "vars": [
+                                                    "bullet-point-five-value"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "replace-title-container": {
+                "type": "genericWidget"
+            }
+        },
+        "bottomsheets": {
+            "confirmation": {
+                "widgets": [
+                    {
+                        "type": "text",
+                        "data": [
+                            {
+                                "components": [
+                                    {
+                                        "styleId": "bottomsheet-title",
+                                        "text": "List Tickets?",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": [
+                            {
+                                "components": [
+                                    {
+                                        "styleId": "bottomsheet-subtitle",
+                                        "text": "Track status of your Listed tickets on the tickets itself and in your Order History",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "utility",
+                        "styleId": "bottomsheet-alert-container",
+                        "leftIcon": {
+                            "url": "https://in.bmscdn.com/bms-prod-cx/ticket-resale/info/alert.png"
+                        },
+                        "text": [
+                            {
+                                "components": [
+                                    {
+                                        "styleId": "bottomsheet-alert",
+                                        "text": "This action is irreversible. You will not be able to cancel the listing later.",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "ctaData": [
+                    {
+                        "text": "Cancel",
+                        "style": "secondary",
+                        "cta": {
+                            "type": "variable",
+                            "additionalData": {
+                                "ctaId": "list-ticket-close"
+                            }
+                        }
+                    },
+                    {
+                        "text": "List Tickets",
+                        "style": "primary",
+                        "cta": {
+                            "type": "variable",
+                            "additionalData": {
+                                "ctaId": "list-tickets-api"
+                            }
+                        }
+                    }
+                ],
+                "analytics": {
+                    "event_name": "widget_viewed",
+                    "event_type": "impression",
+                    "widget_id": "resale_confirm",
+                    "widget_title": "List Ticket",
+                    "screen_name": "resale_confirm_bottomsheet"
+                }
+            }
+        },
+        "actions": {
+            "back": {
+                "type": "closeScreen"
+            },
+            "continue": {
+                "analytics": {
+                    "event_action": "continue",
+                    "event_name": "ticket_resale_actions",
+                    "event_type": "click"
+                },
+                "id": "confirmation",
+                "type": "bottomsheet"
+            },
+            "faq-question1": {
+                "analytics": {
+                    "event_action": "faq",
+                    "event_name": "ticket_resale_actions",
+                    "event_type": "click",
+                    "index": 1
+                },
+                "type": "accordion"
+            },
+            "faq-question2": {
+                "analytics": {
+                    "event_action": "faq",
+                    "event_name": "ticket_resale_actions",
+                    "event_type": "click",
+                    "index": 2
+                },
+                "type": "accordion"
+            },
+            "faq-question3": {
+                "analytics": {
+                    "event_action": "faq",
+                    "event_name": "ticket_resale_actions",
+                    "event_type": "click",
+                    "index": 3
+                },
+                "type": "accordion"
+            },
+            "faq-question4": {
+                "analytics": {
+                    "event_action": "faq",
+                    "event_name": "ticket_resale_actions",
+                    "event_type": "click",
+                    "index": 4
+                },
+                "type": "accordion"
+            },
+            "faq-question5": {
+                "analytics": {
+                    "event_action": "faq",
+                    "event_name": "ticket_resale_actions",
+                    "event_type": "click",
+                    "index": 5
+                },
+                "type": "accordion"
+            },
+            "hide-details-accordion": {
+                "analytics": {
+                    "event_action": "hide_detail",
+                    "event_name": "ticket_resale_actions",
+                    "event_type": "click"
+                },
+                "type": "accordion"
+            },
+            "list-ticket-close": {
+                "analytics": {
+                    "event_action": "cancel",
+                    "event_name": "card_clicked",
+                    "event_type": "click"
+                },
+                "type": "close"
+            },
+            "show-details-accordion": {
+                "analytics": {
+                    "event_action": "show_detail",
+                    "event_name": "ticket_resale_actions",
+                    "event_type": "click"
+                },
+                "type": "accordion"
+            }
+        }
     },
-    "actions": {
-      "back": {
-        "type": "closeScreen"
-      },
-      "continue": {
-        "id": "confirmation",
-        "type": "bottomsheet"
-      },
-      "faq-question1": {
-        "analytics": {
-          "index": 1
-        },
-        "type": "accordion"
-      },
-      "faq-question2": {
-        "analytics": {
-          "index": 2
-        },
-        "type": "accordion"
-      },
-      "hide-details-accordion": {
-        "type": "accordion"
-      },
-      "list-ticket-close": {
-        "type": "close"
-      },
-      "show-details-accordion": {
-        "type": "accordion"
-      }
+    "message": {
+        "code": "SUCCESS"
     }
-  },
-  "message": {
-    "code": "SUCCESS"
-  }
 }
