@@ -1,457 +1,470 @@
 {
-    "data": {
-        "meta": {
-            "version": 1
+  "message" : {
+    "code" : "SUCCESS"
+  },
+  "data" : {
+    "sequence" : [
+      "mini-ticket-view",
+      "amount-paid-details",
+      "amount-details",
+      "note-info-card",
+      "important-things-to-note",
+      "faq-section"
+    ],
+    "meta" : {
+      "version" : 1
+    },
+    "actions" : {
+      "list-tickets-api" : {
+        "type" : "api_call",
+        "additionalData" : {
+          "endpoint" : "https:\/\/in-preprod.bms.bz\/api\/cx\/help-centre\/v1\/ticketresale\/commit",
+          "method" : "POST",
+          "data" : {
+            "transId" : "4664038200",
+            "transKey" : "0trNuEaQWGqpVJBU4fVQSaazgSoxJ6eNZ3k=",
+            "bookingId" : "DVFT005N82556J"
+          },
+          "header" : {
+
+          }
         },
-        "sequence": [
-            "mini-ticket-view",
-            "amount-paid-details",
-            "amount-details",
-            "note-info-card",
-            "important-things-to-note",
-            "faq-section"
-        ],
-        "footer": {
-            "data": {
-                "cards": {
-                    "layoutId": "ticket-resale-footer-container",
-                    "data": [
-                        {
-                            "layoutId": "ticket-resale-footer-item",
-                            "data": {
-                                "footer-title": "Continue",
-                                "cta": {
-                                    "type": "router"
-                                }
-                            }
-                        }
-                    ]
-                }
+        "analytics" : {
+          "event_action" : "list_tickets",
+          "event_name" : "card_clicked",
+          "event_type" : "click"
+        }
+      }
+    },
+    "header" : {
+      "data" : {
+        "cards" : {
+          "data" : [
+            {
+              "data" : {
+                "header-title" : "List Tickets"
+              },
+              "layoutId" : "ticket-resale-header-item"
             }
-        },
-        "header": {
-            "data": {
-                "cards": {
-                    "layoutId": "ticket-resale-header-container",
-                    "data": [
-                        {
-                            "layoutId": "ticket-resale-header-item",
-                            "data": {
-                                "header-title": "List Tickets"
-                            }
-                        }
-                    ]
-                }
-            }
-        },
-        "widgets": {
-            "amount-details": {
-                "id": "",
-                "data": {
-                    "cards": {
-                        "layoutId": "amount-details-container",
-                        "data": [
-                            {
-                                "layoutId": "amount-paid-breakdown-item",
-                                "data": {
-                                    "total-price": "₹2.18",
-                                    "title": "Amount You Stand To Receive"
-                                }
-                            },
-                            {
-                                "layoutId": "cta-show-text-item",
-                                "id": "cta-show-text",
-                                "data": {
-                                    "title": "Show Detail",
-                                    "replaceTitleLayouts": {
-                                        "layoutId": "replace-title-container",
-                                        "data": [
-                                            {
-                                                "layoutId": "cta-hide-text-item",
-                                                "data": {
-                                                    "replaceTitle": "Hide Detail"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    "childCards": {
-                                        "layoutId": "amount-paid-down-container",
-                                        "data": [
-                                            {
-                                                "layoutId": "amount-paid-breakdown",
-                                                "data": {
-                                                    "amount-you-paid-label": "Amount You Paid",
-                                                    "amount-you-paid-value": "₹2.18",
-                                                    "convenience-fees-label": "Convenience fees",
-                                                    "convenience-fees-value": "- ₹0.00"
-                                                }
-                                            },
-                                            {
-                                                "layoutId": "separator-widget"
-                                            },
-                                            {
-                                                "layoutId": "total-amount-breakdown",
-                                                "data": {
-                                                    "amount-you-received-label": "Amount You Stand To Receive",
-                                                    "amount-you-received-value": "₹2.18"
-                                                }
-                                            }
-                                        ]
-                                    }
-                                }
-                            },
-                            {
-                                "layoutId": "separator-widget"
-                            },
-                            {
-                                "layoutId": "amount-description",
-                                "data": {
-                                    "description": "This amount will be credited to your BMS Cash balance, on purchase of tickets by another customer"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            "amount-paid-details": {
-                "id": "",
-                "data": {
-                    "cards": {
-                        "id": "amount-paid",
-                        "layoutId": "amount-paid-container",
-                        "data": [
-                            {
-                                "layoutId": "amount-paid-item",
-                                "data": {
-                                    "total-price": "₹2.18",
-                                    "title": "Amount You Paid"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            "faq-section": {
-                "id": "",
-                "data": {
-                    "header": {
-                        "layoutId": "faq-header-container",
-                        "data": [
-                            {
-                                "layoutId": "faq-header-item",
-                                "data": {
-                                    "title": "Frequently Asked Questions"
-                                }
-                            }
-                        ]
-                    },
-                    "cards": {
-                        "layoutId": "faq-body-container",
-                        "data": [
-                            {
-                                "layoutId": "faq-body-item",
-                                "data": {
-                                    "question": "What happens after I list my ticket?",
-                                    "cta": {
-                                        "type": "variable",
-                                        "additionalData": {
-                                            "ctaId": "faq-question1"
-                                        }
-                                    },
-                                    "childCards": {
-                                        "layoutId": "faq-answer-container",
-                                        "analytics": {},
-                                        "data": [
-                                            {
-                                                "layoutId": "faq-answer-title",
-                                                "data": {
-                                                    "title": "You can track the status of your listed tickets in the ‘Your Orders’ section. Please note that once listed, tickets cannot be edited or cancelled. If sold, BMS Cash (excluding convenience fee, BookAChange, and BookMyShow Club, if purchased) will be credited, valid for two years. If unsold, your original tickets remain valid for the event and you can use them to attend the event."
-                                                }
-                                            }
-                                        ]
-                                    }
-                                }
-                            },
-                            {
-                                "layoutId": "faq-body-item",
-                                "data": {
-                                    "question": "What happens if my tickets are sold?",
-                                    "cta": {
-                                        "type": "variable",
-                                        "additionalData": {
-                                            "ctaId": "faq-question2"
-                                        }
-                                    },
-                                    "childCards": {
-                                        "layoutId": "faq-answer-container",
-                                        "analytics": {},
-                                        "data": [
-                                            {
-                                                "layoutId": "faq-answer-title",
-                                                "data": {
-                                                    "title": "You’ll receive an instant notification via email informing you of the same. BookMyShow will cancel your original ticket and credit the ticket amount as BMS Cash, which will be valid for two years, and can be used for future bookings. The buyer will receive the new booking details."
-                                                }
-                                            }
-                                        ]
-                                    }
-                                }
-                            },
-                            {
-                                "layoutId": "faq-body-item",
-                                "data": {
-                                    "question": "My event is soon and I might miss it – can I list my ticket? What if no one buys it?",
-                                    "cta": {
-                                        "type": "variable",
-                                        "additionalData": {
-                                            "ctaId": "faq-question3"
-                                        }
-                                    },
-                                    "childCards": {
-                                        "layoutId": "faq-answer-container",
-                                        "analytics": {},
-                                        "data": [
-                                            {
-                                                "layoutId": "faq-answer-title",
-                                                "data": {
-                                                    "title": "Yes, you can definitely list your ticket to be bought by another buyer. If your ticket isn’t bought by the deadline (usually a few hours before the event), it remains valid for your use. You’ll also be notified when the listing expires. Please note that listing your ticket does not guarantee that it will be bought. BookMyShow shall not be held liable in the event that the ticket is not bought or is not utilised by you."
-                                                }
-                                            }
-                                        ]
-                                    }
-                                }
-                            },
-                            {
-                                "layoutId": "faq-body-item",
-                                "data": {
-                                    "question": "Can I edit or cancel my ticket listing after it’s live?",
-                                    "cta": {
-                                        "type": "variable",
-                                        "additionalData": {
-                                            "ctaId": "faq-question4"
-                                        }
-                                    },
-                                    "childCards": {
-                                        "layoutId": "faq-answer-container",
-                                        "analytics": {},
-                                        "data": [
-                                            {
-                                                "layoutId": "faq-answer-title",
-                                                "data": {
-                                                    "title": "Currently, once you list your ticket to be bought by others, it cannot be edited or deleted. However, if nobody buys your ticket before the event, it remains valid and you can attend the event as originally planned."
-                                                }
-                                            }
-                                        ]
-                                    }
-                                }
-                            },
-                            {
-                                "layoutId": "faq-body-item",
-                                "data": {
-                                    "question": "I chose home delivery for my tickets – can I list them? What if they are not purchased?",
-                                    "cta": {
-                                        "type": "variable",
-                                        "additionalData": {
-                                            "ctaId": "faq-question5"
-                                        }
-                                    },
-                                    "childCards": {
-                                        "layoutId": "faq-answer-container",
-                                        "analytics": {},
-                                        "data": [
-                                            {
-                                                "layoutId": "faq-answer-title",
-                                                "data": {
-                                                    "title": "Yes, you can definitely list your tickets. Once listed, they are not dispatched for home delivery to avoid misuse. If your tickets are not bought, you can still attend the event; simply collect your physical tickets or bands at the box office counter on the day of the event. Don’t forget to carry a valid ID and your order confirmation."
-                                                }
-                                            }
-                                        ]
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            "important-things-to-note": {
-                "id": "",
-                "data": {
-                    "cards": {
-                        "layoutId": "important-things-to-note-container",
-                        "analytics": {},
-                        "data": [
-                            {
-                                "layoutId": "important-things-to-note-title",
-                                "data": {
-                                    "title": "Important Things To Note"
-                                }
-                            },
-                            {
-                                "layoutId": "important-things-to-note-bullets",
-                                "data": {
-                                    "bullet-point-one": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/bullet-1.png",
-                                    "bullet-point-two": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/bullet-2.png",
-                                    "bullet-point-three": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/bullet-3.png",
-                                    "bullet-point-one-value": "All tickets from this booking will be listed for purchase.",
-                                    "bullet-point-two-value": "Tickets will be listed until Fri, 14 Nov | 6:00 AM.",
-                                    "bullet-point-three-value": "If no buyer is found until Fri, 14 Nov | 6:00 AM, the listing will be cancelled. You can pick up tickets from box office to enter the venue yourself."
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            "mini-ticket-view": {
-                "id": "miniTicket",
-                "data": {
-                    "styleId": "mini-ticket-style",
-                    "id": "miniTicket",
-                    "data": [
-                        {
-                            "eventDetails": [
-                                {
-                                    "styleId": "ticket-event-deatil-title",
-                                    "text": "QA Only Multi Day Event",
-                                    "cta": {
-                                        "url": "https://in.bookmyshow.com/mumbai/movies/yeh-jawaani-hai-deewani-ua/ET00012104",
-                                        "type": "router",
-                                        "id": "movieSynopsis",
-                                        "analytics": {
-                                            "category": "header_clicked",
-                                            "event_name": "cta_clicked",
-                                            "event_type": "click"
-                                        }
-                                    },
-                                    "maxLines": 2
-                                },
-                                {
-                                    "styleId": "ticket-event-deatil-subtitle",
-                                    "maxLines": 1
-                                },
-                                {
-                                    "styleId": "ticket-event-deatil-subtitle",
-                                    "text": "Fri, 14 Nov | 9:00 AM",
-                                    "maxLines": 1
-                                },
-                                {
-                                    "styleId": "ticket-event-deatil-subtitle",
-                                    "text": "LE Test New Venue: BTSS India",
-                                    "maxLines": 1
-                                }
-                            ],
-                            "ticketType": {
-                                "styleId": "ticket-event-details-card-subtitle",
-                                "text": "Pickup",
-                                "maxLines": 0
-                            },
-                            "eventImage": {
-                                "styleId": "movie-poster-image",
-                                "url": "https://in.bmscdn.com/events/moviecard/ET00375420.jpg",
-                                "cta": {
-                                    "url": "https://www.youtube.com/watch?v=Rbp2XUSeUNE",
-                                    "type": "youtube",
-                                    "analytics": {
-                                        "category": "Trailer",
-                                        "event_name": "cta_clicked",
-                                        "event_type": "click"
-                                    }
-                                }
-                            },
-                            "footerWidget": {
-                                "styleId": "footer-widget-style",
-                                "text": [
-                                    {
-                                        "components": [
-                                            {
-                                                "text": "All your tickets will be listed at the price purchased.",
-                                                "type": "text"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            "ticketList": [
-                                {
-                                    "seatCategoryDetails": [
-                                        {
-                                            "style": {
-                                                "axis": "horizontal"
-                                            },
-                                            "data": [
-                                                {
-                                                    "styleId": "seat-category-details-content-style",
-                                                    "components": [
-                                                        {
-                                                            "text": "Multiday-QA",
-                                                            "type": "text"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "styleId": "seat-category-details-value",
-                                                    "components": [
-                                                        {
-                                                            "styleId": "number-of-seat-text-style",
-                                                            "text": "1x ",
-                                                            "type": "text"
-                                                        },
-                                                        {
-                                                            "styleId": "number-of-seat-image-style",
-                                                            "type": "image",
-                                                            "imageUrl": "https://in-sit.bmscdn.com/bms-sit-cx/ticket-resale/info/ticket-frame.png"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ],
-                            "type": "movieTicket"
-                        }
-                    ]
-                }
-            }
-        },
-        "actions": {
-            "list-tickets-api": {
-                "type": "api_call",
-                "additionalData": {
-                    "method": "POST",
-                    "endpoint": "https://in-preprod.bms.bz/api/cx/help-centre/v1/ticketresale/commit",
-                    "data": {
-                        "transId": "4665298387",
-                        "transKey": "3GzXtKQJ8S4fbwlJX26Ty17kTjRiZzFtJX0=",
-                        "bookingId": "DVFT000AFGPGY3"
-                    },
-                    "header": {}
+          ],
+          "layoutId" : "ticket-resale-header-container"
+        }
+      }
+    },
+    "widgets" : {
+      "amount-details" : {
+        "id" : "",
+        "data" : {
+          "cards" : {
+            "data" : [
+              {
+                "data" : {
+                  "total-price" : "₹2.18",
+                  "title" : "Amount You Stand To Receive"
                 },
-                "analytics": {
-                    "event_name": "card_clicked",
-                    "event_type": "click",
-                    "event_action": "list_tickets"
+                "layoutId" : "amount-paid-breakdown-item"
+              },
+              {
+                "id" : "cta-show-text",
+                "data" : {
+                  "title" : "Show Detail",
+                  "replaceTitleLayouts" : {
+                    "data" : [
+                      {
+                        "data" : {
+                          "replaceTitle" : "Hide Detail"
+                        },
+                        "layoutId" : "cta-hide-text-item"
+                      }
+                    ],
+                    "layoutId" : "replace-title-container"
+                  },
+                  "childCards" : {
+                    "data" : [
+                      {
+                        "data" : {
+                          "convenience-fees-label" : "Convenience fees",
+                          "convenience-fees-value" : "- ₹0.00",
+                          "amount-you-paid-label" : "Amount You Paid",
+                          "amount-you-paid-value" : "₹2.18"
+                        },
+                        "layoutId" : "amount-paid-breakdown"
+                      },
+                      {
+                        "layoutId" : "separator-widget"
+                      },
+                      {
+                        "data" : {
+                          "amount-you-received-label" : "Amount You Stand To Receive",
+                          "amount-you-received-value" : "₹2.18"
+                        },
+                        "layoutId" : "total-amount-breakdown"
+                      }
+                    ],
+                    "layoutId" : "amount-paid-down-container"
+                  }
+                },
+                "layoutId" : "cta-show-text-item"
+              },
+              {
+                "layoutId" : "separator-widget"
+              },
+              {
+                "data" : {
+                  "description" : "This amount will be credited to your BMS Cash balance, on purchase of tickets by another customer"
+                },
+                "layoutId" : "amount-description"
+              }
+            ],
+            "layoutId" : "amount-details-container"
+          }
+        }
+      },
+      "mini-ticket-view" : {
+        "id" : "miniTicket",
+        "data" : {
+          "styleId" : "mini-ticket-style",
+          "id" : "miniTicket",
+          "data" : [
+            {
+              "footerWidget" : {
+                "styleId" : "footer-widget-style",
+                "text" : [
+                  {
+                    "components" : [
+                      {
+                        "type" : "text",
+                        "text" : "All your tickets will be listed at the price purchased."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "ticketList" : [
+                {
+                  "seatCategoryDetails" : [
+                    {
+                      "style" : {
+                        "axis" : "horizontal"
+                      },
+                      "data" : [
+                        {
+                          "styleId" : "seat-category-details-content-style",
+                          "components" : [
+                            {
+                              "type" : "text",
+                              "text" : "Multiday-QA"
+                            }
+                          ]
+                        },
+                        {
+                          "styleId" : "seat-category-details-value",
+                          "components" : [
+                            {
+                              "styleId" : "number-of-seat-text-style",
+                              "text" : "1x ",
+                              "type" : "text"
+                            },
+                            {
+                              "styleId" : "number-of-seat-image-style",
+                              "type" : "image",
+                              "imageUrl" : "https:\/\/in.bmscdn.com\/bms-prod-cx\/ticket-resale\/info\/ticket-frame.png"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
+              ],
+              "type" : "movieTicket",
+              "eventImage" : {
+                "styleId" : "movie-poster-image",
+                "url" : "https:\/\/in.bmscdn.com\/events\/moviecard\/ET00375420.jpg",
+                "cta" : {
+                  "url" : "https:\/\/www.youtube.com\/watch?v=Rbp2XUSeUNE",
+                  "type" : "youtube",
+                  "analytics" : {
+                    "event_type" : "click",
+                    "category" : "Trailer",
+                    "event_name" : "cta_clicked"
+                  }
+                }
+              },
+              "eventDetails" : [
+                {
+                  "maxLines" : 2,
+                  "styleId" : "ticket-event-deatil-title",
+                  "cta" : {
+                    "type" : "router",
+                    "id" : "movieSynopsis",
+                    "analytics" : {
+                      "event_type" : "click",
+                      "category" : "header_clicked",
+                      "event_name" : "cta_clicked"
+                    }
+                  },
+                  "text" : "QA Only Multi Day Event"
+                },
+                {
+                  "styleId" : "ticket-event-deatil-subtitle",
+                  "maxLines" : 1
+                },
+                {
+                  "styleId" : "ticket-event-deatil-subtitle",
+                  "text" : "Fri, 14 Nov | 9:00 AM",
+                  "maxLines" : 1
+                },
+                {
+                  "styleId" : "ticket-event-deatil-subtitle",
+                  "text" : "LE Test New Venue: BTSS India",
+                  "maxLines" : 1
+                }
+              ],
+              "ticketType" : {
+                "styleId" : "ticket-event-details-card-subtitle",
+                "text" : "Home Delivery",
+                "maxLines" : 0
+              }
             }
+          ]
         }
-    },
-    "message": {
-        "code": "SUCCESS"
-    },
-    "metadata": {
-        "analytics": {
-            "product": "events",
-            "screen_name": "list_tickets",
-            "title": "QA Only Multi Day Event",
-            "venue_code": "DVFT",
-            "category": "music-shows",
-            "sub_category": "concerts",
-            "event_name": "ticket_resale_viewed",
-            "event_type": "screen_view",
-            "event_code": "ET00375420",
-            "event_group": "QA Only Multi Day Event",
-            "genre": "alternative",
-            "price": "2.18",
-            "transaction_id": "4665298387",
-            "is_tvod": "no"
+      },
+      "amount-paid-details" : {
+        "id" : "",
+        "data" : {
+          "cards" : {
+            "id" : "amount-paid",
+            "data" : [
+              {
+                "data" : {
+                  "total-price" : "₹2.18",
+                  "title" : "Amount You Paid"
+                },
+                "layoutId" : "amount-paid-item"
+              }
+            ],
+            "layoutId" : "amount-paid-container"
+          }
         }
+      },
+      "faq-section" : {
+        "id" : "",
+        "data" : {
+          "cards" : {
+            "data" : [
+              {
+                "data" : {
+                  "cta" : {
+                    "type" : "variable",
+                    "additionalData" : {
+                      "ctaId" : "faq-question1"
+                    }
+                  },
+                  "question" : "What happens after I list my ticket?",
+                  "childCards" : {
+                    "analytics" : {
+
+                    },
+                    "data" : [
+                      {
+                        "data" : {
+                          "title" : "You can track the status of your listed tickets in the ‘Your Orders’ section. Please note that once listed, tickets cannot be edited or cancelled. If sold, BMS Cash (excluding convenience fee, BookAChange, and BookMyShow Club, if purchased) will be credited, valid for two years. If unsold, your original tickets remain valid for the event and you can use them to attend the event."
+                        },
+                        "layoutId" : "faq-answer-title"
+                      }
+                    ],
+                    "layoutId" : "faq-answer-container"
+                  }
+                },
+                "layoutId" : "faq-body-item"
+              },
+              {
+                "data" : {
+                  "cta" : {
+                    "type" : "variable",
+                    "additionalData" : {
+                      "ctaId" : "faq-question2"
+                    }
+                  },
+                  "question" : "What happens if my tickets are sold?",
+                  "childCards" : {
+                    "analytics" : {
+
+                    },
+                    "data" : [
+                      {
+                        "data" : {
+                          "title" : "You’ll receive an instant notification via email informing you of the same. BookMyShow will cancel your original ticket and credit the ticket amount as BMS Cash, which will be valid for two years, and can be used for future bookings. The buyer will receive the new booking details."
+                        },
+                        "layoutId" : "faq-answer-title"
+                      }
+                    ],
+                    "layoutId" : "faq-answer-container"
+                  }
+                },
+                "layoutId" : "faq-body-item"
+              },
+              {
+                "data" : {
+                  "cta" : {
+                    "type" : "variable",
+                    "additionalData" : {
+                      "ctaId" : "faq-question3"
+                    }
+                  },
+                  "question" : "My event is soon and I might miss it – can I list my ticket? What if no one buys it?",
+                  "childCards" : {
+                    "analytics" : {
+
+                    },
+                    "data" : [
+                      {
+                        "data" : {
+                          "title" : "Yes, you can definitely list your ticket to be bought by another buyer. If your ticket isn’t bought by the deadline (usually a few hours before the event), it remains valid for your use. You’ll also be notified when the listing expires. Please note that listing your ticket does not guarantee that it will be bought. BookMyShow shall not be held liable in the event that the ticket is not bought or is not utilised by you."
+                        },
+                        "layoutId" : "faq-answer-title"
+                      }
+                    ],
+                    "layoutId" : "faq-answer-container"
+                  }
+                },
+                "layoutId" : "faq-body-item"
+              },
+              {
+                "data" : {
+                  "cta" : {
+                    "type" : "variable",
+                    "additionalData" : {
+                      "ctaId" : "faq-question4"
+                    }
+                  },
+                  "question" : "Can I edit or cancel my ticket listing after it’s live?",
+                  "childCards" : {
+                    "analytics" : {
+
+                    },
+                    "data" : [
+                      {
+                        "data" : {
+                          "title" : "Currently, once you list your ticket to be bought by others, it cannot be edited or deleted. However, if nobody buys your ticket before the event, it remains valid and you can attend the event as originally planned."
+                        },
+                        "layoutId" : "faq-answer-title"
+                      }
+                    ],
+                    "layoutId" : "faq-answer-container"
+                  }
+                },
+                "layoutId" : "faq-body-item"
+              },
+              {
+                "data" : {
+                  "cta" : {
+                    "type" : "variable",
+                    "additionalData" : {
+                      "ctaId" : "faq-question5"
+                    }
+                  },
+                  "question" : "I chose home delivery for my tickets – can I list them? What if they are not purchased?",
+                  "childCards" : {
+                    "analytics" : {
+
+                    },
+                    "data" : [
+                      {
+                        "data" : {
+                          "title" : "Yes, you can definitely list your tickets. Once listed, they are not dispatched for home delivery to avoid misuse. If your tickets are not bought, you can still attend the event; simply collect your physical tickets or bands at the box office counter on the day of the event. Don’t forget to carry a valid ID and your order confirmation."
+                        },
+                        "layoutId" : "faq-answer-title"
+                      }
+                    ],
+                    "layoutId" : "faq-answer-container"
+                  }
+                },
+                "layoutId" : "faq-body-item"
+              }
+            ],
+            "layoutId" : "faq-body-container"
+          },
+          "header" : {
+            "data" : [
+              {
+                "data" : {
+                  "title" : "Frequently Asked Questions"
+                },
+                "layoutId" : "faq-header-item"
+              }
+            ],
+            "layoutId" : "faq-header-container"
+          }
+        }
+      },
+      "important-things-to-note" : {
+        "id" : "",
+        "data" : {
+          "cards" : {
+            "analytics" : {
+
+            },
+            "data" : [
+              {
+                "data" : {
+                  "title" : "Important Things To Note"
+                },
+                "layoutId" : "important-things-to-note-title"
+              },
+              {
+                "data" : {
+                  "bullet-point-one" : "https:\/\/in.bmscdn.com\/bms-prod-cx\/ticket-resale\/info\/bullet-1.png",
+                  "bullet-point-two" : "https:\/\/in.bmscdn.com\/bms-prod-cx\/ticket-resale\/info\/bullet-2.png",
+                  "bullet-point-three" : "https:\/\/in.bmscdn.com\/bms-prod-cx\/ticket-resale\/info\/bullet-3.png",
+                  "bullet-point-two-value" : "Tickets will be listed until Fri, 14 Nov | 6:00 AM.",
+                  "bullet-point-one-value" : "All tickets from this booking will be listed for purchase.",
+                  "bullet-point-three-value" : "If no buyer is found until Fri, 14 Nov | 6:00 AM, the listing will be cancelled. You can pick up tickets from box office to enter the venue yourself."
+                },
+                "layoutId" : "important-things-to-note-bullets"
+              }
+            ],
+            "layoutId" : "important-things-to-note-container"
+          }
+        }
+      }
+    },
+    "footer" : {
+      "data" : {
+        "cards" : {
+          "data" : [
+            {
+              "data" : {
+                "footer-title" : "Continue",
+                "cta" : {
+                  "type" : "router"
+                }
+              },
+              "layoutId" : "ticket-resale-footer-item"
+            }
+          ],
+          "layoutId" : "ticket-resale-footer-container"
+        }
+      }
     }
+  },
+  "metadata" : {
+    "analytics" : {
+      "genre" : "alternative",
+      "category" : "music-shows",
+      "event_type" : "screen_view",
+      "sub_category" : "concerts",
+      "event_name" : "ticket_resale_viewed",
+      "product" : "events",
+      "transaction_id" : "4664038200",
+      "is_tvod" : "no",
+      "title" : "QA Only Multi Day Event",
+      "price" : "2.18",
+      "event_code" : "ET00375420",
+      "venue_code" : "DVFT",
+      "screen_name" : "list_tickets",
+      "event_group" : "QA Only Multi Day Event"
+    }
+  }
 }
