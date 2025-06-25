@@ -247,6 +247,9 @@
       },
       "bottomsheet-title-container": {
           "margin": "4,12,4,12"
+      },
+      "bottomsheet-subtitle-container": {
+          "margin": "4,12,4,12"
       }
     },
     "layouts" : {
@@ -937,9 +940,9 @@
         "widgets" : [
           {
             "type" : "text",
+            "styleId": "bottomsheet-title-container",
             "data" : [
               {
-                "styleId": "bottomsheet-title-container",
                 "components" : [
                   {
                     "styleId" : "bottomsheet-title",
@@ -952,6 +955,7 @@
           },
           {
             "type" : "text",
+            "styleId": "bottomsheet-title-container",
             "data" : [
               {
                 "components" : [
