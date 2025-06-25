@@ -963,7 +963,6 @@
           {
             "text" : [
               {
-                "styleId": "bottomsheet-left-icon-style",
                 "components" : [
                   {
                     "styleId" : "bottomsheet-alert",
@@ -976,6 +975,7 @@
             "styleId" : "bottomsheet-alert-container",
             "type" : "utility",
             "leftIcon" : {
+              "styleId": "bottomsheet-left-icon-style",
               "url" : "https:\/\/in.bmscdn.com\/bms-prod-cx\/ticket-resale\/info\/alert.png"
             }
           }
