@@ -241,6 +241,9 @@
         "backgroundColor" : "#FCC42D",
         "padding" : "4,8,4,8",
         "margin" : "4,16,4,16"
+      },
+      "bottomsheet-left-icon-style": {
+          "width": 24
       }
     },
     "layouts" : {
@@ -960,6 +963,7 @@
           {
             "text" : [
               {
+                "styleId": "bottomsheet-left-icon-style",
                 "components" : [
                   {
                     "styleId" : "bottomsheet-alert",
