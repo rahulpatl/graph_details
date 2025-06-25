@@ -244,6 +244,9 @@
       },
       "bottomsheet-left-icon-style": {
           "width": 24
+      },
+      "bottomsheet-title-container": {
+          "margin": "4,12,4,12"
       }
     },
     "layouts" : {
@@ -936,6 +939,7 @@
             "type" : "text",
             "data" : [
               {
+                "styleId": "bottomsheet-title-container",
                 "components" : [
                   {
                     "styleId" : "bottomsheet-title",
