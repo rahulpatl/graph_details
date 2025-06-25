@@ -246,7 +246,7 @@
           "width": 24
       },
       "bottomsheet-title-container": {
-          "margin": "4,12,40,12"
+          "margin": "4,12,4,12"
       },
       "bottomsheet-subtitle-container": {
           "margin": "8,12,8,12"
