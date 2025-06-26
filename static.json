@@ -7,6 +7,9 @@
       "version" : 1
     },
     "styles" : {
+      "footer-widget-style-one": {
+        "font" : "tiny-regular"
+      },
       "faq-answer-title-text-style" : {
         "font" : "tiny-regular"
       },
@@ -32,7 +35,8 @@
         "font" : "small-regular"
       },
       "text-amount-paid-style" : {
-        "font" : "large-bold"
+        "font" : "large-bold",
+        "fontColor": "#1A1A1A"
       },
       "number-of-seat-image-style" : {
         "fontSize" : "15",
