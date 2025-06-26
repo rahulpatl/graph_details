@@ -95,7 +95,8 @@
         "fontColor" : "#666666"
       },
       "amount-description-text-style" : {
-        "font" : "tiny-regular"
+        "font" : "tiny-regular",
+        "fontColor" : "#404040"
       },
       "ticket-event-deatil-title" : {
         "font" : "large-bold",
