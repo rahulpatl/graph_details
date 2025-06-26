@@ -135,7 +135,8 @@
                     "components" : [
                       {
                         "type" : "text",
-                        "text" : "All your tickets will be listed at the price purchased."
+                        "text" : "All your tickets will be listed at the price purchased.",
+                        "styleId" : "footer-widget-style-one"
                       }
                     ]
                   }
