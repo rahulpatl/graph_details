@@ -77,7 +77,8 @@
         "fontColor": "#333333"
       },
       "important-things-to-note-title-text-style" : {
-        "font" : "small-regular"
+        "font" : "small-regular",
+        "fontColor": "#333333"
       },
       "important-things-to-note-item-content-style" : {
         "padding" : "4,4,0,0",
@@ -182,7 +183,8 @@
         "padding" : "0,0,12,0"
       },
       "important-things-to-note-image-style" : {
-        "fontSize" : "12"
+        "fontSize" : "12",
+        "fontColor": "#333333"
       },
       "seat-category-details-value" : {
         "horizontalAlignment" : "end"
