@@ -73,7 +73,8 @@
         "font" : "tiny-regular"
       },
       "text-amount-breakdown-style" : {
-        "font" : "small-regular"
+        "font" : "small-regular",
+        "fontColor": "#333333"
       },
       "important-things-to-note-title-text-style" : {
         "font" : "small-regular"
