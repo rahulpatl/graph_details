@@ -195,7 +195,8 @@
         "margin" : "0,0,12,0"
       },
       "amount-paid-breakdown-text-style" : {
-        "font" : "tiny-regular"
+        "font" : "tiny-regular",
+        "fontColor": "#666666"
       },
       "amount-paid-breakdown-text-parent-value-style" : {
         "padding" : "4,0,4,0"
