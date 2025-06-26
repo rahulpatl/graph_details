@@ -131,6 +131,7 @@
                 "styleId" : "footer-widget-style",
                 "text" : [
                   {
+                    "styleId" : "footer-widget-style-one",
                     "components" : [
                       {
                         "type" : "text",
