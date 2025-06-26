@@ -35,8 +35,7 @@
         "font" : "small-regular"
       },
       "text-amount-paid-style" : {
-        "font" : "large-bold",
-        "fontColor": "#1A1A1A"
+        "font" : "large-bold"
       },
       "number-of-seat-image-style" : {
         "fontSize" : "15",
