@@ -12,7 +12,8 @@
         "fontColor" : "#333333"
       },
       "faq-answer-title-text-style" : {
-        "font" : "tiny-regular"
+        "font" : "tiny-regular",
+        "fontColor": "#404040"
       },
       "faq-header-item-text-style" : {
         "font" : "small-regular"
@@ -229,7 +230,8 @@
         "margin" : "24,16,0,16"
       },
       "important-things-to-note-text-style" : {
-        "font" : "tiny-regular"
+        "font" : "tiny-regular",
+         "fontColor": "#333333"
       },
       "seat-category-details-style" : {
         "axis" : "horizontal"
