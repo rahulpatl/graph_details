@@ -127,7 +127,7 @@
       },
       "amount-paid-down-container-style" : {
         "border" : {
-          "cornerRadius" : "12,12,12,12"
+          "cornerRadius" : "4,4,4,4"
         },
         "backgroundColor" : "#F2F5F9",
         "padding" : "8,8,8,8",
@@ -139,7 +139,7 @@
       },
       "amount-details-container-style" : {
         "border" : {
-          "cornerRadius" : "12,12,12,12"
+          "cornerRadius" : "8,8,8,8"
         },
         "backgroundColor" : "#FFFFFF",
         "padding" : "12,12,12,12",
