@@ -251,7 +251,7 @@
         },
         "backgroundColor" : "#FCC42D",
         "padding" : "4,8,4,8",
-        "margin" : "4,16,8,16"
+        "margin" : "4,16,14,16"
       },
       "bottomsheet-left-icon-style": {
           "width": 24
