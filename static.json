@@ -262,10 +262,10 @@
           "width": 24
       },
       "bottomsheet-title-container": {
-          "margin": "4,12,4,12"
+          "margin": "4,16,4,16"
       },
       "bottomsheet-subtitle-container": {
-          "margin": "8,12,8,12"
+          "margin": "8,16,8,16"
       }
     },
     "layouts" : {
