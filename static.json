@@ -13,7 +13,7 @@
       },
       "faq-answer-title-text-style" : {
         "font" : "tiny-regular",
-        "fontColor": "#404040"
+        "fontColor": "#333333"
       },
       "faq-header-item-text-style" : {
         "font" : "small-regular"
