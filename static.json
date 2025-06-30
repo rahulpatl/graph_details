@@ -225,7 +225,7 @@
           "cornerRadius" : "8,8,8,8"
         },
         "backgroundColor" : "#FCC42D",
-        "padding" : "12,12,12,12",
+        "padding" : "10,12,10,12",
         "margin" : "24,16,0,16"
       },
       "important-things-to-note-text-style" : {
