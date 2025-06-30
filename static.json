@@ -34,7 +34,8 @@
         "lineMargin" : "0,0,8,0"
       },
       "faq-title-text-style" : {
-        "font" : "small-regular"
+        "font" : "small-regular",
+        "fontColor": "#333333" 
       },
       "text-amount-paid-style" : {
         "font" : "large-bold",
