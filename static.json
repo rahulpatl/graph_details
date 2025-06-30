@@ -179,7 +179,7 @@
           "cornerRadius" : "8,8,8,8"
         },
         "backgroundColor" : "#FFFFFF",
-        "padding" : "16,12,0,12",
+        "padding" : "16,12,12,12",
         "margin" : "12,16,0,16"
       },
       "faq-description-text-style" : {
@@ -200,7 +200,7 @@
         "margin" : "0,0,12,0"
       },
       "important-things-to-note-title-style" : {
-        "margin" : "0,0,12,0"
+        "margin" : "0,0,0,0"
       },
       "amount-paid-breakdown-text-style" : {
         "font" : "tiny-regular",
