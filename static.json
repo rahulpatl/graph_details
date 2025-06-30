@@ -22,7 +22,8 @@
       "amount-paid-breakdown-text-value-style" : {
         "font" : "tiny-regular",
         "widthPercent" : 20,
-        "horizontalAlignment" : "end"
+        "horizontalAlignment" : "end",
+        "fontColor": "#666666"
       },
       "dashed-separator" : {
         "border" : {
