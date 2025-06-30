@@ -16,7 +16,8 @@
         "fontColor": "#333333"
       },
       "faq-header-item-text-style" : {
-        "font" : "small-regular"
+        "font" : "small-regular",
+        "fontColor": "#404040"
       },
       "amount-paid-breakdown-text-value-style" : {
         "font" : "tiny-regular",
