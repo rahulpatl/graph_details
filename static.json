@@ -222,7 +222,7 @@
       },
       "amount-paid-container-style" : {
         "border" : {
-          "cornerRadius" : "12,12,12,12"
+          "cornerRadius" : "8,8,8,8"
         },
         "backgroundColor" : "#FCC42D",
         "padding" : "12,12,12,12",
