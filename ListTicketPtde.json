@@ -341,6 +341,7 @@
                                         "widgets": [
                                             {
                                                 "type": "text",
+                                                "styleId": "list-ticket-bottomsheet-text-container",
                                                 "data": [
                                                     {
                                                         "styleId": "list-ticket-bottomsheet-title",
