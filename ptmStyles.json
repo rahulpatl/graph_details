@@ -1,0 +1,1169 @@
+{
+    "meta": {
+        "version": 17
+    },
+    "error": null,
+    "styles": {
+        "event-title-text": {
+            "font": "body-bold",
+            "fontColor": "#000000"
+        },
+        "event-subtitle-text": {
+            "font": "extra-tiny-regular",
+            "fontColor": "##666666"
+        },
+        "collapsible-text": {
+            "font": "extra-tiny-regular",
+            "fontColor": "#333333"
+        },
+        "ticket-list-bookingid": {
+            "font": "tiny-bold"
+        },
+        "vertical-detail-card-title": {
+            "fontColor": "#525252",
+            "fontSize": "12",
+            "font": "tiny-bold",
+            "fontWeight": "bold",
+            "horizontalAlignment": "left"
+        },
+        "vertical-detail-card-subtitle": {
+            "fontColor": "#808080",
+            "fontSize": "11",
+            "font": "extra-tiny-regular",
+            "fontWeight": "regular",
+            "horizontalAlignment": "left",
+            "lineMargin": "0,0,8,0"
+        },
+        "vertical-detail-card-supertext": {
+            "fontColor": "#008A1E",
+            "fontSize": "14",
+            "font": "small-bold",
+            "fontWeight": "bold",
+            "horizontalAlignment": "left"
+        },
+        "vertical-detail-seeMore-card-title": {
+            "fontColor": "#808080",
+            "fontSize": "14",
+            "font": "small-regular",
+            "fontWeight": "regular",
+            "horizontalAlignment": "left"
+        },
+        "horizontal-scroll-widget-title": {
+            "font": "large-regular",
+            "fontColor": "#333333",
+            "fontSize": "18",
+            "fontWeight": "regular",
+            "horizontalAlignment": "left"
+        },
+        "horizontal-scroll-widget-subtitle": {
+            "font": "tiny-regular",
+            "fontColor": "#333333",
+            "fontSize": "12",
+            "fontWeight": "regular",
+            "horizontalAlignment": "left",
+            "lineMargin": "0,0,12,0"
+        },
+        "explore-widget": {
+            "aspectRatio": 1,
+            "overflow": "fitWidth",
+            "itemsPerRow": 3,
+            "background": {
+                "gradient": {
+                    "type": "topLeft-bottomRight",
+                    "colors": {
+                        "start": "#FFFFFF",
+                        "mid": null,
+                        "end": "#FFFFFF"
+                    }
+                }
+            }
+        },
+        "rewards-widget": {
+            "aspectRatio": 1,
+            "overflow": "fitWidth",
+            "itemsPerRow": 3,
+            "background": {
+                "gradient": {
+                    "type": "topLeft-bottomRight",
+                    "colors": {
+                        "start": "#6755A5",
+                        "mid": null,
+                        "end": "#BCAAF9"
+                    }
+                }
+            },
+            "shadow": {
+                "elevation": 2
+            }
+        },
+        "rewards-card-claimed": {
+            "backgroundColor": "#FFFFFF"
+        },
+        "rewards-card-unclaimed": {
+            "backgroundColor": "#57478C"
+        },
+        "rewards-card-image-claimed": {
+            "backgroundColor": "#00000000",
+            "contentScale": "fit"
+        },
+        "rewards-card-image-unclaimed": {
+            "backgroundColor": "#00000000",
+            "contentScale": "fit"
+        },
+        "widget-title-light": {
+            "fontColor": "#FFFFFF",
+            "fontSize": "18",
+            "font": "subtitle-large",
+            "fontWeight": "medium",
+            "horizontalAlignment": "left",
+            "lineMargin": "12,0,0,0"
+        },
+        "explore-widget-title": {
+            "fontColor": "#1A1A1A",
+            "fontSize": "18",
+            "font": "small-medium",
+            "fontWeight": "medium",
+            "horizontalAlignment": "left",
+            "lineMargin": "12,0,0,0"
+        },
+        "le-ptm-event-details-card-title": {
+            "fontColor": "#000000",
+            "font": "large-bold",
+            "lineMargin": "0,0,8,0"
+        },
+        "le-ptm-event-details-card-subtitle": {
+            "fontColor": "#666666",
+            "font": "extra-tiny-regular",
+            "lineMargin": "0,0,0,0"
+        },
+        "le-ptm-expandable-card-title": {
+            "fontColor": "#333333",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "center"
+        },
+        "le-ptm-tap-to-view": {
+            "backgroundColor": "#F5F5F5"
+        },
+        "le-ptm-tap-to-view-ticket": {
+            "backgroundColor": "#F5F5F5",
+            "margin": "10px 10px 10px 10px"
+        },
+        "le-ptm-qr-card-ticket-count": {
+            "fontColor": "#666666",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "center"
+        },
+        "le-ptm-overlay-ticket-text": {
+            "fontColor": "#1A1A1A",
+            "font": "tiny-medium",
+            "horizontalAlignment": "center"
+        },
+        "le-ptm-qr-card-blur-info": {
+            "fontColor": "#E5E5E5",
+            "font": "tiny-medium",
+            "horizontalAlignment": "center"
+        },
+        "le-ptm-qr-card-ticket-count-bold": {
+            "fontColor": "#666666",
+            "font": "extra-tiny-medium",
+            "horizontalAlignment": "center"
+        },
+        "le-ptm-qr-card-bookingid": {
+            "fontColor": "#000000",
+            "font": "tiny-medium",
+            "horizontalAlignment": "center"
+        },
+        "le-ptm-cancellation-info-title": {
+            "fontColor": "#666666",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "center"
+        },
+        "le-ptm-cancellation-info": {
+            "backgroundColor": "#F5F5F5"
+        },
+        "le-ptm-ticket-status-card": {
+            "backgroundColor": "#FFD564"
+        },
+        "le-ptm-ticket-status-text": {
+            "fontColor": "#1A1A1A",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "center"
+        },
+        "le-ptm-ticket-transfer-cta-background": {
+            "backgroundColor": "#EBF0FF"
+        },
+        "le-ptm-ticket-cancel-cta-background": {
+            "backgroundColor": "#FFEBED"
+        },
+        "le-ptm-ticket-cancel-cta-title": {
+            "fontColor": "#DC354B",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "center"
+        },
+        "le-ptm-ticket-transfer-cta-title": {
+            "fontColor": "#3E6EEA",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "center"
+        },
+        "le-ptm-expandable-card-seat-info-regular": {
+            "fontColor": "#999999",
+            "font": "extra-tiny-regular",
+            "lineMargin": "4,6,4,12"
+        },
+        "le-ptm-expandable-card-seat-info-light": {
+            "fontColor": "#9999991A",
+            "font": "extra-tiny-regular"
+        },
+        "le-ptm-expandable-card-seat-info-bold": {
+            "fontColor": "#333333",
+            "font": "tiny-medium",
+            "lineMargin": "4,12,4,6"
+        },
+        "le-ptm-left-text-collapsed": {
+            "fontColor": "#000000",
+            "font": "extra-tiny-regular"
+        },
+        "le-ptm-right-text-collapsed": {
+            "fontColor": "#000000",
+            "font": "extra-tiny-regular"
+        },
+        "le-ptm-price-breakup-collapsed": {
+            "lineMargin": "8,12,8,12",
+            "backgroundColor": "#FFFFFF"
+        },
+        "le-ptm-price-breakup-row-collapsed": {
+            "lineMargin": "0,0,0,0"
+        },
+        "le-ptm-left-text-desc-collapsed": {
+            "fontColor": "#999999",
+            "font": "extra-tiny-regular",
+            "lineMargin": "0,0,0,0"
+        },
+        "le-ptm-left-text-expanded": {
+            "fontColor": "#666666",
+            "font": "tiny-regular"
+        },
+        "le-ptm-right-text-expanded": {
+            "fontColor": "#666666",
+            "font": "tiny-regular"
+        },
+        "le-ptm-left-text-bold-expanded": {
+            "fontColor": "#000000",
+            "font": "extra-tiny-regular",
+            "lineMargin": "0,0,8,0"
+        },
+        "le-ptm-right-text-bold-expanded": {
+            "fontColor": "#000000",
+            "font": "extra-tiny-regular",
+            "lineMargin": "0,0,0,0"
+        },
+        "le-ptm-left-text-tiny-expanded": {
+            "fontColor": "#666666",
+            "font": "extra-tiny-regular",
+            "lineMargin": "8,0,8,0"
+        },
+        "le-ptm-price-breakup-expanded": {
+            "lineMargin": "8,12,8,12",
+            "backgroundColor": "#F5F5F5"
+        },
+        "le-ptm-price-breakup-row-expanded": {
+            "lineMargin": "0,0,0,0"
+        },
+        "le-ptm-price-breakup-row-last-expanded": {
+            "fontColor": "#666666",
+            "font": "tiny-regular",
+            "lineMargin": "0,0,8,0"
+        },
+        "le-ptm-left-text-desc-expanded": {
+            "fontColor": "#999999",
+            "font": "extra-tiny-regular",
+            "lineMargin": "0,0,12,0"
+        },
+        "le-ptm-ticket-footer": {
+            "backgroundColor": "#FFE49B",
+            "shadow": {
+                "elevation": 2
+            },
+            "border": {
+                "cornerRadius": "12,12,12,12"
+            }
+        },
+        "le-ptm-ticket-footer-text": {
+            "fontColor": "#666666",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "center"
+        },
+        "le-ptm-ticket-data-expanded-background": {
+            "backgroundColor": "#F5F5F5",
+            "lineMargin": "0,0,0,0"
+        },
+        "le-ptm-ticket-data-expanded-background-blur": {
+            "lineMargin": "0,0,0,0"
+        },
+        "le-ptm-expandable-card-seat-info-regular-blur": {
+            "fontColor": "#E5E5E5",
+            "font": "extra-tiny-regular",
+            "lineMargin": "4,6,4,12"
+        },
+        "le-ptm-expandable-card-seat-info-bold-blur": {
+            "fontColor": "#E5E5E5",
+            "font": "tiny-medium",
+            "lineMargin": "4,12,4,6"
+        },
+        "le-ptm-help-centre-utility-widget-icon": {
+            "font": "body-small",
+            "width": 16,
+            "imageVerticalAlignment": "bottom"
+        },
+        "le-ptm-help-centre-card": {
+            "backgroundColor": "#FFEBED",
+            "padding": "4,0,4,0",
+            "margin": "4,0,6,0"
+        },
+        "le-ptm-help-centre-utility-widget-title": {
+            "fontColor": "#DC354B",
+            "font": "extra-tiny-medium",
+            "horizontalAlignment": "center"
+        },
+        "banner-widget": {
+            "backgroundColor": "#B3B3B3",
+            "margin": "0,0,0,0",
+            "border": {
+                "cornerRadius": "12,12,12,12"
+            }
+        },
+        "banner-widget-description": {
+            "font": "body-medium",
+            "fontColor": "#333333",
+            "horizontalAlignment": "left"
+        },
+        "banner-widget-title": {
+            "font": "overline",
+            "fontColor": "#333333",
+            "horizontalAlignment": "left",
+            "lineMargin": "0,0,4,0"
+        },
+        "separator": {
+            "border": {
+                "type": "solid",
+                "width": 1,
+                "color": "#FFFFFF"
+            }
+        },
+        "right-view-percentage": {
+            "widthpct": 0.7,
+            "lineMargin": "0,0,0,0"
+        },
+        "vertical-detail-card-blocktext": {
+            "fontColor": "#FFFFFF",
+            "font": "small-medium",
+            "horizontalAlignment": "center"
+        },
+        "vertical-detail-card-blocktext-bkg": {
+            "backgroundColor": "#DC354B",
+            "margin": "8,8,8,8",
+            "padding": "6,20,6,20",
+            "border": {
+                "cornerRadius": "8,8,8,8"
+            }
+        },
+        "vertical-detail-card-blocktext-greybkg": {
+            "backgroundColor": "#E5E5E5",
+            "margin": "8,8,8,8",
+            "padding": "6,20,6,20",
+            "border": {
+                "cornerRadius": "8,8,8,8"
+            }
+        },
+        "vertical-detail-card-greyblocktext": {
+            "fontColor": "#808080",
+            "font": "small-medium",
+            "horizontalAlignment": "center"
+        },
+        "mt-ptm-event-detail-title": {
+            "fontColor": "#000000",
+            "font": "large-bold",
+            "lineMargin": "0,0,8,0"
+        },
+        "mt-ptm-event-detail-subtitle": {
+            "fontColor": "#666666",
+            "font": "tiny-regular",
+            "lineMargin": "0,0,8,0"
+        },
+        "le-ptm-help-centre-card-v2": {
+            "shadow": {
+                "elevation": 0
+            },
+            "horizontalAlignment": "center"
+        },
+        "le-ptm-help-centre-utility-widget-title-v2": {
+            "fontColor": "#DC354B",
+            "font": "extra-tiny-medium",
+            "horizontalAlignment": "center",
+            "lineMargin": "1,0,3,0"
+        },
+        "le-ptm-help-centre-widget": {
+            "border": {
+                "cornerRadius": "0,0,0,0"
+            },
+            "background": {
+                "gradient": {
+                    "type": "topLeft-bottomRight",
+                    "colors": {
+                        "start": "#FFEBED",
+                        "mid": null,
+                        "end": "#FFEBED"
+                    }
+                }
+            },
+            "padding": "0,0,0,0",
+            "margin": "0,0,0,0",
+            "horizontalAlignment": "center",
+            "itemsPerRow": 1,
+            "aspectRatio": 16
+        },
+        "le-ptm-help-centre-utility-widget-arrow-icon": {
+            "font": "overline",
+            "imageVerticalAlignment": "baseline"
+        },
+        "le-ptm-ticket-seat-category": {
+            "horizontalAlignment": "center"
+        },
+        "le-ptm-desc-text": {
+            "fontColor": "#999999",
+            "font": "extra-tiny-regular"
+        },
+        "ptm-chips-container": {
+            "aspectRatio": 3.0,
+            "overflow": "fitWidth",
+            "itemsPerRow": 3,
+            "background": {
+                "gradient": {
+                    "type": "topLeft-bottomRight",
+                    "colors": {
+                        "start": "#CCCCCC",
+                        "mid": null,
+                        "end": "#CCCCCC"
+                    }
+                }
+            },
+            "border": {
+                "cornerRadius": "0,0,18,18"
+            },
+            "margin": "6,16,0,16",
+            "padding": "-33,0,0,0"
+        },
+        "ptm-chips": {
+            "backgroundColor": "#FFFFFF",
+            "padding": "0,8,0,8",
+            "border": {
+                "cornerRadius": "8,8,8,8"
+            },
+            "horizontalAlignment": "center"
+        },
+        "ptm-chips-text": {
+            "fontColor": "#1A1A1A",
+            "lineMargin": "0,0,0,2",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "center"
+        },
+        "ptm-chips-image": {
+            "aspectRatio": 1,
+            "width": 24,
+            "contentScale": "fit"
+        },
+        "mt-ptm-split-ticket-info-title": {
+            "font": "extra-tiny-regular",
+            "fontColor": "#C99303",
+            "horizontalAlignment": "center"
+        },
+        "mt-ptm-split-ticket-info": {
+            "backgroundColor": "#FFF9EB"
+        },
+        "mt-ptm-movie-trailer-info": {
+            "backgroundColor": "#DC354B",
+            "horizontalAlignment": "center"
+        },
+        "mt-ptm-movie-trailer-title": {
+            "font": "extra-tiny-regular",
+            "fontColor": "#FFFFFF"
+        },
+        "mt-ptm-ticket-widget": {
+            "background": {
+                "gradient": {
+                    "type": "topLeft-bottomRight",
+                    "colors": {
+                        "start": "#CCCCCC",
+                        "mid": null,
+                        "end": "#CCCCCC"
+                    }
+                }
+            },
+            "border": {
+                "cornerRadius": "0,0,18,18"
+            },
+            "padding": "-16,0,0,0"
+        },
+        "le-ptm-ticket-widget": {
+            "background": {
+                "gradient": {
+                    "type": "topLeft-bottomRight",
+                    "colors": {
+                        "start": "#CCCCCC",
+                        "mid": null,
+                        "end": "#CCCCCC"
+                    }
+                }
+            },
+            "border": {
+                "cornerRadius": "0,0,18,18"
+            }
+        },
+        "cl-ptm-ticket-widget": {
+            "background": {
+                "gradient": {
+                    "type": "topLeft-bottomRight",
+                    "colors": {
+                        "start": "#E5E5E5",
+                        "mid": null,
+                        "end": "#E5E5E5"
+                    }
+                }
+            },
+            "border": {
+                "cornerRadius": "0,0,18,18"
+            },
+            "padding": "-16,0,0,0"
+        },
+        "movie-ptm-header": {
+            "backgroundColor": "#CCCCCC",
+            "padding": "16,16,12,16"
+        },
+        "le-ptde-header": {
+            "backgroundColor": "#CCCCCC",
+            "padding": "16,16,12,16"
+        },
+        "mt-ptm-qr-ticket-count": {
+            "font": "tiny-regular",
+            "fontColor": "#666666",
+            "lineHeight": 12,
+            "horizontalAlignment": "center",
+            "lineMargin": "0,0,8,0"
+        },
+        "mt-ptm-qr-ticket-category": {
+            "font": "large-regular",
+            "fontColor": "#000000",
+            "lineHeight": 18,
+            "horizontalAlignment": "center"
+        },
+        "mt-ptm-qr-ticket-seat-details": {
+            "font": "tiny-regular",
+            "fontColor": "#666666",
+            "horizontalAlignment": "center",
+            "lineMargin": "0,0,8,0"
+        },
+        "mt-ptm-qr-ticket-bookingid": {
+            "font": "extra-tiny-medium",
+            "fontColor": "#000000",
+            "lineHeight": 11,
+            "horizontalAlignment": "center"
+        },
+        "mt-ptm-qr-expanded-ticket-count": {
+            "font": "extra-tiny-regular",
+            "fontColor": "#666666",
+            "horizontalAlignment": "center"
+        },
+        "mt-ptm-qr-expanded-ticket-seat-details": {
+            "font": "extra-tiny-regular",
+            "fontColor": "#666666",
+            "horizontalAlignment": "center"
+        },
+        "mt-ptm-qr-expanded-ticket-category": {
+            "font": "body-large",
+            "fontColor": "#000000",
+            "horizontalAlignment": "center"
+        },
+        "mt-ptm-qr-expanded-ticket-bookingid": {
+            "font": "tiny-medium",
+            "fontColor": "#000000",
+            "horizontalAlignment": "center"
+        },
+        "mt-ptm-expanded-ticket-seat-category": {
+            "horizontalAlignment": "center",
+            "lineMargin": "2,0,0,0"
+        },
+        "mt-ptm-expanded-ticket-seat-category-ticket-count": {
+            "horizontalAlignment": "center",
+            "lineMargin": "0,0,4,0"
+        },
+        "discount-amount-text": {
+            "fontColor": "#008A1E",
+            "fontSize": "11",
+            "font": "tiny-bold",
+            "fontWeight": "bold",
+            "horizontalAlignment": "left",
+            "backgroundColor": "#E8FCED"
+        },
+        "mt-ptm-ticket-footer": {
+            "backgroundColor": "#CCCCCC",
+            "margin": "0,0,0,0",
+            "padding": "30,36,18,36",
+            "border": {
+                "cornerRadius": "12,12,12,12"
+            }
+        },
+        "mt-ptm-expanded-ticket-status-text": {
+            "fontColor": "#FFFFFF",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "center"
+        },
+        "cl-ptm-ticket-footer-text": {
+            "fontColor": "#666666",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "center"
+        },
+        "cl-ptm-ticket-footer-text-container": {
+            "margin": "8,0,0,0"
+        },
+        "movie-poster-image": {
+            "border": {
+                "cornerRadius": "12,12,12,12"
+            }
+        },
+        "le-poster-image": {
+            "border": {
+                "cornerRadius": "6,6,6,6"
+            }
+        },
+        "cl-poster-image": {
+            "border": {
+                "cornerRadius": "6,6,6,6"
+            },
+            "contentScale": "fit"
+        },
+        "default_footer": {
+            "backgroundColor": "#CCCCCC",
+            "margin": "0,0,0,0",
+            "padding": "26,0,18,0"
+        },
+        "scrolling-header-title": {
+            "font": "body-regular",
+            "fontColor": "#333333",
+            "horizontalAlignment": "center",
+            "imageVerticalAlignment": "bottom"
+        },
+        "default-header": {
+            "font": "body-regular",
+            "fontColor": "#333333",
+            "horizontalAlignment": "center",
+            "imageVerticalAlignment": "bottom"
+        },
+        "reactivation-offer-widget": {
+            "aspectRatio": 6.4,
+            "overflow": "fitWidth",
+            "itemsPerRow": 1,
+            "background": {
+                "gradient": {
+                    "type": "topLeft-bottomRight",
+                    "colors": {
+                        "start": "#FFFFFF",
+                        "mid": null,
+                        "end": "#FFFFFF"
+                    }
+                }
+            },
+            "border": {
+                "cornerRadius": "0,0,0,0"
+            },
+            "padding": "0,0,0,0",
+            "margin": "0,16,0,16"
+        },
+        "reactivation-offer-card": {
+            "backgroundColor": "#FFEBED",
+            "border": {
+                "cornerRadius": "8,8,8,8"
+            }
+        },
+        "reactivation-offer-left-icon": {
+            "aspectRatio": 1,
+            "width": 40,
+            "contentScale": "fit",
+            "padding": "0,0,0,8"
+        },
+        "reactivation-widget-title": {
+            "horizontalAlignment": "center",
+            "fontColor": "#666666",
+            "font": "tiny-regular",
+            "lineMargin": "4,0,4,0"
+        },
+        "reactivation-offer-title": {
+            "fontColor": "#333333",
+            "fontWeight": "bold",
+            "font": "tiny-medium"
+        },
+        "reactivation-offer-subtitle": {
+            "fontColor": "#666666",
+            "font": "tiny-medium"
+        },
+        "reactivation-offer-row": {
+            "lineMargin": "0,0,4,8"
+        },
+        "hybrid-container": {
+            "backgroundColor": "#FFFFFF",
+            "lineMargin": "4,0,4,4",
+            "border": {
+                "cornerRadius": "8,8,8,8"
+            },
+            "padding": "2,2,2,8"
+        },
+        "offer-text-view": {
+            "backgroundColor": "#FFFFFF",
+            "lineMargin": "6,6,6,6",
+            "border": {
+                "cornerRadius": "20,8,20,8"
+            }
+        },
+        "club-membership-validity-text": {
+            "fontColor": "#1A1A1A",
+            "font": "tiny-medium",
+            "horizontalAlignment": "center"
+        },
+        "club-benefits-used": {
+            "fontColor": "#404040",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "center",
+            "lineMargin": "8,0,8,0"
+        },
+        "club-transaction-id-text": {
+            "fontColor": "#666666",
+            "font": "extra-tiny-medium",
+            "lineMargin": "8,0,0,0",
+            "horizontalAlignment": "center"
+        },
+        "ptm-screen": {
+            "background": {
+                "gradient": {
+                    "type": "topLeft-bottomRight",
+                    "colors": {
+                        "start": "#FFFFFF",
+                        "mid": null,
+                        "end": "#FFFFFF"
+                    }
+                },
+                "color": "#FFFFFF"
+            }
+        },
+        "bms-club-separator": {
+            "lineMargin": "0,0,8,0",
+            "border": {
+                "width": 1,
+                "type": "dashed",
+                "color": "#CCCCCC",
+                "pattern": "2,2",
+                "side": "bottom"
+            }
+        },
+        "share-bottomsheet-utility-widget": {
+            "margin": "0,8,0,8",
+            "padding": "10,8,16,8"
+        },
+        "transfer-share-icon": {
+            "aspectRatio": 1,
+            "width": 24,
+            "contentScale": "fit"
+        },
+        "right-arrow-icon": {
+            "aspectRatio": 1,
+            "width": 24,
+            "contentScale": "fit"
+        },
+        "share-bottomsheet-header-widget": {
+            "margin": "8,16,8,16"
+        },
+        "share-bottomsheet-header-widget-title": {
+            "font": "large-medium",
+            "horizontalAlignment": "left",
+            "fontColor": "#333333",
+            "lineHeight": 24
+        },
+        "transfer-title": {
+            "font": "small-medium",
+            "fontColor": "#333333"
+        },
+        "transfer-subtitle": {
+            "font": "tiny-regular",
+            "fontColor": "#666666"
+        },
+        "banner-widget-subtitle": {
+            "font": "overline",
+            "fontColor": "#333333",
+            "lineHeight": 14,
+            "lineMargin": "4,0,0,0"
+        },
+        "bms-club-poster-image": {
+            "border": {
+                "cornerRadius": "8,8,8,8"
+            }
+        },
+        "popup-header-title": {
+            "font": "small-bold",
+            "fontWeight": "medium",
+            "fontColor": "#FFFFFF",
+            "horizontalAlignment": "center",
+            "imageVerticalAlignment": "bottom"
+        },
+        "popup-header": {
+            "height": 56,
+            "padding": "16,64,16,64"
+        },
+        "mt-ptm-shared-ticket-details": {
+            "font": "extra-tiny-regular",
+            "fontColor": "#666666",
+            "horizontalAlignment": "center"
+        },
+        "google-wallet-card": {
+            "aspectRatio": 5.7,
+            "overflow": "fitWidth",
+            "itemsPerRow": 1,
+            "padding": "0,78,0,78",
+            "margin": "8,0,0,0"
+        },
+        "stream-widget-image": {
+            "backgroundColor": "#FFFFFF",
+            "shadow": {
+                "elevation": 2
+            }
+        },
+        "order-food-image": {
+            "backgroundColor": "#FFFFFF",
+            "shadow": {
+                "elevation": 2
+            }
+        },
+        "le-ptm-homedelivery-category": {
+            "fontColor": "#666666",
+            "font": "extra-tiny-medium",
+            "horizontalAlignment": "center"
+        },
+        "le-ptm-homedelivery-seatdetails": {
+            "fontColor": "#666666",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "center",
+            "lineMargin": "12,0,0,0"
+        },
+        "le-ptm-homedelivery-bookingid": {
+            "fontColor": "#1A1A1A",
+            "font": "tiny-medium",
+            "horizontalAlignment": "center",
+            "lineMargin": "8,0,8,0"
+        },
+        "delivery-status-success-icon": {
+            "fillColor": "#1FAD3E",
+            "width": 12,
+            "aspectRatio": 1,
+            "strokeColor": "#1FAD3E",
+            "padding": "0,12,0,4"
+        },
+        "delivery-status-title": {
+            "fontColor": "#1A1A1A",
+            "font": "tiny-medium",
+            "horizontalAlignment": "left"
+        },
+        "delivery-status-subtitle": {
+            "fontColor": "#999999",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "left"
+        },
+        "hd-pickup-ptm-ticket-list-widget-separator": {
+            "lineMargin": "12,12,0,12",
+            "border": {
+                "type": "solid",
+                "width": 1,
+                "color": "#F8D4C8"
+            }
+        },
+        "hd-pickup-ptm-ticket-list-widget-background": {
+            "backgroundColor": "#FEF3EC",
+            "border": {
+                "cornerRadius": "16,16,16,16"
+            }
+        },
+        "le-ptm-ticket-list-widget-background": {
+            "border": {
+                "width": 1,
+                "color": "#E5E5E5",
+                "cornerRadius": "12,12,12,12"
+            }
+        },
+        "delivery-status-item-container": {
+            "padding": "12,12,12,12",
+            "imageVerticalAlignment": "center"
+        },
+        "timeline-widget-container": {
+            "margin": "12,12,12,12"
+        },
+        "pickup-timeline-container": {
+            "padding": "0,0,0,0"
+        },
+        "pickup-timeline-widget-title": {
+            "font": "tiny-medium",
+            "fontColor": "#1A1A1A",
+            "horizontalAlignment": "left"
+        },
+        "pickup-timeline-widget-subtitle": {
+            "fontColor": "#808080",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "left"
+        },
+        "pickup-timeline-node-connector-success": {
+            "connectorColor": "#1FAD3E",
+            "border": {
+                "width": 1,
+                "type": "solid"
+            }
+        },
+        "pickup-timeline-node-connector-multiple": {
+            "connectorColor": "#1FAD3E",
+            "border": {
+                "width": 1,
+                "type": "dashed"
+            }
+        },
+        "pickup-timeline-node-icon-success": {
+            "fillColor": "#1FAD3E",
+            "strokeColor": "#1FAD3E",
+            "width": 12,
+            "aspectRatio": 1,
+            "padding": "2,12,0,4",
+            "border": {
+                "width": 1
+            }
+        },
+        "pickup-timeline-node-connector-failure": {
+            "connectorColor": "#E65A2D",
+            "border": {
+                "width": 1,
+                "type": "solid"
+            }
+        },
+        "pickup-timeline-node-icon-failure": {
+            "fillColor": "#E65A2D",
+            "strokeColor": "#E65A2D",
+            "width": 12,
+            "aspectRatio": 1,
+            "padding": "2,12,0,4",
+            "border": {
+                "width": 1
+            }
+        },
+        "pickup-timeline-node-connector-pending": {
+            "connectorColor": "#A0A7C5",
+            "border": {
+                "width": 1,
+                "type": "solid"
+            }
+        },
+        "pickup-timeline-node-icon-pending": {
+            "fillColor": "#FFFFFF",
+            "strokeColor": "#A0A7C5",
+            "width": 12,
+            "aspectRatio": 1,
+            "padding": "2,12,0,4",
+            "border": {
+                "width": 1
+            }
+        },
+        "pickup-description-location-title": {
+            "font": "tiny-medium",
+            "fontColor": "#666666",
+            "horizontalAlignment": "left",
+            "lineMargin": "0,0,4,0"
+        },
+        "pickup-description-location-subtitle": {
+            "font": "extra-tiny-regular",
+            "fontColor": "#999999",
+            "horizontalAlignment": "left"
+        },
+        "pickup-location-action-text": {
+            "font": "tiny-medium",
+            "fontColor": "#3E6EEA",
+            "horizontalAlignment": "center"
+        },
+        "location-action-container": {
+            "backgroundColor": "#EBF0FF",
+            "padding": "2,0,2,0"
+        },
+        "pickup-description-location-container": {
+            "backgroundColor": "#FFFFFF",
+            "border": {
+                "cornerRadius": "8,8,8,8"
+            },
+            "margin": "4,0,4,28",
+            "padding": "8,8,8,8"
+        },
+        "delivery-pickup-popup-ticket-count": {
+            "fontColor": "#666666",
+            "font": "tiny-bold",
+            "horizontalAlignment": "center",
+            "lineMargin": "4,0,0,0"
+        },
+        "le-ptm-homedelivery-seatdetails-popup-container": {
+            "fontColor": "#666666",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "center",
+            "lineMargin": "0,0,8,0"
+        },
+        "le-ptm-homedelivery-pickup-qr-disclaimer": {
+            "fontColor": "#999999",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "center",
+            "lineMargin": "12,12,12,12"
+        },
+        "le-ptm-homedelivery-pickup-user-details-disclaimer": {
+            "fontColor": "#999999",
+            "font": "extra-tiny-regular",
+            "horizontalAlignment": "center",
+            "lineMargin": "0,12,12,12"
+        },
+        "le-ptm-homedelivery-pickup-user-details-disclaimer-bold": {
+            "fontColor": "#666666",
+            "font": "extra-tiny-medium",
+            "horizontalAlignment": "center"
+        },
+        "qr-code-style": {
+            "padding": "12,0,0,0"
+        },
+        "timeline-bottomsheet-header-info-subtitle": {
+            "horizontalAlignment": "left",
+            "fontColor": "#666666",
+            "font": "small-regular",
+            "lineMargin": "8,0,0,0"
+        },
+        "timeline-bottomsheet-header-info-title": {
+            "font": "large-medium",
+            "fontColor": "#333333",
+            "horizontalAlignment": "left"
+        },
+        "timeline-bottomsheet-content": {
+            "font": "tiny-regular",
+            "fontColor": "#333333",
+            "horizontalAlignment": "left",
+            "lineMargin": "0,0,0,8"
+        },
+        "mt-ptm-ticket-widget-new": {
+            "padding": "-16,0,0,0",
+            "backgroundColor": "#CCCCCC",
+            "background": {
+                "color": "#FFCCCCCC"
+            },
+            "border": {
+                "cornerRadius": "0,0,18,18"
+            }
+        },
+        "le-ptm-ticket-widget-new": {
+            "padding": "-16,0,0,0",
+            "backgroundColor": "#CCCCCC",
+            "background": {
+                "color": "#FFCCCCCC"
+            },
+            "border": {
+                "cornerRadius": "0,0,18,18"
+            }
+        },
+        "cl-ptm-ticket-widget-new": {
+            "padding": "-16,0,0,0",
+            "backgroundColor": "#CCCCCC",
+            "background": {
+                "color": "#FFCCCCCC"
+            },
+            "border": {
+                "cornerRadius": "0,0,18,18"
+            }
+        },
+        "ptm-chips-container-new": {
+            "aspectRatio": 3,
+            "overflow": "fitWidth",
+            "itemsPerRow": 3,
+            "border": {
+                "cornerRadius": "0,0,18,18"
+            },
+            "backgroundColor": "#CCCCCC",
+            "background": {
+                "color": "#FFCCCCCC"
+            },
+            "margin": "6,16,0,16",
+            "padding": "-33,0,0,0"
+        },
+        "list-ticket-text": {
+            "font": "tiny-medium",
+            "fontColor": "#666666"
+        },
+        "list-ticket-action": {
+            "backgroundColor": "#FFFFFF",
+            "font": "tiny-medium",
+            "fontColor": "#EB4E62",
+            "padding": "2,4,2,4",
+            "border": {
+                "color": "#CCCCCC",
+                "cornerRadius": "8,8,8,8",
+                "width": 1.0
+            }
+        },
+        "list-ticket-bottomsheet-title": {
+            "fontColor": "#333333",
+            "font": "large-medium"
+        },
+        "list-ticket-bottomsheet-subtitle": {
+            "fontColor": "#666666",
+            "font": "extra-tiny-regular",
+            "padding": "8,0,12,0"
+        },
+        "list-your-ticket-container": {
+            "backgroundColor": "#F5F5F5"
+        },
+        "list-ticket-listed-banner-widget": {
+            "backgroundColor": "#FFD564",
+            "margin": "0,0,0,0",
+            "border": {
+                "cornerRadius": "12,12,12,12"
+            }
+        },
+        "list-ticket-retained-banner-widget": {
+            "backgroundColor": "#F8D4C8",
+            "margin": "0,0,0,0",
+            "border": {
+                "cornerRadius": "12,12,12,12"
+            }
+        },
+        "list-ticket-banner-widget-description": {
+            "font": "body-medium",
+            "fontColor": "#333333",
+            "horizontalAlignment": "left"
+        },
+        "list-ticket-banner-widget-title": {
+            "font": "overline",
+            "fontColor": "#333333",
+            "horizontalAlignment": "left",
+            "lineMargin": "0,0,4,0"
+        },
+        "list-ticket-bottomsheet-image": {
+            "margin": "4, 12, 4, 12"
+        },
+        "resale-ptm-ticket-list-widget-separator": {
+            "lineMargin": "12,12,0,12",
+            "border": {
+                "type": "solid",
+                "width": 1,
+                "color": "#CCCCCC"
+            }
+        },
+        "resale-ptm-ticket-list-widget-background": {
+            "border": {
+                "type": "solid",
+                "width": 1,
+                "color": "#CCCCCC",
+                "cornerRadius": "16,16,16,16"
+            }
+        }
+    }
+}
