@@ -4,6 +4,9 @@
     },
     "error": null,
     "styles": {
+        "list-ticket-bottomsheet-text-container": {
+            "margin": "16,12,10,12" 
+        },
         "event-title-text": {
             "font": "body-bold",
             "fontColor": "#000000"
