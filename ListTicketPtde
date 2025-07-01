@@ -1,0 +1,1001 @@
+{
+    "meta": {
+        "eventEpochTime": 1752552000000,
+        "serverEpochTime": 1751369568165,
+        "highlightedWidget": "1",
+        "isNotIntendedUser": false,
+        "analytics": {
+            "screen_name": "post_transaction_mode",
+            "event_type": "screen_view",
+            "event_name": "ptm_viewed",
+            "event_code": "ET00433908",
+            "venue_code": "DVFT",
+            "title": "LE PTDE Multiday HD + Pick up",
+            "product": "events",
+            "is_tvod": "no",
+            "transaction_id": "4669578831",
+            "venue_app": "|SS|CT|",
+            "category": "Comedy Shows",
+            "sub_category": "Improv Comedy",
+            "genre": "Comedy",
+            "source": "",
+            "type": "resale",
+            "call_analytics_api": false,
+            "metadata": {
+                "ticket_resale": "Y"
+            }
+        },
+        "screenCaptureAnalytics": {
+            "event_name": "user_system_actions",
+            "event_type": "click",
+            "product": "events",
+            "screen_name": "post_transaction_mode"
+        },
+        "showEndTime": "202507150618"
+    },
+    "header": [
+        {
+            "styleId": "le-ptde-header",
+            "title": {
+                "styleId": "scrolling-header-title",
+                "components": [
+                    {
+                        "type": "text",
+                        "text": "Your booking details"
+                    }
+                ]
+            },
+            "sticky": {
+                "title": {
+                    "components": [
+                        {
+                            "styleId": "sticky-header-subtitle-small",
+                            "type": "text",
+                            "text": "LE PTDE Multiday HD + Pick up"
+                        }
+                    ]
+                },
+                "subtitle": {
+                    "components": [
+                        {
+                            "styleId": "sticky-header-footer",
+                            "type": "text",
+                            "text": "Show starts in about 1 week"
+                        }
+                    ]
+                },
+                "actions": {
+                    "left": {
+                        "iconUrl": "https://in.bmscdn.com/moviesmaster/ptm/mobile-ticket-icon.png",
+                        "cta": {
+                            "type": "scroll",
+                            "analytics": {
+                                "event_name": "cta_clicked",
+                                "event_type": "click",
+                                "event_action": "Booking Details",
+                                "category": "scroll"
+                            },
+                            "additionalData": {
+                                "scrollToWidget": "1",
+                                "refresh": false,
+                                "refreshScreen": false,
+                                "forceLogout": false
+                            },
+                            "isHardReload": false,
+                            "isExternal": false
+                        }
+                    },
+                    "right": {
+                        "iconUrl": "https://in.bmscdn.com/moviesmaster/ptm/close-icon-red.png",
+                        "cta": {
+                            "type": "closeScreen",
+                            "analytics": {
+                                "event_name": "cta_clicked",
+                                "event_type": "click",
+                                "category": "closeScreen"
+                            },
+                            "isHardReload": false,
+                            "isExternal": false
+                        }
+                    },
+                    "stickyFilters": {
+                        "cta": {
+                            "type": "flex",
+                            "id": "15",
+                            "isHardReload": false,
+                            "isExternal": false
+                        }
+                    }
+                },
+                "cta": {
+                    "type": "scroll",
+                    "analytics": {
+                        "event_name": "cta_clicked",
+                        "event_type": "click",
+                        "category": "scroll",
+                        "event_action": "Booking Details"
+                    },
+                    "additionalData": {
+                        "scrollToWidget": "1",
+                        "refresh": false,
+                        "refreshScreen": false,
+                        "forceLogout": false
+                    },
+                    "isHardReload": false,
+                    "isExternal": false
+                }
+            },
+            "actions": {
+                "right": {
+                    "iconUrl": "https://in.bmscdn.com/moviesmaster/ptm/close-icon-red.png",
+                    "cta": {
+                        "type": "closeScreen",
+                        "analytics": {
+                            "event_name": "cta_clicked",
+                            "event_type": "click",
+                            "category": "closeScreen"
+                        },
+                        "isHardReload": false,
+                        "isExternal": false
+                    }
+                }
+            }
+        }
+    ],
+    "actions": {
+        "pullToRefresh": {
+            "cta": {
+                "type": "refresh",
+                "analytics": {
+                    "event_name": "cta_pulled",
+                    "event_type": "pull",
+                    "event_action": "pulltorefresh",
+                    "category": "refresh"
+                },
+                "isHardReload": false,
+                "isExternal": false
+            }
+        }
+    },
+    "sequence": [
+        {
+            "source": "primary",
+            "id": "1",
+            "sequenceNo": "1",
+            "subCardTypeId": "121"
+        },
+        {
+            "source": "secondary-dynamic",
+            "id": "37",
+            "sequenceNo": "2",
+            "subCardTypeId": "129"
+        },
+        {
+            "source": "primary",
+            "id": "36",
+            "sequenceNo": "3",
+            "subCardTypeId": "128"
+        },
+        {
+            "source": "primary",
+            "id": "2",
+            "sequenceNo": "4",
+            "subCardTypeId": "122"
+        },
+        {
+            "source": "secondary-static",
+            "id": "3",
+            "sequenceNo": "5",
+            "subCardTypeId": "115"
+        },
+        {
+            "source": "secondary-dynamic",
+            "id": "9",
+            "sequenceNo": "6",
+            "subCardTypeId": "118"
+        },
+        {
+            "source": "secondary-dynamic",
+            "id": "35",
+            "sequenceNo": "7",
+            "subCardTypeId": "125"
+        },
+        {
+            "source": "secondary-dynamic",
+            "id": "33",
+            "sequenceNo": "8",
+            "subCardTypeId": "101"
+        }
+    ],
+    "widgets": {
+        "1": {
+            "id": "ticket",
+            "type": "extendedTicketInfo",
+            "data": [
+                {
+                    "eventDetails": [
+                        {
+                            "styleId": "le-ptm-event-details-card-title",
+                            "text": "LE PTDE Multiday HD + Pick up",
+                            "cta": {
+                                "id": "leSynopsis",
+                                "type": "router",
+                                "url": "https://in-preprod.bms.bz/events/le-ptde-multiday-hd-pick-up/ET00433908",
+                                "analytics": {
+                                    "event_name": "cta_clicked",
+                                    "event_type": "click",
+                                    "category": "header_clicked",
+                                    "type": "Comedy Shows",
+                                    "sub_category": "Improv Comedy",
+                                    "genre": "Comedy",
+                                    "sub_genre": null
+                                }
+                            },
+                            "maxLines": 3
+                        },
+                        {
+                            "styleId": "le-ptm-event-details-card-subtitle",
+                            "text": "Improv Comedy | Bengali",
+                            "maxLines": 1
+                        },
+                        {
+                            "styleId": "le-ptm-event-details-card-subtitle",
+                            "text": "Tue, 15 Jul | 04:00 AM",
+                            "maxLines": 1
+                        },
+                        {
+                            "styleId": "le-ptm-event-details-card-subtitle",
+                            "text": "LE Test New Venue: BTSS India",
+                            "maxLines": 2
+                        }
+                    ],
+                    "ticketType": {
+                        "styleId": "le-ptm-event-details-card-subtitle",
+                        "text": "Pickup",
+                        "maxLines": 0
+                    },
+                    "eventImage": {
+                        "styleId": "le-poster-image",
+                        "url": "https://assets-in.bmscdn.com/nmcms/events/banner/weblisting/sandip-test-event-203-et00433908-2025-2-14-t-10-1-48.jpg",
+                        "cta": {
+                            "id": "leSynopsis",
+                            "type": "router",
+                            "url": "https://in-preprod.bms.bz/events/le-ptde-multiday-hd-pick-up/ET00433908",
+                            "analytics": {
+                                "event_name": "cta_clicked",
+                                "event_type": "click",
+                                "category": "header_clicked",
+                                "type": "Comedy Shows",
+                                "sub_category": "Improv Comedy",
+                                "genre": "Comedy",
+                                "sub_genre": null
+                            }
+                        }
+                    },
+                    "tapToWidget": {
+                        "styleId": "le-ptm-tap-to-view",
+                        "data": [
+                            {
+                                "styleId": "le-ptm-expandable-card-title",
+                                "text": "Tap for QR code & more details",
+                                "maxLines": 1
+                            }
+                        ]
+                    },
+                    "ticketResaleListTicketWidget": {
+                        "text": [
+                            {
+                                "styleId": "list-ticket-text",
+                                "text": "Unable to attend?",
+                                "maxLines": 0
+                            }
+                        ],
+                        "action": {
+                            "styleId": "list-ticket-action",
+                            "text": "List Your Tickets",
+                            "cta": {
+                                "type": "bottomsheet",
+                                "id": "generic",
+                                "analytics": {
+                                    "event_name": "card_clicked",
+                                    "event_type": "click",
+                                    "category": "ticket_resale"
+                                },
+                                "additionalData": {
+                                    "refresh": false,
+                                    "refreshScreen": false,
+                                    "bottomSheetData": {
+                                        "ctaData": [
+                                            {
+                                                "text": "Go Back",
+                                                "style": "secondary",
+                                                "cta": {
+                                                    "type": "close",
+                                                    "analytics": {
+                                                        "event_name": "card_clicked",
+                                                        "event_type": "click",
+                                                        "event_action": "cancel",
+                                                        "screen_name": "resale_info_bottomsheet"
+                                                    },
+                                                    "isHardReload": false,
+                                                    "isExternal": false
+                                                }
+                                            },
+                                            {
+                                                "text": "List Tickets",
+                                                "style": "primary",
+                                                "cta": {
+                                                    "type": "router",
+                                                    "url": "https://in.bookmyshow.com/ticket-resale/seller/DVFT009TS21WA1/4669578831",
+                                                    "analytics": {
+                                                        "event_name": "card_clicked",
+                                                        "event_type": "click",
+                                                        "event_action": "list_tickets",
+                                                        "screen_name": "resale_info_bottomsheet"
+                                                    },
+                                                    "isHardReload": false,
+                                                    "isExternal": false
+                                                }
+                                            }
+                                        ],
+                                        "widgets": [
+                                            {
+                                                "type": "text",
+                                                "data": [
+                                                    {
+                                                        "styleId": "list-ticket-bottomsheet-title",
+                                                        "maxLines": 0,
+                                                        "text": "List your tickets"
+                                                    },
+                                                    {
+                                                        "styleId": "list-ticket-bottomsheet-subtitle",
+                                                        "maxLines": 0,
+                                                        "text": "BookMyShow’s trusted platform, wide reach, clear policies and secure payments can help find buyers for your tickets."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "image",
+                                                "data": [
+                                                    {
+                                                        "maxLines": 0,
+                                                        "imageUrl": "https://in.bmscdn.com/moviesmaster/ptm/ticket-resale-process.png"
+                                                    }
+                                                ],
+                                                "styleId": "list-ticket-bottomsheet-image",
+                                                "aspectRatio": "2.4"
+                                            }
+                                        ],
+                                        "analytics": {
+                                            "event_name": "widget_viewed",
+                                            "event_type": "impression",
+                                            "screen_name": "resale_info_bottomsheet",
+                                            "widget_id": "ticket_resale_bottomsheet"
+                                        }
+                                    },
+                                    "forceLogout": false
+                                }
+                            },
+                            "maxLines": 0
+                        },
+                        "styleId": "list-your-ticket-container"
+                    },
+                    "priceBreakup": {
+                        "styleId": "le-ptm-price-breakup-collapsed",
+                        "priceBreakupData": [
+                            {
+                                "styleId": "le-ptm-price-breakup-row-collapsed",
+                                "leftText": {
+                                    "data": [
+                                        {
+                                            "components": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Total Amount"
+                                                }
+                                            ],
+                                            "styleId": "le-ptm-left-text-collapsed",
+                                            "maxLines": 0
+                                        }
+                                    ]
+                                },
+                                "rightText": {
+                                    "data": [
+                                        {
+                                            "components": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "₹ 3.25"
+                                                }
+                                            ],
+                                            "styleId": "le-ptm-right-text-collapsed",
+                                            "maxLines": 0
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "footerWidget": {
+                        "styleId": "le-ptm-ticket-footer",
+                        "text": [
+                            {
+                                "styleId": "le-ptm-ticket-footer-text",
+                                "text": "Show this ticket at the pick-up venue to collect your physical tickets/entry passes.",
+                                "maxLines": 0
+                            }
+                        ]
+                    },
+                    "ticketList": [
+                        {
+                            "isQRScannerEnable": true,
+                            "qrCodeDetails": [
+                                {
+                                    "components": [
+                                        {
+                                            "styleId": "le-ptm-homedelivery-category",
+                                            "type": "text",
+                                            "text": "SANDIPTEST1 "
+                                        },
+                                        {
+                                            "styleId": "",
+                                            "type": "text",
+                                            "text": "1 Ticket(s)"
+                                        }
+                                    ],
+                                    "styleId": "le-ptm-homedelivery-seatdetails",
+                                    "maxLines": 2
+                                },
+                                {
+                                    "components": [],
+                                    "styleId": "delivery-pickup-popup-ticket-count",
+                                    "text": "Total ticket(s) 1",
+                                    "maxLines": 1
+                                }
+                            ],
+                            "bookingDetails": [
+                                {
+                                    "components": [],
+                                    "styleId": "le-ptm-qr-card-bookingid",
+                                    "text": "BOOKING ID: DVFT009TS21WA1",
+                                    "maxLines": 1
+                                }
+                            ],
+                            "meta": {
+                                "separator": {
+                                    "styleId": "hd-pickup-ptm-ticket-list-widget-separator"
+                                },
+                                "background": {
+                                    "styleId": "hd-pickup-ptm-ticket-list-widget-background"
+                                }
+                            },
+                            "deliveryStatus": {
+                                "styleId": "delivery-status-item-container",
+                                "leftIcon": {
+                                    "styleId": "pickup-timeline-node-icon-success"
+                                },
+                                "text": [
+                                    {
+                                        "styleId": "delivery-status-title",
+                                        "components": [
+                                            {
+                                                "styleId": "",
+                                                "type": "text",
+                                                "text": "Ticket(s) are being processed"
+                                            }
+                                        ],
+                                        "maxLines": 1
+                                    },
+                                    {
+                                        "styleId": "delivery-status-subtitle",
+                                        "components": [
+                                            {
+                                                "styleId": "",
+                                                "type": "text",
+                                                "text": "Tap to view pick-up venue details"
+                                            }
+                                        ],
+                                        "maxLines": 1
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "ticketDetailCTA": {
+                        "id": "expanded-ticket",
+                        "type": "popup",
+                        "additionalData": {
+                            "screenData": {
+                                "type": "homeDeliveryPickupTicket",
+                                "eventDetails": [
+                                    {
+                                        "styleId": "le-ptm-event-details-card-title",
+                                        "text": "LE PTDE Multiday HD + Pick up",
+                                        "cta": {
+                                            "id": "leSynopsis",
+                                            "type": "router",
+                                            "url": "https://in-preprod.bms.bz/events/le-ptde-multiday-hd-pick-up/ET00433908",
+                                            "analytics": {
+                                                "event_name": "cta_clicked",
+                                                "event_type": "click",
+                                                "category": "header_clicked",
+                                                "type": "Comedy Shows",
+                                                "sub_category": "Improv Comedy",
+                                                "genre": "Comedy",
+                                                "sub_genre": null
+                                            }
+                                        },
+                                        "maxLines": 3
+                                    },
+                                    {
+                                        "styleId": "le-ptm-event-details-card-subtitle",
+                                        "text": "Improv Comedy | Bengali",
+                                        "maxLines": 1
+                                    },
+                                    {
+                                        "styleId": "le-ptm-event-details-card-subtitle",
+                                        "text": "Tue, 15 Jul | 04:00 AM",
+                                        "maxLines": 1
+                                    },
+                                    {
+                                        "styleId": "le-ptm-event-details-card-subtitle",
+                                        "text": "LE Test New Venue: BTSS India",
+                                        "maxLines": 2
+                                    }
+                                ],
+                                "ticketType": {
+                                    "styleId": "le-ptm-event-details-card-subtitle",
+                                    "text": "Pickup",
+                                    "maxLines": 0
+                                },
+                                "eventImage": {
+                                    "styleId": "le-poster-image",
+                                    "url": "https://assets-in.bmscdn.com/nmcms/events/banner/weblisting/sandip-test-event-203-et00433908-2025-2-14-t-10-1-48.jpg",
+                                    "cta": {
+                                        "id": "leSynopsis",
+                                        "type": "router",
+                                        "url": "https://in-preprod.bms.bz/events/le-ptde-multiday-hd-pick-up/ET00433908",
+                                        "analytics": {
+                                            "event_name": "cta_clicked",
+                                            "event_type": "click",
+                                            "category": "header_clicked",
+                                            "type": "Comedy Shows",
+                                            "sub_category": "Improv Comedy",
+                                            "genre": "Comedy",
+                                            "sub_genre": null
+                                        }
+                                    }
+                                },
+                                "tapToWidget": {
+                                    "styleId": "le-ptm-tap-to-view",
+                                    "data": [
+                                        {
+                                            "styleId": "le-ptm-expandable-card-title",
+                                            "text": "Tap to hide details",
+                                            "maxLines": 0
+                                        }
+                                    ],
+                                    "cta": {
+                                        "type": "close",
+                                        "analytics": {
+                                            "event_name": "cta_clicked",
+                                            "event_type": "click",
+                                            "category": "closeScreen",
+                                            "type": "Comedy Shows",
+                                            "sub_category": "Improv Comedy",
+                                            "genre": "Comedy",
+                                            "sub_genre": null
+                                        }
+                                    }
+                                },
+                                "footerWidget": {
+                                    "styleId": "le-ptm-ticket-footer",
+                                    "text": [
+                                        {
+                                            "styleId": "le-ptm-ticket-footer-text",
+                                            "text": "Show this ticket at the pick-up venue to collect your physical tickets/entry passes.",
+                                            "maxLines": 0
+                                        }
+                                    ]
+                                },
+                                "priceBreakup": {
+                                    "styleId": "le-ptm-price-breakup-expanded",
+                                    "priceBreakupData": [
+                                        {
+                                            "styleId": "le-ptm-price-breakup-row-last-expanded",
+                                            "leftText": {
+                                                "data": [
+                                                    {
+                                                        "components": [
+                                                            {
+                                                                "type": "text",
+                                                                "text": "Total Amount"
+                                                            }
+                                                        ],
+                                                        "styleId": "le-ptm-left-text-bold-expanded",
+                                                        "maxLines": 0
+                                                    }
+                                                ]
+                                            },
+                                            "rightText": {
+                                                "data": [
+                                                    {
+                                                        "components": [
+                                                            {
+                                                                "type": "text",
+                                                                "text": "₹ 3.25"
+                                                            }
+                                                        ],
+                                                        "styleId": "le-ptm-right-text-bold-expanded",
+                                                        "maxLines": 0
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "styleId": "le-ptm-price-breakup-row-expanded",
+                                            "leftText": {
+                                                "data": [
+                                                    {
+                                                        "components": [
+                                                            {
+                                                                "type": "text",
+                                                                "text": "Ticket(s) Price (1)"
+                                                            }
+                                                        ],
+                                                        "styleId": "le-ptm-left-text-expanded",
+                                                        "maxLines": 0
+                                                    }
+                                                ]
+                                            },
+                                            "rightText": {
+                                                "data": [
+                                                    {
+                                                        "components": [
+                                                            {
+                                                                "type": "text",
+                                                                "text": "₹ 3.00"
+                                                            }
+                                                        ],
+                                                        "styleId": "le-ptm-right-text-expanded",
+                                                        "maxLines": 0
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "styleId": "le-ptm-price-breakup-row-last-expanded",
+                                            "leftText": {
+                                                "data": [
+                                                    {
+                                                        "components": [
+                                                            {
+                                                                "type": "text",
+                                                                "text": "SANDIPTEST1 (1)"
+                                                            }
+                                                        ],
+                                                        "styleId": "le-ptm-desc-text",
+                                                        "maxLines": 0
+                                                    }
+                                                ]
+                                            },
+                                            "rightText": {
+                                                "data": [
+                                                    {
+                                                        "components": [
+                                                            {
+                                                                "type": "text",
+                                                                "text": "₹ 3.00"
+                                                            }
+                                                        ],
+                                                        "styleId": "le-ptm-right-text-expanded",
+                                                        "maxLines": 0
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "styleId": "le-ptm-price-breakup-row-expanded",
+                                            "leftText": {
+                                                "data": [
+                                                    {
+                                                        "components": [
+                                                            {
+                                                                "type": "text",
+                                                                "text": "Convenience fees"
+                                                            }
+                                                        ],
+                                                        "styleId": "le-ptm-left-text-expanded",
+                                                        "maxLines": 0
+                                                    }
+                                                ]
+                                            },
+                                            "rightText": {
+                                                "data": [
+                                                    {
+                                                        "components": [
+                                                            {
+                                                                "type": "text",
+                                                                "text": "+ ₹ 0.25"
+                                                            }
+                                                        ],
+                                                        "styleId": "le-ptm-right-text-expanded",
+                                                        "maxLines": 0
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                },
+                                "ticketListDetails": [
+                                    {
+                                        "isQRScannerEnable": true,
+                                        "qrCodeImage": {
+                                            "styleId": "qr-code-style",
+                                            "url": "https://in-preprod.bms.bz/secure/barcode/?IsImage=Y&strBarcodeType=qrcode&strBarcodeTxt=DVFT009TS21WA1"
+                                        },
+                                        "bookingDetails": [
+                                            {
+                                                "components": [],
+                                                "styleId": "le-ptm-qr-card-bookingid",
+                                                "text": "BOOKING ID: DVFT009TS21WA1",
+                                                "maxLines": 1
+                                            },
+                                            {
+                                                "components": [],
+                                                "styleId": "le-ptm-homedelivery-pickup-qr-disclaimer",
+                                                "text": "Show this QR code at the pickup venue to collect your physical tickets/entry passes",
+                                                "maxLines": 0
+                                            }
+                                        ],
+                                        "seatCategoryDetails": [
+                                            {
+                                                "components": [
+                                                    {
+                                                        "styleId": "le-ptm-homedelivery-category",
+                                                        "type": "text",
+                                                        "text": "SANDIPTEST1 "
+                                                    },
+                                                    {
+                                                        "styleId": "",
+                                                        "type": "text",
+                                                        "text": "1 Ticket(s)"
+                                                    }
+                                                ],
+                                                "styleId": "le-ptm-homedelivery-seatdetails-popup-container",
+                                                "maxLines": 0
+                                            },
+                                            {
+                                                "components": [],
+                                                "styleId": "delivery-pickup-popup-ticket-count",
+                                                "text": "Total ticket(s) 1",
+                                                "maxLines": 1
+                                            }
+                                        ],
+                                        "timelineWidget": {
+                                            "styleId": "timeline-widget-container",
+                                            "timelineWidgetData": [
+                                                {
+                                                    "styleId": "pickup-timeline-container",
+                                                    "timeline": [
+                                                        {
+                                                            "styleId": "pickup-timeline-node-connector-pending",
+                                                            "leftIcon": {
+                                                                "styleId": "pickup-timeline-node-icon-success"
+                                                            },
+                                                            "text": [
+                                                                {
+                                                                    "styleId": "pickup-timeline-widget-title",
+                                                                    "components": [
+                                                                        {
+                                                                            "styleId": "",
+                                                                            "type": "text",
+                                                                            "text": "Ticket(s) are being processed  "
+                                                                        }
+                                                                    ],
+                                                                    "maxLines": 1
+                                                                },
+                                                                {
+                                                                    "styleId": "pickup-timeline-widget-subtitle",
+                                                                    "components": [
+                                                                        {
+                                                                            "styleId": "",
+                                                                            "type": "text",
+                                                                            "text": "Booked on 20-06-2025"
+                                                                        }
+                                                                    ],
+                                                                    "maxLines": 0
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "styleId": "pickup-timeline-node-connector-pending",
+                                                            "leftIcon": {
+                                                                "styleId": "pickup-timeline-node-icon-pending"
+                                                            },
+                                                            "text": [
+                                                                {
+                                                                    "styleId": "pickup-timeline-widget-title",
+                                                                    "components": [
+                                                                        {
+                                                                            "styleId": "",
+                                                                            "type": "text",
+                                                                            "text": "Ticket(s) are ready for pickup  "
+                                                                        }
+                                                                    ],
+                                                                    "maxLines": 1
+                                                                },
+                                                                {
+                                                                    "styleId": "pickup-timeline-widget-subtitle",
+                                                                    "components": [
+                                                                        {
+                                                                            "styleId": "",
+                                                                            "type": "text",
+                                                                            "text": "Venue will be decided soon"
+                                                                        }
+                                                                    ],
+                                                                    "maxLines": 0
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "styleId": "pickup-timeline-node-connector-pending",
+                                                            "leftIcon": {
+                                                                "styleId": "pickup-timeline-node-icon-pending"
+                                                            },
+                                                            "text": [
+                                                                {
+                                                                    "styleId": "pickup-timeline-widget-title",
+                                                                    "components": [
+                                                                        {
+                                                                            "styleId": "",
+                                                                            "type": "text",
+                                                                            "text": "Ticket(s) collected  "
+                                                                        }
+                                                                    ],
+                                                                    "maxLines": 1
+                                                                },
+                                                                {
+                                                                    "styleId": "pickup-timeline-widget-subtitle",
+                                                                    "components": [
+                                                                        {
+                                                                            "styleId": "",
+                                                                            "type": "text",
+                                                                            "text": "Enjoy the Show!"
+                                                                        }
+                                                                    ],
+                                                                    "maxLines": 0
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "isExpanded": true
+                                                }
+                                            ]
+                                        },
+                                        "meta": {
+                                            "background": {
+                                                "styleId": "hd-pickup-ptm-ticket-list-widget-background"
+                                            }
+                                        },
+                                        "disclaimerText": [
+                                            {
+                                                "styleId": "le-ptm-homedelivery-pickup-user-details-disclaimer",
+                                                "components": [
+                                                    {
+                                                        "styleId": "",
+                                                        "type": "text",
+                                                        "text": "You will receive updates via SMS on"
+                                                    },
+                                                    {
+                                                        "styleId": "le-ptm-homedelivery-pickup-user-details-disclaimer-bold",
+                                                        "type": "text",
+                                                        "text": " 9273677115 "
+                                                    },
+                                                    {
+                                                        "styleId": "",
+                                                        "type": "text",
+                                                        "text": "and email on"
+                                                    },
+                                                    {
+                                                        "styleId": "le-ptm-homedelivery-pickup-user-details-disclaimer-bold",
+                                                        "type": "text",
+                                                        "text": " dipak.bane@bookmyshow.com"
+                                                    }
+                                                ],
+                                                "maxLines": 0
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "analytics": {
+                            "event_name": "cta_clicked",
+                            "event_type": "click",
+                            "category": "ticket_clicked",
+                            "type": "Comedy Shows",
+                            "sub_category": "Improv Comedy",
+                            "genre": "Comedy",
+                            "sub_genre": null
+                        }
+                    },
+                    "type": "homeDeliveryPickupTicket",
+                    "eventCode": "ET00433908",
+                    "transactionId": "4669578831",
+                    "showDateTime": "2025-07-15 04:00:00",
+                    "transDateTime": "2025-06-20 19:47:28",
+                    "eventDuration": 125
+                }
+            ],
+            "styleId": "le-ptm-ticket-widget-new",
+            "analytics": {
+                "event_name": "card_viewed",
+                "event_type": "impression",
+                "widget_id": "ptm_widget",
+                "category": "ticket_resale",
+                "type": "Comedy Shows",
+                "sub_category": "Improv Comedy",
+                "genre": "Comedy",
+                "sub_genre": null
+            }
+        },
+        "36": {
+            "id": "help-centre",
+            "type": "generic",
+            "data": [
+                {
+                    "cta": {
+                        "id": "helpCentre",
+                        "type": "router",
+                        "url": "https://in-preprod.bms.bz/help-centre/ticket?transactionId=4669578831&time=2025-07-15T06:05:00&webview=true",
+                        "analytics": {
+                            "event_name": "card_clicked",
+                            "event_type": "click",
+                            "type": "Comedy Shows",
+                            "call_analytics_api": false,
+                            "sub_category": "Improv Comedy",
+                            "genre": "Comedy"
+                        },
+                        "isHardReload": false,
+                        "isExternal": false
+                    },
+                    "text": [
+                        {
+                            "components": [
+                                {
+                                    "styleId": "le-ptm-help-centre-utility-widget-icon",
+                                    "type": "image",
+                                    "imageUrl": "https://in.bmscdn.com/moviesmaster/ptm/helpcenter.png"
+                                },
+                                {
+                                    "styleId": "le-ptm-help-centre-utility-widget-title-v2",
+                                    "type": "text",
+                                    "text": "  Need help?  •  Visit help centre  "
+                                },
+                                {
+                                    "styleId": "le-ptm-help-centre-utility-widget-icon",
+                                    "type": "image",
+                                    "imageUrl": "https://in.bmscdn.com/moviesmaster/ptm/helpcenterarrow.png"
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "dynamicUtility",
+                    "styleId": "le-ptm-help-centre-card-v2"
+                }
+            ],
+            "styleId": "le-ptm-help-centre-widget",
+            "analytics": {
+                "event_name": "card_viewed",
+                "event_type": "impression",
+                "category": "utility",
+                "widget_id": "ptm_widget",
+                "type": "Comedy Shows",
+                "sub_category": "Improv Comedy",
+                "genre": "Comedy",
+                "sub_genre": null
+            }
+        }
+    }
+}
