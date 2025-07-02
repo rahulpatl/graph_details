@@ -179,7 +179,7 @@
           "cornerRadius" : "8,8,8,8"
         },
         "backgroundColor" : "#FFFFFF",
-        "padding" : "40,40,0,12",
+        "padding" : "0,40,0,12",
         "margin" : "12,16,0,16"
       },
       "faq-description-text-style" : {
