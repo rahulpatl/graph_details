@@ -608,67 +608,6 @@
                     ]
                   }
                 ]
-              },
-              {
-                "styleId" : "important-things-to-note-parent-content-style",
-                "data" : [
-                  {
-                    "styleId" : "important-things-to-note-item-content-style",
-                    "components" : [
-                      {
-                        "styleId" : "important-things-to-note-image-style",
-                        "imageUrl" : "$bullet-point-four$",
-                        "type" : "image",
-                        "vars" : [
-                          "bullet-point-four"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "styleId" : "important-things-to-note-item-content-text-style",
-                    "components" : [
-                      {
-                        "vars" : [
-                          "bullet-point-four-value"
-                        ],
-                        "styleId" : "important-things-to-note-text-style",
-                        "type" : "text",
-                        "text" : "$bullet-point-four-value$"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "styleId" : "important-things-to-note-parent-content-style",
-                "data" : [
-                  {
-                    "styleId" : "important-things-to-note-item-content-style",
-                    "components" : [
-                      {
-                        "styleId" : "important-things-to-note-image-style",
-                        "imageUrl" : "$bullet-point-five$",
-                        "type" : "image",
-                        "vars" : [
-                          "bullet-point-five"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "components" : [
-                      {
-                        "vars" : [
-                          "bullet-point-five-value"
-                        ],
-                        "styleId" : "important-things-to-note-text-style",
-                        "type" : "text",
-                        "text" : "$bullet-point-five-value$"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
