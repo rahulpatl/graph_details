@@ -1,22 +1,35 @@
 {
-  "data": {},
-  "metadata": {
-    "cta": {
-      "id": "ptm",
-      "type": "router",
-      "additionalData": {
-        "transactionId": "4660185536",
-        "bookingId": "DVFT00RERRGUJR",
-        "snackbarData": {
-          "title": {
-            "text": ""
-          },
-          "action": {
-            "iconUrl": ""
-          }
+    "metadata": {
+        "cta": {
+            "id": "",
+            "type": "snackbar",
+            "additionalData": {
+                "snackbarData": {
+                    "title": {
+                        "components": [
+                            {
+                                "type": "text",
+                                "styleId": "snackbar-text-style",
+                                "text": "Unable to list tickets. Application is not supported for listing."
+                            }
+                        ]
+                    },
+                    "styles": {
+                        "snackbar-text-style": {
+                            "fontColor": "#FFFFFF",
+                            "font": "tiny-regular"
+                        }
+                    },
+                    "action": {
+                        "iconUrl": "https://in.bmscdn.com/bms-prod-cx/ticket-resale/info/close.png"
+                    }
+                }
+            }
         }
-      }
+    },
+    "statusCode": 403,
+    "message": {
+        "type": "ERROR",
+        "shortDesc": "{\"error\":{\"message\":\"Unable to list tickets. Application is not supported for listing.\",\"errorCode\":\"#TR10029\"}}"
     }
-  },
-  "statusCode": 200
 }
